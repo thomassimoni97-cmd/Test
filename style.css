@@ -1,0 +1,167 @@
+/* ============================================================
+   Conference Quiz MVP - stile minimale, mobile first
+   Sfondo bianco, testo nero, un solo accent.
+   ============================================================ */
+
+:root {
+  --accent: #2b6cff;   /* unico colore accent */
+  --bg: #ffffff;
+  --fg: #111111;
+  --muted: #777777;
+  --line: #e2e2e2;
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+
+.wrap {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px 16px 48px;
+}
+
+h1 { font-size: 1.4rem; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin: 0 0 12px; }
+p  { margin: 0 0 12px; }
+.muted { color: var(--muted); font-size: 0.9rem; }
+
+/* ---- card ---- */
+.card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px 16px;
+  margin-bottom: 16px;
+}
+
+/* ---- transizione semplice tra schermate ---- */
+.view {
+  transition: opacity 0.2s ease;
+}
+.view[hidden] { display: none; }
+
+/* ---- navigazione domande 1..5 ---- */
+.nav {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.nav button {
+  flex: 1;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--fg);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav button.available {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.nav button.done {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.nav button.locked {
+  color: var(--muted);
+  border-style: dashed;
+  cursor: not-allowed;
+}
+.nav button.current {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* ---- opzioni di risposta ---- */
+.options { display: grid; gap: 10px; margin: 8px 0 4px; }
+.option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--fg);
+  font-size: 1rem;
+  cursor: pointer;
+}
+.option.selected {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+}
+
+/* scala 1-5 */
+.scale { display: flex; gap: 8px; margin: 8px 0; }
+.scale .option { text-align: center; padding: 16px 0; }
+.scale-legend {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* ---- form / input ---- */
+label { display: block; font-size: 0.9rem; margin-bottom: 4px; }
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+/* ---- bottoni grandi ---- */
+.btn {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: var(--radius);
+  background: var(--accent);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.btn.secondary {
+  background: #fff;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  margin-top: 10px;
+}
+
+.feedback { font-size: 0.9rem; margin-top: 10px; }
+.feedback.ok  { color: var(--accent); }
+.feedback.err { color: #cc2b2b; }
+
+/* ---- control room ---- */
+.control-buttons { display: grid; gap: 10px; margin-top: 12px; }
+.step-badge {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.warn {
+  font-size: 0.8rem;
+  color: #b06a00;
+  border: 1px dashed #d8a24a;
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  margin-top: 16px;
+}

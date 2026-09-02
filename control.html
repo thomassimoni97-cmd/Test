@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Control Room</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!--
+    NOTA: questa pagina NON ha autenticazione. Chiunque abbia l'URL puo'
+    pilotare la conferenza. E' una semplificazione INTENZIONALE da prototipo
+    e NON e' appropriata per una versione production (li' la regia va protetta
+    con login / service role). Vedi schema.sql.
+  -->
+  <main class="wrap">
+    <div class="card">
+      <h1>Control Room</h1>
+      <p class="muted">Domanda attualmente sbloccata:</p>
+      <div class="step-badge" id="step">–</div>
+
+      <div class="control-buttons">
+        <button class="btn secondary" data-step="0">Reset</button>
+        <button class="btn" data-step="1">Domanda 1</button>
+        <button class="btn" data-step="2">Domanda 2</button>
+        <button class="btn" data-step="3">Domanda 3</button>
+        <button class="btn" data-step="4">Domanda 4</button>
+        <button class="btn" data-step="5">Domanda 5</button>
+      </div>
+
+      <p class="feedback err" id="err" hidden></p>
+      <div class="warn">
+        Prototipo senza login: non usare così in produzione.
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="control.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Conference Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+
+    <!-- Navigazione domande: compare quando almeno una domanda e' sbloccata -->
+    <nav class="nav" id="nav" hidden></nav>
+
+    <!-- Schermata di benvenuto -->
+    <section class="view card" id="view-welcome">
+      <h1>Benvenuto</h1>
+      <p>L'esperienza inizierà tra poco.</p>
+      <p class="muted" id="welcome-hint">In attesa che venga sbloccata la prima domanda…</p>
+    </section>
+
+    <!-- Schermata domanda (riempita da app.js) -->
+    <section class="view card" id="view-question" hidden>
+      <p class="muted" id="q-value"></p>
+      <h2 id="q-text"></h2>
+      <div id="q-answer"></div>
+      <p class="feedback ok" id="q-feedback" hidden>Risposta salvata.</p>
+      <button class="btn secondary" id="q-next" hidden>Prossima domanda</button>
+    </section>
+
+    <!-- Schermata risultato + form email -->
+    <section class="view card" id="view-result" hidden>
+      <p class="muted">Il tuo archetipo è</p>
+      <h1 id="r-name"></h1>
+      <p id="r-desc"></p>
+
+      <hr style="border:none;border-top:1px solid var(--line);margin:18px 0" />
+
+      <p><strong>Ricevi il risultato via email</strong></p>
+      <label for="r-nome">Nome</label>
+      <input type="text" id="r-nome" autocomplete="name" />
+      <label for="r-email">Email</label>
+      <input type="email" id="r-email" autocomplete="email" inputmode="email" />
+      <button class="btn" id="r-send">Invia il mio risultato</button>
+      <p class="feedback" id="r-feedback" hidden></p>
+    </section>
+
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
