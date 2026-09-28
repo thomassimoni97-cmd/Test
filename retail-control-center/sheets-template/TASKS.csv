@@ -1,0 +1,414 @@
+Task_ID,Store_ID,Area,Task_Title,Description,Start_Date,Due_Date,Owner,Secondary_Owner,Status,Progress_Percentage,Risk_Level,Priority,Task_Weight,Dependency,Blocker,Decision_Required,Last_Update,Last_Updated_By,Version,Created_At,Completed_Date,Archived
+CZC-CORP-001,CZC,CORP,Company incorporation and articles of association,,2026-03-04,2026-06-02,Marco Ferri,,Completed,100,Low,High,3,,,,2026-08-04T15:41:00.000Z,PMO Admin,1,2026-07-30T09:19:00.000Z,2026-05-30,FALSE
+CZC-CORP-002,CZC,CORP,Appointment of local directors and authorized signatories,,2026-05-05,2026-07-04,Marco Ferri,,Blocked,65,High,Medium,1,,Notarial documents require apostille,,2026-09-25T13:21:30.000Z,PMO Admin,1,2026-07-30T09:13:00.000Z,,FALSE
+CZC-CON-001,CZC,CON,Registered office agreement,,2026-07-01,2026-08-15,Giulia Rinaldi,,Completed,100,Low,Medium,1,,,,2026-08-10T10:52:00.000Z,PMO Admin,1,2026-07-30T09:43:00.000Z,2026-08-10,FALSE
+CZC-FIN-001,CZC,FIN,"Tax registrations (VAT, corporate tax)",,2026-06-07,2026-08-06,Paolo Marchetti,,Completed,100,Low,Medium,1,,,,2026-08-04T15:28:00.000Z,PMO Admin,1,2026-07-30T09:38:00.000Z,2026-08-03,FALSE
+CZC-FIN-002,CZC,FIN,Local auditor and accountant appointment,,2026-07-01,2026-08-30,Paolo Marchetti,,Completed,100,Low,Medium,1,,,,2026-08-26T14:30:00.000Z,PMO Admin,1,2026-07-30T09:38:00.000Z,2026-08-26,FALSE
+CZC-FIN-003,CZC,FIN,Bank account opening,,2026-07-06,2026-08-20,Paolo Marchetti,,Completed,100,Low,Medium,1,,,,2026-08-16T12:44:00.000Z,PMO Admin,1,2026-07-30T09:27:00.000Z,2026-08-16,FALSE
+CZC-SAP-001,CZC,SAP,Company code set-up in SAP,,2026-07-23,2026-09-21,Andrea Colombo,,Completed,100,Low,High,2,,,,2026-09-22T11:00:00.000Z,PMO Admin,1,2026-07-30T09:15:00.000Z,2026-09-22,FALSE
+CZC-ERP-001,CZC,ERP,Intercompany flows configuration,,2026-08-07,2026-10-06,Andrea Colombo,,In Progress,75,Low,Medium,1,,,,2026-09-22T13:13:00.000Z,PMO Admin,1,2026-08-02T09:23:00.000Z,,FALSE
+CZC-HR-001,CZC,HR,Local payroll provider and employment contracts,,2026-07-03,2026-09-16,Nicoletta Bisaro,,Completed,100,Low,Medium,1,,,,2026-09-17T16:35:00.000Z,PMO Admin,1,2026-07-30T09:43:00.000Z,2026-09-17,FALSE
+CZC-HR-002,CZC,HR,Country Manager recruiting,,2026-05-09,2026-08-07,Nicoletta Bisaro,,Completed,100,Low,Medium,1,,,,2026-08-06T12:34:00.000Z,PMO Admin,1,2026-07-30T09:08:00.000Z,2026-08-06,FALSE
+CZC-LOG-001,CZC,LOG,Import license and customs registration,,2026-06-06,2026-09-04,Elena Conti,,Completed,100,Low,High,2,,,,2026-09-03T13:56:00.000Z,PMO Admin,1,2026-07-30T09:39:00.000Z,2026-09-03,FALSE
+CZC-CMP-001,CZC,CMP,Local compliance and labelling requirements,,2026-07-02,2026-09-15,Davide Fontana,,Completed,100,Low,Medium,1,,,,2026-09-13T10:45:00.000Z,PMO Admin,1,2026-07-30T09:48:00.000Z,2026-09-13,FALSE
+CZC-IT-001,CZC,IT,"IT, email and network set-up for the local entity",,2026-09-04,2026-10-14,Luca Bernardi,,In Progress,55,Low,Medium,1,,,,2026-09-18T15:08:00.000Z,PMO Admin,1,2026-08-30T09:06:00.000Z,,FALSE
+HUC-CORP-001,HUC,CORP,Company incorporation and articles of association,,2026-04-03,2026-07-02,Marco Ferri,,Completed,100,Low,High,3,,,,2026-08-04T16:05:00.000Z,PMO Admin,1,2026-07-30T09:35:00.000Z,2026-07-04,FALSE
+HUC-CORP-002,HUC,CORP,Appointment of local directors and authorized signatories,,2026-06-08,2026-08-07,Marco Ferri,,Completed,100,Low,Medium,1,,,,2026-08-04T13:38:00.000Z,PMO Admin,1,2026-07-30T09:25:00.000Z,2026-08-03,FALSE
+HUC-CON-001,HUC,CON,Registered office agreement,,2026-08-04,2026-09-18,Giulia Rinaldi,,In Progress,65,High,Medium,1,,,Accept landlord request for turnover-based rent,2026-09-27T17:31:00.000Z,PMO Admin,1,2026-07-30T09:08:00.000Z,,FALSE
+HUC-FIN-001,HUC,FIN,"Tax registrations (VAT, corporate tax)",,2026-07-06,2026-09-04,Paolo Marchetti,,In Progress,79,Medium,Medium,1,,,Select local auditor,2026-09-28T13:35:00.000Z,PMO Admin,1,2026-07-30T09:17:00.000Z,,FALSE
+HUC-FIN-002,HUC,FIN,Local auditor and accountant appointment,,2026-08-02,2026-10-01,Paolo Marchetti,,In Progress,75,Low,Medium,1,,,,2026-09-27T13:32:00.000Z,PMO Admin,1,2026-07-30T09:05:00.000Z,,FALSE
+HUC-FIN-003,HUC,FIN,Bank account opening,,2026-08-05,2026-09-19,Paolo Marchetti,,Completed,100,Low,Medium,1,,,,2026-09-21T14:04:00.000Z,PMO Admin,1,2026-07-31T09:41:00.000Z,2026-09-21,FALSE
+HUC-SAP-001,HUC,SAP,Company code set-up in SAP,,2026-08-22,2026-10-21,Andrea Colombo,,In Progress,50,Low,High,2,,,,2026-09-28T11:47:00.000Z,PMO Admin,1,2026-08-17T09:46:00.000Z,,FALSE
+HUC-ERP-001,HUC,ERP,Intercompany flows configuration,,2026-08-31,2026-10-30,Andrea Colombo,,In Progress,55,Low,Medium,1,,,,2026-09-22T13:39:00.000Z,PMO Admin,1,2026-08-16T09:12:00.000Z,,FALSE
+HUC-HR-001,HUC,HR,Local payroll provider and employment contracts,,2026-08-01,2026-10-15,Nicoletta Bisaro,,In Progress,95,Low,Medium,1,,,,2026-09-18T10:10:00.000Z,PMO Admin,1,2026-07-30T09:31:00.000Z,,FALSE
+HUC-HR-002,HUC,HR,Country Manager recruiting,,2026-06-01,2026-08-30,Nicoletta Bisaro,,Completed,100,Low,Medium,1,,,,2026-08-25T12:36:00.000Z,PMO Admin,1,2026-07-30T09:13:00.000Z,2026-08-25,FALSE
+HUC-LOG-001,HUC,LOG,Import license and customs registration,,2026-07-07,2026-10-05,Elena Conti,,In Progress,60,Low,High,2,,,,2026-09-27T14:49:00.000Z,PMO Admin,1,2026-07-30T09:00:00.000Z,,FALSE
+HUC-CMP-001,HUC,CMP,Local compliance and labelling requirements,,2026-08-03,2026-10-17,Davide Fontana,,On Hold,60,Low,Medium,1,,,,2026-09-20T15:05:00.000Z,PMO Admin,1,2026-07-30T09:41:00.000Z,,FALSE
+HUC-IT-001,HUC,IT,"IT, email and network set-up for the local entity",,2026-10-04,2026-11-13,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:09:00.000Z,PMO Admin,1,2026-08-21T09:09:00.000Z,,FALSE
+KSC-CORP-001,KSC,CORP,Company incorporation and articles of association,,2026-05-21,2026-08-19,Marco Ferri,,Completed,100,Low,High,3,,,,2026-08-16T13:12:00.000Z,PMO Admin,1,2026-07-30T09:15:00.000Z,2026-08-16,FALSE
+KSC-CORP-002,KSC,CORP,Appointment of local directors and authorized signatories,,2026-07-16,2026-09-14,Marco Ferri,,Completed,100,Low,Medium,1,,,,2026-09-16T11:33:00.000Z,PMO Admin,1,2026-07-30T09:35:00.000Z,2026-09-16,FALSE
+KSC-CON-001,KSC,CON,Registered office agreement,,2026-09-19,2026-11-03,Giulia Rinaldi,,On Hold,20,Low,Medium,1,,,Accept landlord request for turnover-based rent,2026-09-19T12:58:00.000Z,PMO Admin,1,2026-08-26T09:47:00.000Z,,FALSE
+KSC-FIN-001,KSC,FIN,"Tax registrations (VAT, corporate tax)",,2026-08-20,2026-10-19,Paolo Marchetti,,Blocked,40,High,Medium,1,,Bank requires additional KYC documents from HQ,,2026-09-21T13:10:30.000Z,PMO Admin,1,2026-08-15T09:17:00.000Z,,FALSE
+KSC-FIN-002,KSC,FIN,Local auditor and accountant appointment,,2026-09-18,2026-11-17,Paolo Marchetti,,In Progress,15,Low,Medium,1,,,,2026-09-17T11:14:00.000Z,PMO Admin,1,2026-08-22T09:29:00.000Z,,FALSE
+KSC-FIN-003,KSC,FIN,Bank account opening,,2026-09-18,2026-11-02,Paolo Marchetti,,In Progress,30,Low,Medium,1,,,,2026-09-27T17:24:00.000Z,PMO Admin,1,2026-09-02T09:00:00.000Z,,FALSE
+KSC-SAP-001,KSC,SAP,Company code set-up in SAP,,2026-10-11,2026-12-10,Andrea Colombo,,Not Started,0,Low,High,2,,,,2026-09-05T09:43:00.000Z,PMO Admin,1,2026-09-05T09:43:00.000Z,,FALSE
+KSC-ERP-001,KSC,ERP,Intercompany flows configuration,,2026-10-16,2026-12-15,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:40:00.000Z,PMO Admin,1,2026-08-17T09:40:00.000Z,,FALSE
+KSC-HR-001,KSC,HR,Local payroll provider and employment contracts,,2026-09-15,2026-11-29,Nicoletta Bisaro,,In Progress,15,Low,Medium,1,,,,2026-09-22T13:20:00.000Z,PMO Admin,1,2026-08-30T09:11:00.000Z,,FALSE
+KSC-HR-002,KSC,HR,Country Manager recruiting,,2026-07-17,2026-10-15,Nicoletta Bisaro,,In Progress,95,Low,Medium,1,,,Approve salary bands above local benchmark,2026-09-26T12:55:00.000Z,PMO Admin,1,2026-07-30T09:32:00.000Z,,FALSE
+KSC-LOG-001,KSC,LOG,Import license and customs registration,,2026-08-17,2026-11-15,Elena Conti,,In Progress,40,Low,High,2,,,,2026-09-17T12:12:00.000Z,PMO Admin,1,2026-08-12T09:48:00.000Z,,FALSE
+KSC-CMP-001,KSC,CMP,Local compliance and labelling requirements,,2026-09-17,2026-12-01,Davide Fontana,,In Progress,20,Low,Medium,1,,,,2026-09-23T14:27:00.000Z,PMO Admin,1,2026-08-21T09:28:00.000Z,,FALSE
+KSC-IT-001,KSC,IT,"IT, email and network set-up for the local entity",,2026-11-18,2026-12-28,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-24T09:34:00.000Z,PMO Admin,1,2026-08-24T09:34:00.000Z,,FALSE
+ARC-CORP-001,ARC,CORP,Company incorporation and articles of association,,2026-07-09,2026-10-07,Marco Ferri,,In Progress,95,Low,High,3,,,,2026-09-27T09:17:00.000Z,PMO Admin,1,2026-07-30T09:29:00.000Z,,FALSE
+ARC-CORP-002,ARC,CORP,Appointment of local directors and authorized signatories,,2026-08-29,2026-10-28,Marco Ferri,,In Progress,35,Low,Medium,1,,,,2026-09-17T15:26:00.000Z,PMO Admin,1,2026-08-24T09:45:00.000Z,,FALSE
+ARC-CON-001,ARC,CON,Registered office agreement,,2026-10-30,2026-12-14,Giulia Rinaldi,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:44:00.000Z,PMO Admin,1,2026-08-29T09:44:00.000Z,,FALSE
+ARC-FIN-001,ARC,FIN,"Tax registrations (VAT, corporate tax)",,2026-10-06,2026-12-05,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-08-23T09:36:00.000Z,PMO Admin,1,2026-08-23T09:36:00.000Z,,FALSE
+ARC-FIN-002,ARC,FIN,Local auditor and accountant appointment,,2026-10-28,2026-12-27,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-09-03T09:31:00.000Z,PMO Admin,1,2026-09-03T09:31:00.000Z,,FALSE
+ARC-FIN-003,ARC,FIN,Bank account opening,,2026-11-01,2026-12-16,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,Select local auditor,2026-09-06T09:46:00.000Z,PMO Admin,1,2026-09-06T09:46:00.000Z,,FALSE
+ARC-SAP-001,ARC,SAP,Company code set-up in SAP,,2026-11-17,2027-01-16,Andrea Colombo,,Not Started,0,Low,High,2,,,,2026-08-25T09:14:00.000Z,PMO Admin,1,2026-08-25T09:14:00.000Z,,FALSE
+ARC-ERP-001,ARC,ERP,Intercompany flows configuration,,2026-11-30,2027-01-29,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-16T09:44:00.000Z,PMO Admin,1,2026-08-16T09:44:00.000Z,,FALSE
+ARC-HR-001,ARC,HR,Local payroll provider and employment contracts,,2026-10-29,2027-01-12,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:40:00.000Z,PMO Admin,1,2026-08-20T09:40:00.000Z,,FALSE
+ARC-HR-002,ARC,HR,Country Manager recruiting,,2026-08-31,2026-11-29,Nicoletta Bisaro,,In Progress,30,Low,Medium,1,,,,2026-09-21T12:21:00.000Z,PMO Admin,1,2026-08-16T09:07:00.000Z,,FALSE
+ARC-LOG-001,ARC,LOG,Import license and customs registration,,2026-10-02,2026-12-31,Elena Conti,,Not Started,0,Low,High,2,,,,2026-09-01T09:46:00.000Z,PMO Admin,1,2026-09-01T09:46:00.000Z,,FALSE
+ARC-CMP-001,ARC,CMP,Local compliance and labelling requirements,,2026-10-30,2027-01-13,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:34:00.000Z,PMO Admin,1,2026-08-27T09:34:00.000Z,,FALSE
+ARC-IT-001,ARC,IT,"IT, email and network set-up for the local entity",,2026-12-30,2027-02-08,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:00:00.000Z,PMO Admin,1,2026-08-20T09:00:00.000Z,,FALSE
+SBC-CORP-001,SBC,CORP,Company incorporation and articles of association,,2026-09-19,2026-12-18,Marco Ferri,,In Progress,5,Low,High,3,,,,2026-09-25T17:15:00.000Z,PMO Admin,1,2026-08-16T09:10:00.000Z,,FALSE
+SBC-CORP-002,SBC,CORP,Appointment of local directors and authorized signatories,,2026-11-20,2027-01-19,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:14:00.000Z,PMO Admin,1,2026-08-26T09:14:00.000Z,,FALSE
+SBC-CON-001,SBC,CON,Registered office agreement,,2027-01-20,2027-03-06,Giulia Rinaldi,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:15:00.000Z,PMO Admin,1,2026-08-21T09:15:00.000Z,,FALSE
+SBC-FIN-001,SBC,FIN,"Tax registrations (VAT, corporate tax)",,2026-12-12,2027-02-10,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:18:00.000Z,PMO Admin,1,2026-08-20T09:18:00.000Z,,FALSE
+SBC-FIN-002,SBC,FIN,Local auditor and accountant appointment,,2027-01-11,2027-03-12,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:36:00.000Z,PMO Admin,1,2026-08-19T09:36:00.000Z,,FALSE
+SBC-FIN-003,SBC,FIN,Bank account opening,,2027-01-20,2027-03-06,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:14:00.000Z,PMO Admin,1,2026-08-18T09:14:00.000Z,,FALSE
+SBC-SAP-001,SBC,SAP,Company code set-up in SAP,,2027-02-01,2027-04-02,Andrea Colombo,,Not Started,0,Low,High,2,,,,2026-08-27T09:31:00.000Z,PMO Admin,1,2026-08-27T09:31:00.000Z,,FALSE
+SBC-ERP-001,SBC,ERP,Intercompany flows configuration,,2027-02-18,2027-04-19,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-23T09:32:00.000Z,PMO Admin,1,2026-08-23T09:32:00.000Z,,FALSE
+SBC-HR-001,SBC,HR,Local payroll provider and employment contracts,,2027-01-16,2027-04-01,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-09-01T09:20:00.000Z,PMO Admin,1,2026-09-01T09:20:00.000Z,,FALSE
+SBC-HR-002,SBC,HR,Country Manager recruiting,,2026-11-17,2027-02-15,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:48:00.000Z,PMO Admin,1,2026-08-18T09:48:00.000Z,,FALSE
+SBC-LOG-001,SBC,LOG,Import license and customs registration,,2026-12-15,2027-03-15,Elena Conti,,Not Started,0,Low,High,2,,,,2026-08-29T09:47:00.000Z,PMO Admin,1,2026-08-29T09:47:00.000Z,,FALSE
+SBC-CMP-001,SBC,CMP,Local compliance and labelling requirements,,2027-01-17,2027-04-02,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:16:00.000Z,PMO Admin,1,2026-08-29T09:16:00.000Z,,FALSE
+SBC-IT-001,SBC,IT,"IT, email and network set-up for the local entity",,2027-03-19,2027-04-28,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:34:00.000Z,PMO Admin,1,2026-08-20T09:34:00.000Z,,FALSE
+IST-CORP-001,IST,CORP,Local entity / branch registration check,,2026-04-30,2026-06-19,Marco Ferri,,Completed,100,Low,Medium,1,,,,2026-08-04T15:27:00.000Z,PMO Admin,1,2026-07-30T09:44:00.000Z,2026-06-19,FALSE
+IST-CON-001,IST,CON,Lease / concession contract signature,,2026-04-15,2026-06-24,Giulia Rinaldi,,Completed,100,Low,High,3,,,,2026-08-04T10:05:00.000Z,PMO Admin,1,2026-07-30T09:44:00.000Z,2026-06-19,FALSE
+IST-IT-001,IST,IT,IT project kick-off with local partners,,2026-05-20,2026-06-04,Luca Bernardi,,Completed,100,Low,Medium,1,,,,2026-08-04T15:39:00.000Z,PMO Admin,1,2026-07-30T09:26:00.000Z,2026-06-03,FALSE
+IST-SAP-001,IST,SAP,Store master data set-up in SAP,,2026-07-19,2026-08-18,Andrea Colombo,,In Progress,75,Medium,Medium,1,,,,2026-09-19T15:14:00.000Z,PMO Admin,1,2026-07-30T09:03:00.000Z,,FALSE
+IST-SAP-002,IST,SAP,Set-up and testing of flows,,2026-08-24,2026-10-13,Andrea Colombo,,In Progress,80,Low,Medium,1,,,,2026-09-20T10:51:00.000Z,PMO Admin,1,2026-08-15T09:28:00.000Z,,FALSE
+IST-ERP-001,IST,ERP,Customs and transport flows alignment,,2026-07-18,2026-08-27,Andrea Colombo,,In Progress,65,Medium,Medium,1,,,,2026-09-23T12:14:00.000Z,PMO Admin,1,2026-07-30T09:12:00.000Z,,FALSE
+IST-POS-001,IST,POS,POS installation and configuration,,2026-09-20,2026-11-04,Francesca Moretti,,In Progress,25,Low,High,2,,,,2026-09-18T11:17:00.000Z,PMO Admin,1,2026-08-23T09:32:00.000Z,,FALSE
+IST-ITH-001,IST,ITH,Hardware purchase and shipment,,2026-08-16,2026-10-10,Stefano Galli,,In Progress,45,Medium,Medium,1,,,,2026-09-24T11:08:00.000Z,PMO Admin,1,2026-08-11T09:47:00.000Z,,FALSE
+IST-CRM-001,IST,CRM,Salesforce users and clienteling set-up,,2026-09-19,2026-10-29,Chiara De Luca,,In Progress,20,Low,Medium,1,,,,2026-09-18T14:57:00.000Z,PMO Admin,1,2026-09-06T09:40:00.000Z,,FALSE
+IST-NET-001,IST,NET,Internet line activation,,2026-07-19,2026-10-17,Stefano Galli,,In Progress,60,Low,Medium,1,,,,2026-09-20T10:32:00.000Z,PMO Admin,1,2026-07-30T09:16:00.000Z,,FALSE
+IST-TEL-001,IST,TEL,Mobile devices and SIM activation,,2026-10-10,2026-11-14,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:21:00.000Z,PMO Admin,1,2026-08-27T09:21:00.000Z,,FALSE
+IST-FIN-001,IST,FIN,"Bank account, cash handling and payment terminals",,2026-06-22,2026-09-20,Paolo Marchetti,,Completed,100,Low,Medium,1,,,,2026-09-17T12:46:00.000Z,PMO Admin,1,2026-07-30T09:23:00.000Z,2026-09-17,FALSE
+IST-LOG-001,IST,LOG,First merchandise shipment,,2026-09-25,2026-11-10,Elena Conti,,In Progress,10,Low,Medium,1,,,,2026-09-19T13:12:00.000Z,PMO Admin,1,2026-09-03T09:10:00.000Z,,FALSE
+IST-CMP-001,IST,CMP,Labelling and local compliance check,,2026-08-22,2026-10-06,Davide Fontana,,In Progress,95,Low,Medium,1,,,,2026-09-25T13:32:00.000Z,PMO Admin,1,2026-08-17T09:28:00.000Z,,FALSE
+IST-HR-001,IST,HR,Recruiting store team,,2026-06-27,2026-10-10,Nicoletta Bisaro,,In Progress,95,Low,High,2,,,,2026-09-19T11:40:00.000Z,PMO Admin,1,2026-07-30T09:09:00.000Z,,FALSE
+IST-HR-002,IST,HR,Training and onboarding,,2026-10-11,2026-11-13,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:06:00.000Z,PMO Admin,1,2026-08-28T09:06:00.000Z,,FALSE
+IST-SP-001,IST,SP,Store design approval,,2026-03-25,2026-05-24,Alessandro Riva,,Completed,100,Low,Medium,1,,,,2026-08-04T12:49:00.000Z,PMO Admin,1,2026-07-30T09:04:00.000Z,2026-05-22,FALSE
+IST-SP-002,IST,SP,Construction works,,2026-06-19,2026-10-27,Alessandro Riva,,In Progress,85,Low,High,3,,,,2026-09-25T09:54:00.000Z,PMO Admin,1,2026-07-30T09:22:00.000Z,,FALSE
+IST-IM-001,IST,IM,Indirect materials orders,,2026-09-07,2026-10-27,Sara Lombardi,,In Progress,25,Low,Medium,1,,,,2026-09-27T12:16:00.000Z,PMO Admin,1,2026-08-29T09:40:00.000Z,,FALSE
+IST-AR-001,IST,AR,Opening allocation plan,,2026-09-21,2026-10-31,Matteo Greco,,In Progress,25,Low,Medium,1,,,,2026-09-17T17:51:00.000Z,PMO Admin,1,2026-08-25T09:46:00.000Z,,FALSE
+IST-GS-001,IST,GS,"Cleaning, maintenance and security services",,2026-09-17,2026-11-01,Valentina Costa,,In Progress,30,Low,Medium,1,,,,2026-09-20T16:46:00.000Z,PMO Admin,1,2026-08-30T09:23:00.000Z,,FALSE
+IST-RET-001,IST,RET,Store Manager opening plan,,2026-10-05,2026-11-14,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:39:00.000Z,PMO Admin,1,2026-08-21T09:39:00.000Z,,FALSE
+IST-HR-003,IST,HR,Airport access passes for store staff,,2026-08-19,2026-10-28,Nicoletta Bisaro,,In Progress,65,Low,High,2,,,,2026-09-19T11:28:00.000Z,PMO Admin,1,2026-08-14T09:25:00.000Z,,FALSE
+IST-POS-002,IST,POS,Airport systems integration (sales reporting),,2026-07-23,2026-10-11,Francesca Moretti,,In Progress,90,Low,High,2,,,,2026-09-18T15:30:00.000Z,PMO Admin,1,2026-07-30T09:22:00.000Z,,FALSE
+BOG-CORP-001,BOG,CORP,Local entity / branch registration check,,2026-05-23,2026-07-12,Marco Ferri,,Completed,100,Low,Medium,1,,,,2026-08-04T12:17:00.000Z,PMO Admin,1,2026-07-30T09:02:00.000Z,2026-07-09,FALSE
+BOG-CON-001,BOG,CON,Lease / concession contract signature,,2026-05-04,2026-07-13,Giulia Rinaldi,,Completed,100,Low,High,3,,,,2026-08-04T11:14:00.000Z,PMO Admin,1,2026-07-30T09:02:00.000Z,2026-07-09,FALSE
+BOG-IT-001,BOG,IT,IT project kick-off with local partners,,2026-06-15,2026-06-30,Luca Bernardi,,Completed,100,Low,Medium,1,,,,2026-08-04T16:55:00.000Z,PMO Admin,1,2026-07-30T09:25:00.000Z,2026-06-25,FALSE
+BOG-SAP-001,BOG,SAP,Store master data set-up in SAP,,2026-08-10,2026-09-09,Andrea Colombo,,Completed,100,Low,Medium,1,,,,2026-09-08T14:51:00.000Z,PMO Admin,1,2026-08-05T09:24:00.000Z,2026-09-08,FALSE
+BOG-SAP-002,BOG,SAP,Set-up and testing of flows,,2026-09-15,2026-11-04,Andrea Colombo,,In Progress,20,Low,Medium,1,,,,2026-09-19T09:36:00.000Z,PMO Admin,1,2026-08-30T09:28:00.000Z,,FALSE
+BOG-ERP-001,BOG,ERP,Customs and transport flows alignment,,2026-08-16,2026-09-25,Andrea Colombo,,Completed,100,Low,Medium,1,,,,2026-09-22T16:45:00.000Z,PMO Admin,1,2026-08-11T09:41:00.000Z,2026-09-22,FALSE
+BOG-POS-001,BOG,POS,POS installation and configuration,,2026-10-10,2026-11-24,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-09-05T09:34:00.000Z,PMO Admin,1,2026-09-05T09:34:00.000Z,,FALSE
+BOG-ITH-001,BOG,ITH,Hardware purchase and shipment,,2026-09-05,2026-10-30,Stefano Galli,,In Progress,30,Low,Medium,1,,,,2026-09-28T14:53:00.000Z,PMO Admin,1,2026-08-31T09:39:00.000Z,,FALSE
+BOG-CRM-001,BOG,CRM,Salesforce users and clienteling set-up,,2026-10-09,2026-11-18,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-09-03T09:23:00.000Z,PMO Admin,1,2026-09-03T09:23:00.000Z,,FALSE
+BOG-NET-001,BOG,NET,Internet line activation,,2026-08-11,2026-11-09,Stefano Galli,,In Progress,60,Low,Medium,1,,,,2026-09-20T14:12:00.000Z,PMO Admin,1,2026-08-06T09:03:00.000Z,,FALSE
+BOG-TEL-001,BOG,TEL,Mobile devices and SIM activation,,2026-10-27,2026-12-01,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:47:00.000Z,PMO Admin,1,2026-08-18T09:47:00.000Z,,FALSE
+BOG-FIN-001,BOG,FIN,"Bank account, cash handling and payment terminals",,2026-07-09,2026-10-07,Paolo Marchetti,,In Progress,80,Low,Medium,1,,,,2026-09-17T12:04:00.000Z,PMO Admin,1,2026-07-30T09:22:00.000Z,,FALSE
+BOG-LOG-001,BOG,LOG,First merchandise shipment,,2026-10-07,2026-11-22,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:17:00.000Z,PMO Admin,1,2026-08-15T09:17:00.000Z,,FALSE
+BOG-CMP-001,BOG,CMP,Labelling and local compliance check,,2026-09-13,2026-10-28,Davide Fontana,,In Progress,40,Low,Medium,1,,,,2026-09-26T13:22:00.000Z,PMO Admin,1,2026-09-04T09:29:00.000Z,,FALSE
+BOG-HR-001,BOG,HR,Recruiting store team,,2026-07-11,2026-10-24,Nicoletta Bisaro,,In Progress,75,Low,High,2,,,,2026-09-22T11:12:00.000Z,PMO Admin,1,2026-07-30T09:45:00.000Z,,FALSE
+BOG-HR-002,BOG,HR,Training and onboarding,,2026-10-30,2026-12-02,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:27:00.000Z,PMO Admin,1,2026-08-26T09:27:00.000Z,,FALSE
+BOG-SP-001,BOG,SP,Store design approval,,2026-04-11,2026-06-10,Alessandro Riva,,In Progress,42,High,Medium,1,,,,2026-09-26T09:48:00.000Z,PMO Admin,1,2026-07-30T09:46:00.000Z,,FALSE
+BOG-SP-002,BOG,SP,Construction works,,2026-07-12,2026-11-19,Alessandro Riva,,In Progress,60,Low,High,3,,,,2026-09-27T14:33:00.000Z,PMO Admin,1,2026-07-30T09:13:00.000Z,,FALSE
+BOG-IM-001,BOG,IM,Indirect materials orders,,2026-09-24,2026-11-13,Sara Lombardi,,In Progress,5,Low,Medium,1,,,,2026-09-24T13:28:00.000Z,PMO Admin,1,2026-08-21T09:04:00.000Z,,FALSE
+BOG-AR-001,BOG,AR,Opening allocation plan,,2026-10-14,2026-11-23,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-08-25T09:12:00.000Z,PMO Admin,1,2026-08-25T09:12:00.000Z,,FALSE
+BOG-GS-001,BOG,GS,"Cleaning, maintenance and security services",,2026-10-07,2026-11-21,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:34:00.000Z,PMO Admin,1,2026-08-28T09:34:00.000Z,,FALSE
+BOG-RET-001,BOG,RET,Store Manager opening plan,,2026-10-28,2026-12-07,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-09-07T09:10:00.000Z,PMO Admin,1,2026-09-07T09:10:00.000Z,,FALSE
+BUC-CORP-001,BUC,CORP,Local entity / branch registration check,,2026-07-09,2026-08-28,Marco Ferri,,Completed,100,Low,Medium,1,,,,2026-08-24T10:01:00.000Z,PMO Admin,1,2026-07-30T09:46:00.000Z,2026-08-24,FALSE
+BUC-CON-001,BUC,CON,Lease / concession contract signature,,2026-06-18,2026-08-27,Giulia Rinaldi,,Completed,100,Low,High,3,,,,2026-08-27T12:31:00.000Z,PMO Admin,1,2026-07-30T09:36:00.000Z,2026-08-27,FALSE
+BUC-IT-001,BUC,IT,IT project kick-off with local partners,,2026-07-30,2026-08-14,Luca Bernardi,,Completed,100,Low,Medium,1,,,,2026-08-09T13:05:00.000Z,PMO Admin,1,2026-07-30T09:43:00.000Z,2026-08-09,FALSE
+BUC-SAP-001,BUC,SAP,Store master data set-up in SAP,,2026-09-27,2026-10-27,Andrea Colombo,,In Progress,5,Low,Medium,1,,,,2026-09-22T11:11:00.000Z,PMO Admin,1,2026-08-21T09:45:00.000Z,,FALSE
+BUC-SAP-002,BUC,SAP,Set-up and testing of flows,,2026-11-01,2026-12-21,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:35:00.000Z,PMO Admin,1,2026-08-20T09:35:00.000Z,,FALSE
+BUC-ERP-001,BUC,ERP,Customs and transport flows alignment,,2026-09-29,2026-11-08,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:00:00.000Z,PMO Admin,1,2026-08-20T09:00:00.000Z,,FALSE
+BUC-POS-001,BUC,POS,POS installation and configuration,,2026-12-02,2027-01-16,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-08-28T09:19:00.000Z,PMO Admin,1,2026-08-28T09:19:00.000Z,,FALSE
+BUC-ITH-001,BUC,ITH,Hardware purchase and shipment,,2026-10-16,2026-12-10,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:47:00.000Z,PMO Admin,1,2026-08-17T09:47:00.000Z,,FALSE
+BUC-CRM-001,BUC,CRM,Salesforce users and clienteling set-up,,2026-12-02,2027-01-11,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:18:00.000Z,PMO Admin,1,2026-08-20T09:18:00.000Z,,FALSE
+BUC-NET-001,BUC,NET,Internet line activation,,2026-10-02,2026-12-31,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-24T09:49:00.000Z,PMO Admin,1,2026-08-24T09:49:00.000Z,,FALSE
+BUC-TEL-001,BUC,TEL,Mobile devices and SIM activation,,2026-12-13,2027-01-17,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-09-02T09:03:00.000Z,PMO Admin,1,2026-09-02T09:03:00.000Z,,FALSE
+BUC-FIN-001,BUC,FIN,"Bank account, cash handling and payment terminals",,2026-08-26,2026-11-24,Paolo Marchetti,,In Progress,25,Low,Medium,1,,,,2026-09-25T12:39:00.000Z,PMO Admin,1,2026-08-18T09:13:00.000Z,,FALSE
+BUC-LOG-001,BUC,LOG,First merchandise shipment,,2026-11-25,2027-01-10,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-09-04T09:49:00.000Z,PMO Admin,1,2026-09-04T09:49:00.000Z,,FALSE
+BUC-CMP-001,BUC,CMP,Labelling and local compliance check,,2026-10-26,2026-12-10,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:26:00.000Z,PMO Admin,1,2026-08-19T09:26:00.000Z,,FALSE
+BUC-HR-001,BUC,HR,Recruiting store team,,2026-09-03,2026-12-17,Nicoletta Bisaro,,In Progress,30,Low,High,2,,,,2026-09-19T16:56:00.000Z,PMO Admin,1,2026-08-17T09:13:00.000Z,,FALSE
+BUC-HR-002,BUC,HR,Training and onboarding,,2026-12-22,2027-01-24,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-22T09:08:00.000Z,PMO Admin,1,2026-08-22T09:08:00.000Z,,FALSE
+BUC-SP-001,BUC,SP,Store design approval,,2026-06-06,2026-08-05,Alessandro Riva,,Completed,100,Low,Medium,1,,,,2026-08-04T15:42:00.000Z,PMO Admin,1,2026-07-30T09:35:00.000Z,2026-07-30,FALSE
+BUC-SP-002,BUC,SP,Construction works,,2026-09-03,2027-01-11,Alessandro Riva,,In Progress,15,Low,High,3,,,,2026-09-25T17:10:00.000Z,PMO Admin,1,2026-08-17T09:24:00.000Z,,FALSE
+BUC-IM-001,BUC,IM,Indirect materials orders,,2026-11-18,2027-01-07,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-09-08T09:29:00.000Z,PMO Admin,1,2026-09-08T09:29:00.000Z,,FALSE
+BUC-AR-001,BUC,AR,Opening allocation plan,,2026-11-27,2027-01-06,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-09-06T09:10:00.000Z,PMO Admin,1,2026-09-06T09:10:00.000Z,,FALSE
+BUC-GS-001,BUC,GS,"Cleaning, maintenance and security services",,2026-11-30,2027-01-14,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-09-01T09:15:00.000Z,PMO Admin,1,2026-09-01T09:15:00.000Z,,FALSE
+BUC-RET-001,BUC,RET,Store Manager opening plan,,2026-12-16,2027-01-25,Martina Ricci,,Not Started,0,Low,Medium,1,,,Confirm opening assortment depth,2026-08-28T09:35:00.000Z,PMO Admin,1,2026-08-28T09:35:00.000Z,,FALSE
+LIM-CORP-001,LIM,CORP,Local entity / branch registration check,,2026-08-02,2026-09-21,Marco Ferri,,Completed,100,Low,Medium,1,,,,2026-09-17T11:47:00.000Z,PMO Admin,1,2026-07-30T09:09:00.000Z,2026-09-17,FALSE
+LIM-CON-001,LIM,CON,Lease / concession contract signature,,2026-07-12,2026-09-20,Giulia Rinaldi,,Completed,100,Low,High,3,,,,2026-09-17T12:15:00.000Z,PMO Admin,1,2026-07-30T09:45:00.000Z,2026-09-17,FALSE
+LIM-IT-001,LIM,IT,IT project kick-off with local partners,,2026-08-22,2026-09-06,Luca Bernardi,,Completed,100,Low,Medium,1,,,,2026-09-07T11:29:00.000Z,PMO Admin,1,2026-08-17T09:26:00.000Z,2026-09-07,FALSE
+LIM-SAP-001,LIM,SAP,Store master data set-up in SAP,,2026-10-20,2026-11-19,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-22T09:44:00.000Z,PMO Admin,1,2026-08-22T09:44:00.000Z,,FALSE
+LIM-SAP-002,LIM,SAP,Set-up and testing of flows,,2026-11-25,2027-01-14,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:37:00.000Z,PMO Admin,1,2026-09-05T09:37:00.000Z,,FALSE
+LIM-ERP-001,LIM,ERP,Customs and transport flows alignment,,2026-10-24,2026-12-03,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:27:00.000Z,PMO Admin,1,2026-09-05T09:27:00.000Z,,FALSE
+LIM-POS-001,LIM,POS,POS installation and configuration,,2026-12-26,2027-02-09,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-08-29T09:16:00.000Z,PMO Admin,1,2026-08-29T09:16:00.000Z,,FALSE
+LIM-ITH-001,LIM,ITH,Hardware purchase and shipment,,2026-11-08,2027-01-02,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:35:00.000Z,PMO Admin,1,2026-08-18T09:35:00.000Z,,FALSE
+LIM-CRM-001,LIM,CRM,Salesforce users and clienteling set-up,,2026-12-25,2027-02-03,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-08-22T09:28:00.000Z,PMO Admin,1,2026-08-22T09:28:00.000Z,,FALSE
+LIM-NET-001,LIM,NET,Internet line activation,,2026-10-27,2027-01-25,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:01:00.000Z,PMO Admin,1,2026-08-28T09:01:00.000Z,,FALSE
+LIM-TEL-001,LIM,TEL,Mobile devices and SIM activation,,2027-01-07,2027-02-11,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:32:00.000Z,PMO Admin,1,2026-08-15T09:32:00.000Z,,FALSE
+LIM-FIN-001,LIM,FIN,"Bank account, cash handling and payment terminals",,2026-09-19,2026-12-18,Paolo Marchetti,,In Progress,5,Low,Medium,1,,,,2026-09-27T11:00:00.000Z,PMO Admin,1,2026-08-18T09:07:00.000Z,,FALSE
+LIM-LOG-001,LIM,LOG,First merchandise shipment,,2026-12-23,2027-02-07,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:03:00.000Z,PMO Admin,1,2026-08-26T09:03:00.000Z,,FALSE
+LIM-CMP-001,LIM,CMP,Labelling and local compliance check,,2026-11-22,2027-01-06,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-09-04T09:48:00.000Z,PMO Admin,1,2026-09-04T09:48:00.000Z,,FALSE
+LIM-HR-001,LIM,HR,Recruiting store team,,2026-09-19,2027-01-02,Nicoletta Bisaro,,In Progress,10,Low,High,2,,,,2026-09-20T11:51:00.000Z,PMO Admin,1,2026-09-05T09:07:00.000Z,,FALSE
+LIM-HR-002,LIM,HR,Training and onboarding,,2027-01-09,2027-02-11,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-09-06T09:30:00.000Z,PMO Admin,1,2026-09-06T09:30:00.000Z,,FALSE
+LIM-SP-001,LIM,SP,Store design approval,,2026-06-25,2026-08-24,Alessandro Riva,,Completed,100,Low,Medium,1,,,,2026-08-24T10:08:00.000Z,PMO Admin,1,2026-07-30T09:45:00.000Z,2026-08-24,FALSE
+LIM-SP-002,LIM,SP,Construction works,,2026-09-25,2027-02-02,Alessandro Riva,,In Progress,5,Low,High,3,,,,2026-09-24T11:41:00.000Z,PMO Admin,1,2026-08-16T09:32:00.000Z,,FALSE
+LIM-IM-001,LIM,IM,Indirect materials orders,,2026-12-11,2027-01-30,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:21:00.000Z,PMO Admin,1,2026-08-15T09:21:00.000Z,,FALSE
+LIM-AR-001,LIM,AR,Opening allocation plan,,2026-12-18,2027-01-27,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-09-02T09:17:00.000Z,PMO Admin,1,2026-09-02T09:17:00.000Z,,FALSE
+LIM-GS-001,LIM,GS,"Cleaning, maintenance and security services",,2026-12-25,2027-02-08,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-08-31T09:10:00.000Z,PMO Admin,1,2026-08-31T09:10:00.000Z,,FALSE
+LIM-RET-001,LIM,RET,Store Manager opening plan,,2027-01-04,2027-02-13,Martina Ricci,,Not Started,0,Low,Medium,1,,,Confirm opening assortment depth,2026-08-21T09:39:00.000Z,PMO Admin,1,2026-08-21T09:39:00.000Z,,FALSE
+RUH-CORP-001,RUH,CORP,Local entity / branch registration check,,2026-09-09,2026-10-29,Marco Ferri,,In Progress,25,Low,Medium,1,,,,2026-09-17T09:30:00.000Z,PMO Admin,1,2026-08-25T09:31:00.000Z,,FALSE
+RUH-CON-001,RUH,CON,Lease / concession contract signature,,2026-08-15,2026-10-24,Giulia Rinaldi,,In Progress,80,Low,High,3,,,Accept landlord request for turnover-based rent,2026-09-27T15:00:00.000Z,PMO Admin,1,2026-08-10T09:22:00.000Z,,FALSE
+RUH-IT-001,RUH,IT,IT project kick-off with local partners,,2026-09-26,2026-10-11,Luca Bernardi,,In Progress,10,Medium,Medium,1,,,,2026-09-21T12:23:00.000Z,PMO Admin,1,2026-09-01T09:05:00.000Z,,FALSE
+RUH-SAP-001,RUH,SAP,Store master data set-up in SAP,,2026-11-28,2026-12-28,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:44:00.000Z,PMO Admin,1,2026-08-17T09:44:00.000Z,,FALSE
+RUH-SAP-002,RUH,SAP,Set-up and testing of flows,,2026-12-30,2027-02-18,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-22T09:39:00.000Z,PMO Admin,1,2026-08-22T09:39:00.000Z,,FALSE
+RUH-ERP-001,RUH,ERP,Customs and transport flows alignment,,2026-11-20,2026-12-30,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-09-02T09:06:00.000Z,PMO Admin,1,2026-09-02T09:06:00.000Z,,FALSE
+RUH-POS-001,RUH,POS,POS installation and configuration,,2027-01-27,2027-03-13,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-08-16T09:33:00.000Z,PMO Admin,1,2026-08-16T09:33:00.000Z,,FALSE
+RUH-ITH-001,RUH,ITH,Hardware purchase and shipment,,2026-12-14,2027-02-07,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-09-08T09:42:00.000Z,PMO Admin,1,2026-09-08T09:42:00.000Z,,FALSE
+RUH-CRM-001,RUH,CRM,Salesforce users and clienteling set-up,,2027-01-21,2027-03-02,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:35:00.000Z,PMO Admin,1,2026-08-27T09:35:00.000Z,,FALSE
+RUH-NET-001,RUH,NET,Internet line activation,,2026-11-30,2027-02-28,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:15:00.000Z,PMO Admin,1,2026-08-21T09:15:00.000Z,,FALSE
+RUH-TEL-001,RUH,TEL,Mobile devices and SIM activation,,2027-02-05,2027-03-12,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-25T09:05:00.000Z,PMO Admin,1,2026-08-25T09:05:00.000Z,,FALSE
+RUH-FIN-001,RUH,FIN,"Bank account, cash handling and payment terminals",,2026-10-29,2027-01-27,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-09-02T09:07:00.000Z,PMO Admin,1,2026-09-02T09:07:00.000Z,,FALSE
+RUH-LOG-001,RUH,LOG,First merchandise shipment,,2027-01-19,2027-03-06,Elena Conti,,Not Started,0,Low,Medium,1,,,Choose between direct import and local distributor,2026-08-21T09:19:00.000Z,PMO Admin,1,2026-08-21T09:19:00.000Z,,FALSE
+RUH-CMP-001,RUH,CMP,Labelling and local compliance check,,2026-12-27,2027-02-10,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:05:00.000Z,PMO Admin,1,2026-08-21T09:05:00.000Z,,FALSE
+RUH-HR-001,RUH,HR,Recruiting store team,,2026-10-27,2027-02-09,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-08-18T09:01:00.000Z,PMO Admin,1,2026-08-18T09:01:00.000Z,,FALSE
+RUH-HR-002,RUH,HR,Training and onboarding,,2027-02-14,2027-03-19,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:24:00.000Z,PMO Admin,1,2026-08-29T09:24:00.000Z,,FALSE
+RUH-SP-001,RUH,SP,Store design approval,,2026-08-02,2026-10-01,Alessandro Riva,,In Progress,70,Low,Medium,1,,,,2026-09-20T12:53:00.000Z,PMO Admin,1,2026-07-30T09:35:00.000Z,,FALSE
+RUH-SP-002,RUH,SP,Construction works,,2026-10-25,2027-03-04,Alessandro Riva,,Not Started,0,Low,High,3,,,,2026-08-26T09:20:00.000Z,PMO Admin,1,2026-08-26T09:20:00.000Z,,FALSE
+RUH-IM-001,RUH,IM,Indirect materials orders,,2027-01-10,2027-03-01,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-08-24T09:37:00.000Z,PMO Admin,1,2026-08-24T09:37:00.000Z,,FALSE
+RUH-AR-001,RUH,AR,Opening allocation plan,,2027-01-24,2027-03-05,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-08-24T09:42:00.000Z,PMO Admin,1,2026-08-24T09:42:00.000Z,,FALSE
+RUH-GS-001,RUH,GS,"Cleaning, maintenance and security services",,2027-01-26,2027-03-12,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:29:00.000Z,PMO Admin,1,2026-09-05T09:29:00.000Z,,FALSE
+RUH-RET-001,RUH,RET,Store Manager opening plan,,2027-02-04,2027-03-16,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-08-22T09:33:00.000Z,PMO Admin,1,2026-08-22T09:33:00.000Z,,FALSE
+SIN-CORP-001,SIN,CORP,Local entity / branch registration check,,2026-09-29,2026-11-18,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-09-07T09:42:00.000Z,PMO Admin,1,2026-09-07T09:42:00.000Z,,FALSE
+SIN-CON-001,SIN,CON,Lease / concession contract signature,,2026-09-02,2026-11-11,Giulia Rinaldi,,Blocked,25,High,High,3,,Landlord has not returned the signed contract,,2026-09-21T12:40:30.000Z,PMO Admin,1,2026-08-25T09:47:00.000Z,,FALSE
+SIN-IT-001,SIN,IT,IT project kick-off with local partners,,2026-10-20,2026-11-04,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:46:00.000Z,PMO Admin,1,2026-08-15T09:46:00.000Z,,FALSE
+SIN-SAP-001,SIN,SAP,Store master data set-up in SAP,,2026-12-16,2027-01-15,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-24T09:46:00.000Z,PMO Admin,1,2026-08-24T09:46:00.000Z,,FALSE
+SIN-SAP-002,SIN,SAP,Set-up and testing of flows,,2027-01-11,2027-03-02,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:07:00.000Z,PMO Admin,1,2026-08-19T09:07:00.000Z,,FALSE
+SIN-ERP-001,SIN,ERP,Customs and transport flows alignment,,2026-12-15,2027-01-24,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-24T09:46:00.000Z,PMO Admin,1,2026-08-24T09:46:00.000Z,,FALSE
+SIN-POS-001,SIN,POS,POS installation and configuration,,2027-02-18,2027-04-04,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-08-23T09:09:00.000Z,PMO Admin,1,2026-08-23T09:09:00.000Z,,FALSE
+SIN-ITH-001,SIN,ITH,Hardware purchase and shipment,,2027-01-06,2027-03-02,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:28:00.000Z,PMO Admin,1,2026-08-29T09:28:00.000Z,,FALSE
+SIN-CRM-001,SIN,CRM,Salesforce users and clienteling set-up,,2027-02-14,2027-03-26,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-08-25T09:47:00.000Z,PMO Admin,1,2026-08-25T09:47:00.000Z,,FALSE
+SIN-NET-001,SIN,NET,Internet line activation,,2026-12-11,2027-03-11,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:23:00.000Z,PMO Admin,1,2026-08-18T09:23:00.000Z,,FALSE
+SIN-TEL-001,SIN,TEL,Mobile devices and SIM activation,,2027-03-04,2027-04-08,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:46:00.000Z,PMO Admin,1,2026-08-28T09:46:00.000Z,,FALSE
+SIN-FIN-001,SIN,FIN,"Bank account, cash handling and payment terminals",,2026-11-17,2027-02-15,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,Select local auditor,2026-08-19T09:49:00.000Z,PMO Admin,1,2026-08-19T09:49:00.000Z,,FALSE
+SIN-LOG-001,SIN,LOG,First merchandise shipment,,2027-02-16,2027-04-03,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:42:00.000Z,PMO Admin,1,2026-08-20T09:42:00.000Z,,FALSE
+SIN-CMP-001,SIN,CMP,Labelling and local compliance check,,2027-01-18,2027-03-04,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:33:00.000Z,PMO Admin,1,2026-08-15T09:33:00.000Z,,FALSE
+SIN-HR-001,SIN,HR,Recruiting store team,,2026-11-12,2027-02-25,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-09-02T09:47:00.000Z,PMO Admin,1,2026-09-02T09:47:00.000Z,,FALSE
+SIN-HR-002,SIN,HR,Training and onboarding,,2027-03-03,2027-04-05,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-25T09:40:00.000Z,PMO Admin,1,2026-08-25T09:40:00.000Z,,FALSE
+SIN-SP-001,SIN,SP,Store design approval,,2026-08-21,2026-10-20,Alessandro Riva,,In Progress,55,Low,Medium,1,,,,2026-09-17T14:02:00.000Z,PMO Admin,1,2026-08-16T09:27:00.000Z,,FALSE
+SIN-SP-002,SIN,SP,Construction works,,2026-11-11,2027-03-21,Alessandro Riva,,Not Started,0,Low,High,3,,,,2026-08-26T09:17:00.000Z,PMO Admin,1,2026-08-26T09:17:00.000Z,,FALSE
+SIN-IM-001,SIN,IM,Indirect materials orders,,2027-01-26,2027-03-17,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:32:00.000Z,PMO Admin,1,2026-09-05T09:32:00.000Z,,FALSE
+SIN-AR-001,SIN,AR,Opening allocation plan,,2027-02-17,2027-03-29,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:46:00.000Z,PMO Admin,1,2026-08-17T09:46:00.000Z,,FALSE
+SIN-GS-001,SIN,GS,"Cleaning, maintenance and security services",,2027-02-09,2027-03-26,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:15:00.000Z,PMO Admin,1,2026-08-26T09:15:00.000Z,,FALSE
+SIN-RET-001,SIN,RET,Store Manager opening plan,,2027-03-05,2027-04-14,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-08-16T09:26:00.000Z,PMO Admin,1,2026-08-16T09:26:00.000Z,,FALSE
+SIN-HR-003,SIN,HR,Airport access passes for store staff,,2027-01-17,2027-03-28,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-08-31T09:05:00.000Z,PMO Admin,1,2026-08-31T09:05:00.000Z,,FALSE
+SIN-POS-002,SIN,POS,Airport systems integration (sales reporting),,2026-12-16,2027-03-06,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-09-03T09:06:00.000Z,PMO Admin,1,2026-09-03T09:06:00.000Z,,FALSE
+PRG-CORP-001,PRG,CORP,Local entity / branch registration check,,2026-10-08,2026-11-27,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:36:00.000Z,PMO Admin,1,2026-08-15T09:36:00.000Z,,FALSE
+PRG-CON-001,PRG,CON,Lease / concession contract signature,,2026-09-25,2026-12-04,Giulia Rinaldi,,In Progress,5,Low,High,3,,,,2026-09-18T16:56:00.000Z,PMO Admin,1,2026-09-02T09:02:00.000Z,,FALSE
+PRG-IT-001,PRG,IT,IT project kick-off with local partners,,2026-10-30,2026-11-14,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:42:00.000Z,PMO Admin,1,2026-08-15T09:42:00.000Z,,FALSE
+PRG-SAP-001,PRG,SAP,Store master data set-up in SAP,,2027-01-03,2027-02-02,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:08:00.000Z,PMO Admin,1,2026-08-28T09:08:00.000Z,,FALSE
+PRG-SAP-002,PRG,SAP,Set-up and testing of flows,,2027-02-03,2027-03-25,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-16T09:27:00.000Z,PMO Admin,1,2026-08-16T09:27:00.000Z,,FALSE
+PRG-ERP-001,PRG,ERP,Customs and transport flows alignment,,2026-12-28,2027-02-06,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-09-07T09:25:00.000Z,PMO Admin,1,2026-09-07T09:25:00.000Z,,FALSE
+PRG-POS-001,PRG,POS,POS installation and configuration,,2027-02-25,2027-04-11,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-08-18T09:06:00.000Z,PMO Admin,1,2026-08-18T09:06:00.000Z,,FALSE
+PRG-ITH-001,PRG,ITH,Hardware purchase and shipment,,2027-01-22,2027-03-18,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:16:00.000Z,PMO Admin,1,2026-08-19T09:16:00.000Z,,FALSE
+PRG-CRM-001,PRG,CRM,Salesforce users and clienteling set-up,,2027-02-24,2027-04-05,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:33:00.000Z,PMO Admin,1,2026-08-19T09:33:00.000Z,,FALSE
+PRG-NET-001,PRG,NET,Internet line activation,,2027-01-05,2027-04-05,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:30:00.000Z,PMO Admin,1,2026-09-05T09:30:00.000Z,,FALSE
+PRG-TEL-001,PRG,TEL,Mobile devices and SIM activation,,2027-03-20,2027-04-24,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:39:00.000Z,PMO Admin,1,2026-08-21T09:39:00.000Z,,FALSE
+PRG-FIN-001,PRG,FIN,"Bank account, cash handling and payment terminals",,2026-11-27,2027-02-25,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,Select local auditor,2026-08-19T09:49:00.000Z,PMO Admin,1,2026-08-19T09:49:00.000Z,,FALSE
+PRG-LOG-001,PRG,LOG,First merchandise shipment,,2027-02-25,2027-04-12,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:06:00.000Z,PMO Admin,1,2026-08-27T09:06:00.000Z,,FALSE
+PRG-CMP-001,PRG,CMP,Labelling and local compliance check,,2027-01-26,2027-03-12,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:29:00.000Z,PMO Admin,1,2026-08-17T09:29:00.000Z,,FALSE
+PRG-HR-001,PRG,HR,Recruiting store team,,2026-11-26,2027-03-11,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-08-17T09:13:00.000Z,PMO Admin,1,2026-08-17T09:13:00.000Z,,FALSE
+PRG-HR-002,PRG,HR,Training and onboarding,,2027-03-26,2027-04-28,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:10:00.000Z,PMO Admin,1,2026-08-28T09:10:00.000Z,,FALSE
+PRG-SP-001,PRG,SP,Store design approval,,2026-08-28,2026-10-27,Alessandro Riva,,In Progress,65,Low,Medium,1,,,,2026-09-22T11:25:00.000Z,PMO Admin,1,2026-08-16T09:35:00.000Z,,FALSE
+PRG-SP-002,PRG,SP,Construction works,,2026-12-03,2027-04-12,Alessandro Riva,,Not Started,0,Low,High,3,,,,2026-08-25T09:32:00.000Z,PMO Admin,1,2026-08-25T09:32:00.000Z,,FALSE
+PRG-IM-001,PRG,IM,Indirect materials orders,,2027-02-10,2027-04-01,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-08-22T09:39:00.000Z,PMO Admin,1,2026-08-22T09:39:00.000Z,,FALSE
+PRG-AR-001,PRG,AR,Opening allocation plan,,2027-03-01,2027-04-10,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:35:00.000Z,PMO Admin,1,2026-08-28T09:35:00.000Z,,FALSE
+PRG-GS-001,PRG,GS,"Cleaning, maintenance and security services",,2027-03-02,2027-04-16,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-08-24T09:46:00.000Z,PMO Admin,1,2026-08-24T09:46:00.000Z,,FALSE
+PRG-RET-001,PRG,RET,Store Manager opening plan,,2027-03-15,2027-04-24,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:24:00.000Z,PMO Admin,1,2026-09-05T09:24:00.000Z,,FALSE
+BUD-CORP-001,BUD,CORP,Local entity / branch registration check,,2026-11-04,2026-12-24,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:06:00.000Z,PMO Admin,1,2026-09-05T09:06:00.000Z,,FALSE
+BUD-CON-001,BUD,CON,Lease / concession contract signature,,2026-10-12,2026-12-21,Giulia Rinaldi,,Not Started,0,Low,High,3,,,,2026-09-03T09:11:00.000Z,PMO Admin,1,2026-09-03T09:11:00.000Z,,FALSE
+BUD-IT-001,BUD,IT,IT project kick-off with local partners,,2026-11-17,2026-12-02,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:48:00.000Z,PMO Admin,1,2026-08-18T09:48:00.000Z,,FALSE
+BUD-SAP-001,BUD,SAP,Store master data set-up in SAP,,2027-01-17,2027-02-16,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:35:00.000Z,PMO Admin,1,2026-08-18T09:35:00.000Z,,FALSE
+BUD-SAP-002,BUD,SAP,Set-up and testing of flows,,2027-02-20,2027-04-11,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:21:00.000Z,PMO Admin,1,2026-08-26T09:21:00.000Z,,FALSE
+BUD-ERP-001,BUD,ERP,Customs and transport flows alignment,,2027-01-18,2027-02-27,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:36:00.000Z,PMO Admin,1,2026-08-20T09:36:00.000Z,,FALSE
+BUD-POS-001,BUD,POS,POS installation and configuration,,2027-03-26,2027-05-10,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-09-05T09:15:00.000Z,PMO Admin,1,2026-09-05T09:15:00.000Z,,FALSE
+BUD-ITH-001,BUD,ITH,Hardware purchase and shipment,,2027-02-04,2027-03-31,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-09-03T09:18:00.000Z,PMO Admin,1,2026-09-03T09:18:00.000Z,,FALSE
+BUD-CRM-001,BUD,CRM,Salesforce users and clienteling set-up,,2027-03-22,2027-05-01,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:29:00.000Z,PMO Admin,1,2026-09-05T09:29:00.000Z,,FALSE
+BUD-NET-001,BUD,NET,Internet line activation,,2027-01-24,2027-04-24,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-23T09:02:00.000Z,PMO Admin,1,2026-08-23T09:02:00.000Z,,FALSE
+BUD-TEL-001,BUD,TEL,Mobile devices and SIM activation,,2027-04-04,2027-05-09,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-24T09:16:00.000Z,PMO Admin,1,2026-08-24T09:16:00.000Z,,FALSE
+BUD-FIN-001,BUD,FIN,"Bank account, cash handling and payment terminals",,2026-12-24,2027-03-24,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:22:00.000Z,PMO Admin,1,2026-08-29T09:22:00.000Z,,FALSE
+BUD-LOG-001,BUD,LOG,First merchandise shipment,,2027-03-20,2027-05-05,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-09-08T09:02:00.000Z,PMO Admin,1,2026-09-08T09:02:00.000Z,,FALSE
+BUD-CMP-001,BUD,CMP,Labelling and local compliance check,,2027-02-16,2027-04-02,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-25T09:40:00.000Z,PMO Admin,1,2026-08-25T09:40:00.000Z,,FALSE
+BUD-HR-001,BUD,HR,Recruiting store team,,2026-12-18,2027-04-02,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-08-28T09:21:00.000Z,PMO Admin,1,2026-08-28T09:21:00.000Z,,FALSE
+BUD-HR-002,BUD,HR,Training and onboarding,,2027-04-06,2027-05-09,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:03:00.000Z,PMO Admin,1,2026-08-15T09:03:00.000Z,,FALSE
+BUD-SP-001,BUD,SP,Store design approval,,2026-09-19,2026-11-18,Alessandro Riva,,In Progress,15,Low,Medium,1,,,,2026-09-24T12:02:00.000Z,PMO Admin,1,2026-08-29T09:41:00.000Z,,FALSE
+BUD-SP-002,BUD,SP,Construction works,,2026-12-16,2027-04-25,Alessandro Riva,,Not Started,0,Low,High,3,,,,2026-09-06T09:00:00.000Z,PMO Admin,1,2026-09-06T09:00:00.000Z,,FALSE
+BUD-IM-001,BUD,IM,Indirect materials orders,,2027-03-10,2027-04-29,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:02:00.000Z,PMO Admin,1,2026-09-05T09:02:00.000Z,,FALSE
+BUD-AR-001,BUD,AR,Opening allocation plan,,2027-03-22,2027-05-01,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:03:00.000Z,PMO Admin,1,2026-09-05T09:03:00.000Z,,FALSE
+BUD-GS-001,BUD,GS,"Cleaning, maintenance and security services",,2027-03-22,2027-05-06,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-09-06T09:20:00.000Z,PMO Admin,1,2026-09-06T09:20:00.000Z,,FALSE
+BUD-RET-001,BUD,RET,Store Manager opening plan,,2027-04-05,2027-05-15,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:21:00.000Z,PMO Admin,1,2026-08-26T09:21:00.000Z,,FALSE
+MAD-CORP-001,MAD,CORP,Local entity / branch registration check,,2026-11-22,2027-01-11,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-09-03T09:08:00.000Z,PMO Admin,1,2026-09-03T09:08:00.000Z,,FALSE
+MAD-CON-001,MAD,CON,Lease / concession contract signature,,2026-11-05,2027-01-14,Giulia Rinaldi,,Not Started,0,Low,High,3,,,Accept landlord request for turnover-based rent,2026-08-19T09:08:00.000Z,PMO Admin,1,2026-08-19T09:08:00.000Z,,FALSE
+MAD-IT-001,MAD,IT,IT project kick-off with local partners,,2026-12-20,2027-01-04,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:25:00.000Z,PMO Admin,1,2026-08-27T09:25:00.000Z,,FALSE
+MAD-SAP-001,MAD,SAP,Store master data set-up in SAP,,2027-02-12,2027-03-14,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:02:00.000Z,PMO Admin,1,2026-08-21T09:02:00.000Z,,FALSE
+MAD-SAP-002,MAD,SAP,Set-up and testing of flows,,2027-03-18,2027-05-07,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-09-04T09:07:00.000Z,PMO Admin,1,2026-09-04T09:07:00.000Z,,FALSE
+MAD-ERP-001,MAD,ERP,Customs and transport flows alignment,,2027-02-14,2027-03-26,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:05:00.000Z,PMO Admin,1,2026-08-29T09:05:00.000Z,,FALSE
+MAD-POS-001,MAD,POS,POS installation and configuration,,2027-04-21,2027-06-05,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-09-07T09:18:00.000Z,PMO Admin,1,2026-09-07T09:18:00.000Z,,FALSE
+MAD-ITH-001,MAD,ITH,Hardware purchase and shipment,,2027-03-05,2027-04-29,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:47:00.000Z,PMO Admin,1,2026-09-05T09:47:00.000Z,,FALSE
+MAD-CRM-001,MAD,CRM,Salesforce users and clienteling set-up,,2027-04-16,2027-05-26,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:31:00.000Z,PMO Admin,1,2026-08-19T09:31:00.000Z,,FALSE
+MAD-NET-001,MAD,NET,Internet line activation,,2027-02-16,2027-05-17,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-30T09:30:00.000Z,PMO Admin,1,2026-08-30T09:30:00.000Z,,FALSE
+MAD-TEL-001,MAD,TEL,Mobile devices and SIM activation,,2027-04-30,2027-06-04,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-31T09:35:00.000Z,PMO Admin,1,2026-08-31T09:35:00.000Z,,FALSE
+MAD-FIN-001,MAD,FIN,"Bank account, cash handling and payment terminals",,2027-01-21,2027-04-21,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:00:00.000Z,PMO Admin,1,2026-08-28T09:00:00.000Z,,FALSE
+MAD-LOG-001,MAD,LOG,First merchandise shipment,,2027-04-14,2027-05-30,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:49:00.000Z,PMO Admin,1,2026-08-27T09:49:00.000Z,,FALSE
+MAD-CMP-001,MAD,CMP,Labelling and local compliance check,,2027-03-18,2027-05-02,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:32:00.000Z,PMO Admin,1,2026-08-18T09:32:00.000Z,,FALSE
+MAD-HR-001,MAD,HR,Recruiting store team,,2027-01-17,2027-05-02,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-08-23T09:23:00.000Z,PMO Admin,1,2026-08-23T09:23:00.000Z,,FALSE
+MAD-HR-002,MAD,HR,Training and onboarding,,2027-05-04,2027-06-06,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-25T09:27:00.000Z,PMO Admin,1,2026-08-25T09:27:00.000Z,,FALSE
+MAD-SP-001,MAD,SP,Store design approval,,2026-10-23,2026-12-22,Alessandro Riva,,Not Started,0,Low,Medium,1,,,,2026-08-23T09:14:00.000Z,PMO Admin,1,2026-08-23T09:14:00.000Z,,FALSE
+MAD-SP-002,MAD,SP,Construction works,,2027-01-19,2027-05-29,Alessandro Riva,,Not Started,0,Low,High,3,,,,2026-09-05T09:18:00.000Z,PMO Admin,1,2026-09-05T09:18:00.000Z,,FALSE
+MAD-IM-001,MAD,IM,Indirect materials orders,,2027-04-06,2027-05-26,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:47:00.000Z,PMO Admin,1,2026-08-28T09:47:00.000Z,,FALSE
+MAD-AR-001,MAD,AR,Opening allocation plan,,2027-04-17,2027-05-27,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-09-07T09:03:00.000Z,PMO Admin,1,2026-09-07T09:03:00.000Z,,FALSE
+MAD-GS-001,MAD,GS,"Cleaning, maintenance and security services",,2027-04-21,2027-06-05,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-09-02T09:33:00.000Z,PMO Admin,1,2026-09-02T09:33:00.000Z,,FALSE
+MAD-RET-001,MAD,RET,Store Manager opening plan,,2027-04-26,2027-06-05,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:09:00.000Z,PMO Admin,1,2026-08-18T09:09:00.000Z,,FALSE
+MAD-HR-003,MAD,HR,Airport access passes for store staff,,2027-03-12,2027-05-21,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-09-08T09:48:00.000Z,PMO Admin,1,2026-09-08T09:48:00.000Z,,FALSE
+MAD-POS-002,MAD,POS,Airport systems integration (sales reporting),,2027-02-11,2027-05-02,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-08-26T09:06:00.000Z,PMO Admin,1,2026-08-26T09:06:00.000Z,,FALSE
+SBH-CORP-001,SBH,CORP,Local entity / branch registration check,,2026-12-13,2027-02-01,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:28:00.000Z,PMO Admin,1,2026-08-19T09:28:00.000Z,,FALSE
+SBH-CON-001,SBH,CON,Lease / concession contract signature,,2026-11-27,2027-02-05,Giulia Rinaldi,,Not Started,0,Low,High,3,,,,2026-08-28T09:16:00.000Z,PMO Admin,1,2026-08-28T09:16:00.000Z,,FALSE
+SBH-IT-001,SBH,IT,IT project kick-off with local partners,,2026-12-29,2027-01-13,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-09-02T09:42:00.000Z,PMO Admin,1,2026-09-02T09:42:00.000Z,,FALSE
+SBH-SAP-001,SBH,SAP,Store master data set-up in SAP,,2027-03-03,2027-04-02,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:30:00.000Z,PMO Admin,1,2026-08-19T09:30:00.000Z,,FALSE
+SBH-SAP-002,SBH,SAP,Set-up and testing of flows,,2027-04-06,2027-05-26,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-09-08T09:12:00.000Z,PMO Admin,1,2026-09-08T09:12:00.000Z,,FALSE
+SBH-ERP-001,SBH,ERP,Customs and transport flows alignment,,2027-03-03,2027-04-12,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:00:00.000Z,PMO Admin,1,2026-08-18T09:00:00.000Z,,FALSE
+SBH-POS-001,SBH,POS,POS installation and configuration,,2027-05-01,2027-06-15,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-08-16T09:14:00.000Z,PMO Admin,1,2026-08-16T09:14:00.000Z,,FALSE
+SBH-ITH-001,SBH,ITH,Hardware purchase and shipment,,2027-03-23,2027-05-17,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:31:00.000Z,PMO Admin,1,2026-08-28T09:31:00.000Z,,FALSE
+SBH-CRM-001,SBH,CRM,Salesforce users and clienteling set-up,,2027-05-04,2027-06-13,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-09-08T09:14:00.000Z,PMO Admin,1,2026-09-08T09:14:00.000Z,,FALSE
+SBH-NET-001,SBH,NET,Internet line activation,,2027-02-27,2027-05-28,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:00:00.000Z,PMO Admin,1,2026-09-05T09:00:00.000Z,,FALSE
+SBH-TEL-001,SBH,TEL,Mobile devices and SIM activation,,2027-05-16,2027-06-20,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:40:00.000Z,PMO Admin,1,2026-08-27T09:40:00.000Z,,FALSE
+SBH-FIN-001,SBH,FIN,"Bank account, cash handling and payment terminals",,2027-02-03,2027-05-04,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:44:00.000Z,PMO Admin,1,2026-08-27T09:44:00.000Z,,FALSE
+SBH-LOG-001,SBH,LOG,First merchandise shipment,,2027-05-05,2027-06-20,Elena Conti,,Not Started,0,Low,Medium,1,,,Choose between direct import and local distributor,2026-09-04T09:12:00.000Z,PMO Admin,1,2026-09-04T09:12:00.000Z,,FALSE
+SBH-CMP-001,SBH,CMP,Labelling and local compliance check,,2027-03-31,2027-05-15,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-09-07T09:18:00.000Z,PMO Admin,1,2026-09-07T09:18:00.000Z,,FALSE
+SBH-HR-001,SBH,HR,Recruiting store team,,2027-02-04,2027-05-20,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-08-29T09:18:00.000Z,PMO Admin,1,2026-08-29T09:18:00.000Z,,FALSE
+SBH-HR-002,SBH,HR,Training and onboarding,,2027-05-27,2027-06-29,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-16T09:34:00.000Z,PMO Admin,1,2026-08-16T09:34:00.000Z,,FALSE
+SBH-SP-001,SBH,SP,Store design approval,,2026-11-01,2026-12-31,Alessandro Riva,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:13:00.000Z,PMO Admin,1,2026-08-15T09:13:00.000Z,,FALSE
+SBH-SP-002,SBH,SP,Construction works,,2027-01-31,2027-06-10,Alessandro Riva,,Not Started,0,Low,High,3,,,,2026-08-23T09:25:00.000Z,PMO Admin,1,2026-08-23T09:25:00.000Z,,FALSE
+SBH-IM-001,SBH,IM,Indirect materials orders,,2027-04-15,2027-06-04,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-09-01T09:32:00.000Z,PMO Admin,1,2026-09-01T09:32:00.000Z,,FALSE
+SBH-AR-001,SBH,AR,Opening allocation plan,,2027-05-01,2027-06-10,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:39:00.000Z,PMO Admin,1,2026-08-29T09:39:00.000Z,,FALSE
+SBH-GS-001,SBH,GS,"Cleaning, maintenance and security services",,2027-05-03,2027-06-17,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:20:00.000Z,PMO Admin,1,2026-08-26T09:20:00.000Z,,FALSE
+SBH-RET-001,SBH,RET,Store Manager opening plan,,2027-05-16,2027-06-25,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-08-25T09:39:00.000Z,PMO Admin,1,2026-08-25T09:39:00.000Z,,FALSE
+BUE-CORP-001,BUE,CORP,Local entity / branch registration check,,2027-02-23,2027-04-14,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:27:00.000Z,PMO Admin,1,2026-08-18T09:27:00.000Z,,FALSE
+BUE-CON-001,BUE,CON,Lease / concession contract signature,,2027-02-01,2027-04-12,Giulia Rinaldi,,Not Started,0,Low,High,3,,,,2026-09-05T09:36:00.000Z,PMO Admin,1,2026-09-05T09:36:00.000Z,,FALSE
+BUE-IT-001,BUE,IT,IT project kick-off with local partners,,2027-03-13,2027-03-28,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-24T09:47:00.000Z,PMO Admin,1,2026-08-24T09:47:00.000Z,,FALSE
+BUE-SAP-001,BUE,SAP,Store master data set-up in SAP,,2027-05-08,2027-06-07,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-09-04T09:16:00.000Z,PMO Admin,1,2026-09-04T09:16:00.000Z,,FALSE
+BUE-SAP-002,BUE,SAP,Set-up and testing of flows,,2027-06-12,2027-08-01,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:22:00.000Z,PMO Admin,1,2026-08-28T09:22:00.000Z,,FALSE
+BUE-ERP-001,BUE,ERP,Customs and transport flows alignment,,2027-05-12,2027-06-21,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-31T09:02:00.000Z,PMO Admin,1,2026-08-31T09:02:00.000Z,,FALSE
+BUE-POS-001,BUE,POS,POS installation and configuration,,2027-07-07,2027-08-21,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-09-02T09:08:00.000Z,PMO Admin,1,2026-09-02T09:08:00.000Z,,FALSE
+BUE-ITH-001,BUE,ITH,Hardware purchase and shipment,,2027-05-28,2027-07-22,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:13:00.000Z,PMO Admin,1,2026-08-21T09:13:00.000Z,,FALSE
+BUE-CRM-001,BUE,CRM,Salesforce users and clienteling set-up,,2027-07-09,2027-08-18,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-08-20T09:46:00.000Z,PMO Admin,1,2026-08-20T09:46:00.000Z,,FALSE
+BUE-NET-001,BUE,NET,Internet line activation,,2027-05-12,2027-08-10,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:21:00.000Z,PMO Admin,1,2026-08-26T09:21:00.000Z,,FALSE
+BUE-TEL-001,BUE,TEL,Mobile devices and SIM activation,,2027-07-31,2027-09-04,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:14:00.000Z,PMO Admin,1,2026-08-15T09:14:00.000Z,,FALSE
+BUE-FIN-001,BUE,FIN,"Bank account, cash handling and payment terminals",,2027-04-12,2027-07-11,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:13:00.000Z,PMO Admin,1,2026-08-21T09:13:00.000Z,,FALSE
+BUE-LOG-001,BUE,LOG,First merchandise shipment,,2027-07-10,2027-08-25,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:48:00.000Z,PMO Admin,1,2026-08-19T09:48:00.000Z,,FALSE
+BUE-CMP-001,BUE,CMP,Labelling and local compliance check,,2027-06-10,2027-07-25,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:21:00.000Z,PMO Admin,1,2026-08-28T09:21:00.000Z,,FALSE
+BUE-HR-001,BUE,HR,Recruiting store team,,2027-04-17,2027-07-31,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-08-29T09:15:00.000Z,PMO Admin,1,2026-08-29T09:15:00.000Z,,FALSE
+BUE-HR-002,BUE,HR,Training and onboarding,,2027-08-06,2027-09-08,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-09-04T09:32:00.000Z,PMO Admin,1,2026-09-04T09:32:00.000Z,,FALSE
+BUE-SP-001,BUE,SP,Store design approval,,2027-01-11,2027-03-12,Alessandro Riva,,Not Started,0,Low,Medium,1,,,,2026-09-06T09:22:00.000Z,PMO Admin,1,2026-09-06T09:22:00.000Z,,FALSE
+BUE-SP-002,BUE,SP,Construction works,,2027-04-09,2027-08-17,Alessandro Riva,,Not Started,0,Low,High,3,,,,2026-08-26T09:20:00.000Z,PMO Admin,1,2026-08-26T09:20:00.000Z,,FALSE
+BUE-IM-001,BUE,IM,Indirect materials orders,,2027-06-23,2027-08-12,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:46:00.000Z,PMO Admin,1,2026-08-26T09:46:00.000Z,,FALSE
+BUE-AR-001,BUE,AR,Opening allocation plan,,2027-07-09,2027-08-18,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:19:00.000Z,PMO Admin,1,2026-08-15T09:19:00.000Z,,FALSE
+BUE-GS-001,BUE,GS,"Cleaning, maintenance and security services",,2027-07-15,2027-08-29,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-09-06T09:08:00.000Z,PMO Admin,1,2026-09-06T09:08:00.000Z,,FALSE
+BUE-RET-001,BUE,RET,Store Manager opening plan,,2027-07-27,2027-09-05,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:40:00.000Z,PMO Admin,1,2026-08-29T09:40:00.000Z,,FALSE
+DXB-CORP-001,DXB,CORP,Local entity / branch registration check,,2027-04-01,2027-05-21,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-08-30T09:46:00.000Z,PMO Admin,1,2026-08-30T09:46:00.000Z,,FALSE
+DXB-CON-001,DXB,CON,Lease / concession contract signature,,2027-03-11,2027-05-20,Giulia Rinaldi,,Not Started,0,Low,High,3,,,,2026-08-31T09:14:00.000Z,PMO Admin,1,2026-08-31T09:14:00.000Z,,FALSE
+DXB-IT-001,DXB,IT,IT project kick-off with local partners,,2027-04-22,2027-05-07,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:22:00.000Z,PMO Admin,1,2026-08-28T09:22:00.000Z,,FALSE
+DXB-SAP-001,DXB,SAP,Store master data set-up in SAP,,2027-06-19,2027-07-19,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-23T09:08:00.000Z,PMO Admin,1,2026-08-23T09:08:00.000Z,,FALSE
+DXB-SAP-002,DXB,SAP,Set-up and testing of flows,,2027-07-22,2027-09-10,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:32:00.000Z,PMO Admin,1,2026-08-27T09:32:00.000Z,,FALSE
+DXB-ERP-001,DXB,ERP,Customs and transport flows alignment,,2027-06-20,2027-07-30,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:38:00.000Z,PMO Admin,1,2026-09-05T09:38:00.000Z,,FALSE
+DXB-POS-001,DXB,POS,POS installation and configuration,,2027-08-16,2027-09-30,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-09-03T09:13:00.000Z,PMO Admin,1,2026-09-03T09:13:00.000Z,,FALSE
+DXB-ITH-001,DXB,ITH,Hardware purchase and shipment,,2027-07-05,2027-08-29,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-09-08T09:07:00.000Z,PMO Admin,1,2026-09-08T09:07:00.000Z,,FALSE
+DXB-CRM-001,DXB,CRM,Salesforce users and clienteling set-up,,2027-08-19,2027-09-28,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-08-30T09:41:00.000Z,PMO Admin,1,2026-08-30T09:41:00.000Z,,FALSE
+DXB-NET-001,DXB,NET,Internet line activation,,2027-06-19,2027-09-17,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:27:00.000Z,PMO Admin,1,2026-08-19T09:27:00.000Z,,FALSE
+DXB-TEL-001,DXB,TEL,Mobile devices and SIM activation,,2027-08-30,2027-10-04,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-15T09:30:00.000Z,PMO Admin,1,2026-08-15T09:30:00.000Z,,FALSE
+DXB-FIN-001,DXB,FIN,"Bank account, cash handling and payment terminals",,2027-05-17,2027-08-15,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,Select local auditor,2026-09-08T09:11:00.000Z,PMO Admin,1,2026-09-08T09:11:00.000Z,,FALSE
+DXB-LOG-001,DXB,LOG,First merchandise shipment,,2027-08-20,2027-10-05,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-09-07T09:19:00.000Z,PMO Admin,1,2026-09-07T09:19:00.000Z,,FALSE
+DXB-CMP-001,DXB,CMP,Labelling and local compliance check,,2027-07-19,2027-09-02,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:08:00.000Z,PMO Admin,1,2026-09-05T09:08:00.000Z,,FALSE
+DXB-HR-001,DXB,HR,Recruiting store team,,2027-05-22,2027-09-04,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-08-15T09:33:00.000Z,PMO Admin,1,2026-08-15T09:33:00.000Z,,FALSE
+DXB-HR-002,DXB,HR,Training and onboarding,,2027-09-06,2027-10-09,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:16:00.000Z,PMO Admin,1,2026-08-28T09:16:00.000Z,,FALSE
+DXB-SP-001,DXB,SP,Store design approval,,2027-02-20,2027-04-21,Alessandro Riva,,Not Started,0,Low,Medium,1,,,,2026-08-31T09:11:00.000Z,PMO Admin,1,2026-08-31T09:11:00.000Z,,FALSE
+DXB-SP-002,DXB,SP,Construction works,,2027-05-22,2027-09-29,Alessandro Riva,,Not Started,0,Low,High,3,,,,2026-08-29T09:15:00.000Z,PMO Admin,1,2026-08-29T09:15:00.000Z,,FALSE
+DXB-IM-001,DXB,IM,Indirect materials orders,,2027-07-29,2027-09-17,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:09:00.000Z,PMO Admin,1,2026-08-19T09:09:00.000Z,,FALSE
+DXB-AR-001,DXB,AR,Opening allocation plan,,2027-08-13,2027-09-22,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:21:00.000Z,PMO Admin,1,2026-08-19T09:21:00.000Z,,FALSE
+DXB-GS-001,DXB,GS,"Cleaning, maintenance and security services",,2027-08-14,2027-09-28,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-08-28T09:24:00.000Z,PMO Admin,1,2026-08-28T09:24:00.000Z,,FALSE
+DXB-RET-001,DXB,RET,Store Manager opening plan,,2027-09-04,2027-10-14,Martina Ricci,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:09:00.000Z,PMO Admin,1,2026-08-19T09:09:00.000Z,,FALSE
+DXB-HR-003,DXB,HR,Airport access passes for store staff,,2027-07-15,2027-09-23,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-09-06T09:21:00.000Z,PMO Admin,1,2026-09-06T09:21:00.000Z,,FALSE
+DXB-POS-002,DXB,POS,Airport systems integration (sales reporting),,2027-06-20,2027-09-08,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-08-16T09:03:00.000Z,PMO Admin,1,2026-08-16T09:03:00.000Z,,FALSE
+MVD-CORP-001,MVD,CORP,Local entity / branch registration check,,2027-05-10,2027-06-29,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-08-21T09:32:00.000Z,PMO Admin,1,2026-08-21T09:32:00.000Z,,FALSE
+MVD-CON-001,MVD,CON,Lease / concession contract signature,,2027-04-26,2027-07-05,Giulia Rinaldi,,Not Started,0,Low,High,3,,,,2026-08-21T09:18:00.000Z,PMO Admin,1,2026-08-21T09:18:00.000Z,,FALSE
+MVD-IT-001,MVD,IT,IT project kick-off with local partners,,2027-06-03,2027-06-18,Luca Bernardi,,Not Started,0,Low,Medium,1,,,,2026-08-27T09:45:00.000Z,PMO Admin,1,2026-08-27T09:45:00.000Z,,FALSE
+MVD-SAP-001,MVD,SAP,Store master data set-up in SAP,,2027-08-02,2027-09-01,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-23T09:45:00.000Z,PMO Admin,1,2026-08-23T09:45:00.000Z,,FALSE
+MVD-SAP-002,MVD,SAP,Set-up and testing of flows,,2027-09-04,2027-10-24,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:12:00.000Z,PMO Admin,1,2026-08-18T09:12:00.000Z,,FALSE
+MVD-ERP-001,MVD,ERP,Customs and transport flows alignment,,2027-08-08,2027-09-17,Andrea Colombo,,Not Started,0,Low,Medium,1,,,,2026-08-30T09:42:00.000Z,PMO Admin,1,2026-08-30T09:42:00.000Z,,FALSE
+MVD-POS-001,MVD,POS,POS installation and configuration,,2027-09-28,2027-11-12,Francesca Moretti,,Not Started,0,Low,High,2,,,,2026-09-06T09:32:00.000Z,PMO Admin,1,2026-09-06T09:32:00.000Z,,FALSE
+MVD-ITH-001,MVD,ITH,Hardware purchase and shipment,,2027-08-18,2027-10-12,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-18T09:19:00.000Z,PMO Admin,1,2026-08-18T09:19:00.000Z,,FALSE
+MVD-CRM-001,MVD,CRM,Salesforce users and clienteling set-up,,2027-10-02,2027-11-11,Chiara De Luca,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:08:00.000Z,PMO Admin,1,2026-08-29T09:08:00.000Z,,FALSE
+MVD-NET-001,MVD,NET,Internet line activation,,2027-07-31,2027-10-29,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-30T09:03:00.000Z,PMO Admin,1,2026-08-30T09:03:00.000Z,,FALSE
+MVD-TEL-001,MVD,TEL,Mobile devices and SIM activation,,2027-10-19,2027-11-23,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-29T09:49:00.000Z,PMO Admin,1,2026-08-29T09:49:00.000Z,,FALSE
+MVD-FIN-001,MVD,FIN,"Bank account, cash handling and payment terminals",,2027-06-30,2027-09-28,Paolo Marchetti,,Not Started,0,Low,Medium,1,,,,2026-09-05T09:25:00.000Z,PMO Admin,1,2026-09-05T09:25:00.000Z,,FALSE
+MVD-LOG-001,MVD,LOG,First merchandise shipment,,2027-10-01,2027-11-16,Elena Conti,,Not Started,0,Low,Medium,1,,,,2026-09-07T09:14:00.000Z,PMO Admin,1,2026-09-07T09:14:00.000Z,,FALSE
+MVD-CMP-001,MVD,CMP,Labelling and local compliance check,,2027-09-01,2027-10-16,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-26T09:21:00.000Z,PMO Admin,1,2026-08-26T09:21:00.000Z,,FALSE
+MVD-HR-001,MVD,HR,Recruiting store team,,2027-07-02,2027-10-15,Nicoletta Bisaro,,Not Started,0,Low,High,2,,,,2026-08-24T09:31:00.000Z,PMO Admin,1,2026-08-24T09:31:00.000Z,,FALSE
+MVD-HR-002,MVD,HR,Training and onboarding,,2027-10-22,2027-11-24,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-09-06T09:41:00.000Z,PMO Admin,1,2026-09-06T09:41:00.000Z,,FALSE
+MVD-SP-001,MVD,SP,Store design approval,,2027-04-08,2027-06-07,Alessandro Riva,,Not Started,0,Low,Medium,1,,,,2026-09-06T09:05:00.000Z,PMO Admin,1,2026-09-06T09:05:00.000Z,,FALSE
+MVD-SP-002,MVD,SP,Construction works,,2027-07-02,2027-11-09,Alessandro Riva,,Not Started,0,Low,High,3,,,,2026-08-23T09:15:00.000Z,PMO Admin,1,2026-08-23T09:15:00.000Z,,FALSE
+MVD-IM-001,MVD,IM,Indirect materials orders,,2027-09-19,2027-11-08,Sara Lombardi,,Not Started,0,Low,Medium,1,,,,2026-08-19T09:07:00.000Z,PMO Admin,1,2026-08-19T09:07:00.000Z,,FALSE
+MVD-AR-001,MVD,AR,Opening allocation plan,,2027-09-29,2027-11-08,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-09-03T09:17:00.000Z,PMO Admin,1,2026-09-03T09:17:00.000Z,,FALSE
+MVD-GS-001,MVD,GS,"Cleaning, maintenance and security services",,2027-09-30,2027-11-14,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-08-30T09:17:00.000Z,PMO Admin,1,2026-08-30T09:17:00.000Z,,FALSE
+MVD-RET-001,MVD,RET,Store Manager opening plan,,2027-10-15,2027-11-24,Martina Ricci,,Not Started,0,Low,Medium,1,,,Confirm opening assortment depth,2026-08-23T09:27:00.000Z,PMO Admin,1,2026-08-23T09:27:00.000Z,,FALSE
+AMS-CORP-001,AMS,CORP,Change of local company representative / authorized signatory,Replace the local managing director as authorized signatory of Golden Goose Netherlands B.V.: notarial deed and Chamber of Commerce (KvK) filing.,2026-08-19,2026-10-03,Marco Ferri,,In Progress,75,Medium,High,1,,,,2026-09-25T09:00:00.000Z,PMO Admin,5,2026-08-17T09:05:00.000Z,,FALSE
+AMS-CORP-002,AMS,CORP,Power of attorney for Store Manager (local operations),,2026-10-08,2026-11-27,Marco Ferri,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-CORP-003,AMS,CORP,Local VAT and EORI registration check,,2026-08-17,2026-09-13,Roberto Villa,,Completed,100,Low,Medium,1,,,,2026-09-11T10:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,2026-09-11,FALSE
+AMS-CON-001,AMS,CON,Concession contract review and signature – Schiphol,Contract under review with Schiphol Commercial; signature expected around end of September. Signature is a prerequisite for job offers and the construction permit.,2026-07-30,2026-09-30,Giulia Rinaldi,,In Progress,80,High,High,3,,,Approve final rent-escalation clause before signature,2026-09-23T09:00:00.000Z,PMO Admin,4,2026-08-17T09:05:00.000Z,,FALSE
+AMS-CON-002,AMS,CON,Assess impact of contract signature on recruiting and construction permit,,2026-09-08,2026-10-05,Giulia Rinaldi,Nicoletta Bisaro,In Progress,30,Medium,Medium,1,AMS-CON-001,,,2026-09-15T10:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-CON-003,AMS,CON,Landlord fit-out guidelines sign-off,,2026-08-17,2026-09-16,Alessandro Riva,,Completed,100,Low,Medium,1,,,,2026-09-18T09:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,2026-09-18,FALSE
+AMS-IT-001,AMS,IT,IT project kick-off with Schiphol IT,,2026-08-14,2026-08-29,Luca Bernardi,,Completed,100,Low,Medium,1,,,,2026-08-28T16:00:00.000Z,Luca Bernardi,2,2026-08-17T09:05:00.000Z,2026-08-28,FALSE
+AMS-IT-002,AMS,IT,"Airport IT integration requirements (network security, VLAN, firewall)",,2026-08-29,2026-09-24,Luca Bernardi,,Blocked,40,High,High,2,,Waiting for confirmation from Airport IT regarding integration requirements,,2026-09-26T11:00:00.000Z,PMO Admin,3,2026-08-17T09:05:00.000Z,,FALSE
+AMS-SAP-001,AMS,SAP,"Store master data set-up in SAP (plant, storage locations)",,2026-08-24,2026-09-14,Andrea Colombo,,Completed,100,Low,Medium,1,,,,2026-09-16T11:00:00.000Z,Andrea Colombo,3,2026-08-17T09:05:00.000Z,2026-09-16,FALSE
+AMS-SAP-002,AMS,SAP,"Set-up and testing of flows (sales, replenishment, returns)",,2026-09-08,2026-10-18,Andrea Colombo,,In Progress,50,Low,Medium,2,,,,2026-09-24T10:00:00.000Z,PMO Admin,4,2026-08-17T09:05:00.000Z,,FALSE
+AMS-SAP-003,AMS,SAP,Duty-free pricing conditions and tax codes in SAP,,2026-10-08,2026-11-07,Andrea Colombo,Roberto Villa,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-ERP-001,AMS,ERP,Handling company meeting to clarify customs and transport flows,,2026-09-03,2026-09-23,Andrea Colombo,Elena Conti,Completed,100,Low,Medium,1,,,,2026-09-22T10:00:00.000Z,PMO Admin,3,2026-08-17T09:05:00.000Z,2026-09-22,FALSE
+AMS-ERP-002,AMS,ERP,Bonded-stock flow configuration (airside),,2026-09-23,2026-11-02,Andrea Colombo,,In Progress,15,Low,Medium,1,AMS-ERP-001,,,2026-09-27T12:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-POS-001,AMS,POS,POS integration with airport systems (sales reporting to Schiphol),,2026-08-29,2026-11-11,Francesca Moretti,,In Progress,40,High,High,2,,,,2026-09-27T10:00:00.000Z,PMO Admin,4,2026-08-17T09:05:00.000Z,,FALSE
+AMS-POS-002,AMS,POS,Boarding-pass scanning integration,,2026-10-18,2026-12-12,Francesca Moretti,,Not Started,0,Medium,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-POS-003,AMS,POS,Payment terminals (PSP) contract for the Netherlands,,2026-08-24,2026-09-22,Francesca Moretti,,In Progress,50,Medium,Medium,1,,,,2026-09-13T14:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-ITH-001,AMS,ITH,"Hardware purchase (POS, back-office PCs, printers)",,2026-09-08,2026-10-23,Stefano Galli,,In Progress,30,Low,Medium,1,,,,2026-09-24T15:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-ITH-002,AMS,ITH,Check additional documentation required for hardware shipment,,2026-09-18,2026-10-01,Stefano Galli,Elena Conti,In Progress,20,Medium,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-CRM-001,AMS,CRM,Salesforce users for store team,Salesforce user creation and clienteling set-up waiting for Retail ticket.,2026-09-13,2026-10-08,Chiara De Luca,,On Hold,0,Medium,Medium,1,,Waiting for Retail ticket to be raised,,2026-09-13T10:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-CRM-002,AMS,CRM,Customer journey set-up (travel retail),,2026-10-03,2026-11-17,Chiara De Luca,,On Hold,0,Low,Medium,1,AMS-CRM-001,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-NET-001,AMS,NET,Internet line activation,,2026-09-03,2026-10-23,Stefano Galli,,In Progress,40,Low,Medium,1,,,,2026-09-26T15:00:00.000Z,PMO Admin,3,2026-08-17T09:05:00.000Z,,FALSE
+AMS-NET-002,AMS,NET,In-store network and Wi-Fi design,,2026-10-13,2026-12-07,Stefano Galli,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-TEL-001,AMS,TEL,Order Apple devices for store team,To be ordered once the local team structure is confirmed.,2026-09-28,2026-11-12,Stefano Galli,,On Hold,0,Low,Medium,1,AMS-HR-002,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-TEL-002,AMS,TEL,SIM activation coordinated with Store Manager,,2026-11-27,2027-01-06,Stefano Galli,Sophie van Dijk,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-FIN-001,AMS,FIN,Identify local auditors for statutory requirements,,2026-08-29,2026-09-26,Paolo Marchetti,,In Progress,50,Medium,Medium,1,,,Select statutory auditor between the two shortlisted firms,2026-09-25T11:00:00.000Z,PMO Admin,3,2026-08-17T09:05:00.000Z,,FALSE
+AMS-FIN-002,AMS,FIN,Local bank account and cash-in-transit service,,2026-08-19,2026-09-25,Paolo Marchetti,Roberto Villa,Completed,100,Low,Medium,1,,,,2026-09-23T11:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,2026-09-23,FALSE
+AMS-FIN-003,AMS,FIN,Store budget and capex approval,,2026-08-17,2026-08-31,Paolo Marchetti,,Completed,100,Low,Medium,2,,,,2026-08-30T15:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,2026-08-30,FALSE
+AMS-LOG-001,AMS,LOG,Handling company discussion on customs and merchandise flow,,2026-09-03,2026-10-06,Elena Conti,,In Progress,60,Medium,Medium,1,,,,2026-09-22T15:00:00.000Z,PMO Admin,3,2026-08-17T09:05:00.000Z,,FALSE
+AMS-LOG-002,AMS,LOG,Customs warehouse (bonded) authorization,,2026-09-18,2026-11-07,Elena Conti,,In Progress,25,High,High,2,,,,2026-09-19T16:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-LOG-003,AMS,LOG,First merchandise shipment planning,,2026-11-27,2027-01-26,Elena Conti,Matteo Greco,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-CMP-001,AMS,CMP,Meeting with airport representatives on compliance and labelling,,2026-09-08,2026-09-25,Davide Fontana,,Not Started,0,Medium,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-CMP-002,AMS,CMP,Product labelling requirements check (NL/EN),,2026-10-08,2026-11-17,Davide Fontana,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-HR-001,AMS,HR,Define store organization chart,,2026-08-17,2026-09-08,Nicoletta Bisaro,,Completed,100,Low,Medium,1,,,,2026-09-07T09:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,2026-09-07,FALSE
+AMS-HR-002,AMS,HR,Recruiting store team (Store Manager + 8 Sales Associates),Recruiting activities ongoing via local agency.,2026-08-24,2026-09-30,Nicoletta Bisaro,,In Progress,70,Medium,High,2,,,,2026-09-26T09:00:00.000Z,Nicoletta Bisaro,3,2026-08-17T09:05:00.000Z,,FALSE
+AMS-HR-003,AMS,HR,Airport access passes for store staff,Access passes may require significant lead time (background screening 6–8 weeks).,2026-09-23,2026-11-07,Nicoletta Bisaro,,Not Started,0,High,High,2,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-HR-004,AMS,HR,Job offers to selected candidates,Job offers are impacted by the concession contract signature.,2026-09-18,2026-10-10,Nicoletta Bisaro,,On Hold,0,High,Medium,1,AMS-CON-001,,Authorize job offers before concession contract signature?,2026-09-18T11:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-HR-005,AMS,HR,Country blacklist verification for candidates,,2026-09-16,2026-10-04,Nicoletta Bisaro,Marco Ferri,In Progress,20,Medium,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-HR-006,AMS,HR,Training plan and onboarding at Milan HQ,,2026-11-27,2027-01-16,Nicoletta Bisaro,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-SP-001,AMS,SP,Store design final approval,,2026-07-30,2026-09-03,Alessandro Riva,,Completed,100,Low,Medium,1,,,,2026-09-02T11:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,2026-09-02,FALSE
+AMS-SP-002,AMS,SP,Construction permit submission to Schiphol,,2026-09-08,2026-10-02,Alessandro Riva,,In Progress,70,High,High,2,AMS-CON-001,,,2026-09-17T10:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-SP-003,AMS,SP,Construction start on site,,2026-10-19,2027-01-06,Alessandro Riva,,Not Started,0,Medium,High,3,AMS-SP-002,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-SP-004,AMS,SP,Contractor access pass process,,2026-09-13,2026-10-12,Alessandro Riva,Valentina Costa,In Progress,30,High,Medium,1,,Contractor badge applications rejected: missing certificates of conduct (VOG),,2026-09-27T16:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-SP-005,AMS,SP,Furniture production and delivery,,2026-10-28,2027-02-05,Alessandro Riva,,Not Started,0,Medium,Medium,2,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-IM-001,AMS,IM,"Indirect materials orders (packaging, shopping bags, consumables)",Orders waiting for customer code.,2026-09-08,2026-10-10,Sara Lombardi,,Blocked,20,Low,Medium,1,,Orders waiting for customer code from Finance,,2026-09-14T15:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-IM-002,AMS,IM,Store consumables list,,2026-08-29,2026-09-19,Sara Lombardi,,Completed,100,Low,Medium,1,,,,2026-09-19T10:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,2026-09-19,FALSE
+AMS-AR-001,AMS,AR,Travel products and assortment coordination,,2026-09-08,2026-10-28,Matteo Greco,Martina Ricci,In Progress,40,Medium,Medium,1,,,,2026-09-25T16:00:00.000Z,PMO Admin,3,2026-08-17T09:05:00.000Z,,FALSE
+AMS-AR-002,AMS,AR,Opening allocation plan,,2026-11-07,2027-01-16,Matteo Greco,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-GS-001,AMS,GS,Cleaning and maintenance supplier discussions,,2026-09-13,2026-10-18,Sara Lombardi,,In Progress,40,Low,Medium,1,,,,2026-09-23T14:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-GS-002,AMS,GS,Security and alarm service,,2026-10-18,2026-12-17,Valentina Costa,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-RET-001,AMS,RET,Travel concept definition,,2026-08-19,2026-10-13,Martina Ricci,,In Progress,60,Medium,High,1,,,,2026-09-19T14:00:00.000Z,PMO Admin,3,2026-08-17T09:05:00.000Z,,FALSE
+AMS-RET-002,AMS,RET,Store Manager onboarding and opening plan,,2026-10-28,2027-02-05,Federico Mancini,,Not Started,0,Low,Medium,1,,,,2026-08-17T09:05:00.000Z,PMO Admin,1,2026-08-17T09:05:00.000Z,,FALSE
+AMS-RET-003,AMS,RET,Opening event and PR activation,,2026-11-27,2027-02-25,Martina Ricci,,N/A,0,Low,Medium,1,,,,2026-09-08T16:00:00.000Z,PMO Admin,2,2026-08-17T09:05:00.000Z,,FALSE
+AMS-CMP-003,AMS,CMP,Cosmetics and allergen labelling for travel products,,2026-09-28,2026-11-12,Davide Fontana,Matteo Greco,Not Started,0,Medium,Medium,1,,,,2026-09-25T10:15:00.000Z,PMO Admin,1,2026-09-25T10:15:00.000Z,,FALSE
+AMS-IT-003,AMS,IT,Cybersecurity assessment for airport network connection,,2026-09-28,2026-10-28,Luca Bernardi,,Not Started,0,Medium,Medium,1,,,,2026-09-26T10:15:00.000Z,PMO Admin,1,2026-09-26T10:15:00.000Z,,FALSE

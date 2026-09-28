@@ -1,0 +1,20 @@
+Area_ID,Area_Name,Group,Order,Active
+CORP,Corporate / Legal,,10,TRUE
+CON,Contract,,20,TRUE
+IT,IT,IT,30,TRUE
+SAP,SAP,IT,40,TRUE
+ERP,ERP,IT,50,TRUE
+POS,POS,IT,60,TRUE
+ITH,IT Hardware,IT,70,TRUE
+CRM,CRM,IT,80,TRUE
+NET,Connectivity,IT,90,TRUE
+TEL,Telephony,IT,100,TRUE
+FIN,Finance & Administration,,110,TRUE
+LOG,Logistics & Customs,,120,TRUE
+CMP,Compliance & Labelling,,130,TRUE
+HR,HR,,140,TRUE
+SP,Store Planning,,150,TRUE
+IM,Indirect Materials,,160,TRUE
+AR,Allocation & Replenishment,,170,TRUE
+GS,General Services,,180,TRUE
+RET,Retail,,190,TRUE

@@ -1,0 +1,20 @@
+Store_ID,Store_Name,Country,City,Store_Type,Opening_Date,Opening_Date_Status,Program_Type,Overall_Status,Overall_Progress,Risk_Level,Project_Manager,Last_Update,Version
+CZC,Czech Republic,Czech Republic,Prague,Company Opening,2026-11-02,Confirmed,New Company,In Progress,92,Low,Giorgio Sala,2026-09-25T13:21:30.000Z,1
+HUC,Hungary,Hungary,Budapest,Company Opening,2026-12-01,Confirmed,New Company,In Progress,72,Medium,Giorgio Sala,2026-09-28T13:35:00.000Z,1
+KSC,Saudi Arabia,Saudi Arabia,Riyadh,Company Opening,2027-01-15,Tentative,New Company,In Progress,37,High,Laura Bianchi,2026-09-27T17:24:00.000Z,1
+ARC,Argentina,Argentina,Buenos Aires,Company Opening,2027-03-01,Tentative,New Company,In Progress,12,Medium,Giorgio Sala,2026-09-27T09:17:00.000Z,1
+SBC,Saint Barth,Saint Barthélemy,Gustavia,Company Opening,2027-05-15,TBD,New Company,In Progress,0,Low,Laura Bianchi,2026-09-25T17:15:00.000Z,1
+IST,Istanbul Airport,Turkey,Istanbul,Airport Store,2026-11-20,Confirmed,New Store,In Progress,58,Medium,Federico Mancini,2026-09-27T12:16:00.000Z,1
+BOG,Colombia,Colombia,Bogotá,Standard Store,2026-12-10,Confirmed,New Store,In Progress,41,Low,Giorgio Sala,2026-09-28T14:53:00.000Z,1
+BUC,Romania,Romania,Bucharest,Standard Store,2027-01-28,Confirmed,New Store,In Progress,22,Low,Federico Mancini,2026-09-25T17:10:00.000Z,1
+LIM,Peru,Peru,Lima,Standard Store,2027-02-20,Tentative,New Store,In Progress,19,Medium,Giorgio Sala,2026-09-27T11:00:00.000Z,1
+AMS,Amsterdam Airport,Netherlands,Amsterdam Schiphol,Airport Store,2027-03-05,Confirmed,New Store,In Progress,37,High,Laura Bianchi,2026-09-28T08:40:01.000Z,2
+RUH,Saudi Arabia,Saudi Arabia,Riyadh,Standard Store,2027-03-25,Tentative,New Store,In Progress,8,High,Laura Bianchi,2026-09-27T15:00:00.000Z,1
+SIN,Singapore Airport,Singapore,Singapore Changi,Airport Store,2027-04-15,Tentative,New Store,In Progress,3,Medium,Federico Mancini,2026-09-21T12:40:30.000Z,1
+PRG,Czech Republic,Czech Republic,Prague,Standard Store,2027-04-30,Confirmed,New Store,In Progress,3,Low,Giorgio Sala,2026-09-22T11:25:00.000Z,1
+BUD,Hungary,Hungary,Budapest,Standard Store,2027-05-20,Tentative,New Store,In Progress,1,Low,Giorgio Sala,2026-09-24T12:02:00.000Z,1
+MAD,Madrid Airport,Spain,Madrid Barajas,Airport Store,2027-06-15,Tentative,New Store,In Progress,0,Low,Federico Mancini,2026-09-08T09:48:00.000Z,1
+SBH,Saint Barth,Saint Barthélemy,Gustavia,Standard Store,2027-07-01,TBD,New Store,In Progress,0,Medium,Laura Bianchi,2026-09-08T09:14:00.000Z,1
+BUE,Argentina,Argentina,Buenos Aires,Standard Store,2027-09-10,TBD,New Store,In Progress,0,Low,Giorgio Sala,2026-09-06T09:22:00.000Z,1
+DXB,Dubai Airport,United Arab Emirates,Dubai,Airport Store,2027-10-15,TBD,New Store,In Progress,0,Low,Federico Mancini,2026-09-08T09:11:00.000Z,1
+MVD,Uruguay,Uruguay,Montevideo,Standard Store,2027-12-01,TBD,New Store,In Progress,0,Low,Giorgio Sala,2026-09-07T09:14:00.000Z,1

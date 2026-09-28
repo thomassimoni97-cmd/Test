@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --sidebar-w: 232px;
+}
+
+html {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+/* Presentation mode: everything scales slightly (rem based) and chrome is reduced */
+html.presentation { font-size: 15.5px; }
+@media (min-width: 1800px) {
+  html { font-size: 15px; }
+  html.presentation { font-size: 17px; }
+}
+
+body {
+  @apply bg-ivory text-ink font-sans;
+  font-feature-settings: 'cv11', 'ss01';
+}
+
+.tnum { font-variant-numeric: tabular-nums; }
+.eyebrow { @apply text-2xs font-semibold uppercase tracking-[0.14em] text-ink-3; }
+.hairline { @apply border-line; }
+
+/* scrollbars: quiet */
+* { scrollbar-width: thin; scrollbar-color: #D8D1C4 transparent; }
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-thumb { background: #D8D1C4; border-radius: 10px; border: 3px solid transparent; background-clip: content-box; }
+
+:focus-visible { outline: 2px solid #B08D57; outline-offset: 1px; }
+
+/* date input icon tint */
+input[type='date']::-webkit-calendar-picker-indicator { opacity: 0.45; cursor: pointer; }
+
+/* Hatched background for TBD / tentative bars */
+.hatch {
+  background-image: repeating-linear-gradient(135deg, rgba(176, 141, 87, 0.35) 0 4px, transparent 4px 8px);
+}
+
+@media print {
+  html { font-size: 11px; }
+  body { background: #fff; }
+  .no-print { display: none !important; }
+  .print-full { width: 100% !important; max-width: none !important; margin: 0 !important; overflow: visible !important; height: auto !important; }
+  .print-break { break-before: page; }
+  @page { size: A4 landscape; margin: 12mm; }
+}
+
+.print-only { display: none; }
+@media print {
+  .print-only { display: block !important; }
+}

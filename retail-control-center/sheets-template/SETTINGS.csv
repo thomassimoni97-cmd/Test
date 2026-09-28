@@ -1,0 +1,12 @@
+Setting_Key,Setting_Value,Description
+Program_Name,Retail Opening Program,Program name shown in the top bar
+Program_Year,2026–2027,Current program / year label
+Progress_Method,simple,simple | weighted (uses Task_Weight)
+Due_Soon_Days,14,"Days ahead considered ""due soon"""
+Statuses,"Not Started:grey, In Progress:blue, On Hold:amber, Blocked:red, Completed:green, N/A:neutral",Comma separated Name:tone[:inactive]. Core statuses cannot be removed.
+Risk_Guidance_Low,On track. No blocker affecting the opening date.,Guidance text for Low risk
+Risk_Guidance_Medium,Attention needed. Delays or open decisions that can still be absorbed.,Guidance text for Medium risk
+Risk_Guidance_High,Opening date or scope at risk. Escalation or decision required.,Guidance text for High risk
+Next_Steps_Horizon_Days,21,Minutes: open actions due within N days are listed as next steps
+Refresh_Interval_Seconds,60,Automatic refresh interval of the web app
+Minutes_Template,standard,Meeting minutes template id

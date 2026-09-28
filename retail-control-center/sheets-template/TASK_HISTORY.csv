@@ -1,0 +1,641 @@
+History_ID,Task_ID,Store_ID,Timestamp,Field_Changed,Previous_Value,New_Value,Note,Updated_By
+H-MS7A94000S7HE,HUC-LOG-001,HUC,2026-07-30T09:00:00.000Z,Created,,Import license and customs registration,,PMO Admin
+H-MS7ABOLC2WSET,BOG-CORP-001,BOG,2026-07-30T09:02:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MS7ABOLC2X4HD,BOG-CON-001,BOG,2026-07-30T09:02:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MS7ACYW02776Y,IST-SAP-001,IST,2026-07-30T09:03:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MS7AE96O2N78B,IST-SP-001,IST,2026-07-30T09:04:00.000Z,Created,,Store design approval,,PMO Admin
+H-MS7AFJHC0K5II,HUC-FIN-002,HUC,2026-07-30T09:05:00.000Z,Created,,Local auditor and accountant appointment,,PMO Admin
+H-MS7AJEDC0BQQK,CZC-HR-002,CZC,2026-07-30T09:08:00.000Z,Created,,Country Manager recruiting,,PMO Admin
+H-MS7AJEDC0HD5S,HUC-CON-001,HUC,2026-07-30T09:08:00.000Z,Created,,Registered office agreement,,PMO Admin
+H-MS7AKOO02LEXW,IST-HR-001,IST,2026-07-30T09:09:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MS7AKOO0494TI,LIM-CORP-001,LIM,2026-07-30T09:09:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MS7AOJK029PTJ,IST-ERP-001,IST,2026-07-30T09:12:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MS7APTUO0237L,CZC-CORP-002,CZC,2026-07-30T09:13:00.000Z,Created,,Appointment of local directors and authorized signatories,,PMO Admin
+H-MS7APTUO0R5CE,HUC-HR-002,HUC,2026-07-30T09:13:00.000Z,Created,,Country Manager recruiting,,PMO Admin
+H-MS7APTUO3HWT3,BOG-SP-002,BOG,2026-07-30T09:13:00.000Z,Created,,Construction works,,PMO Admin
+H-MS7ASEG007VZB,CZC-SAP-001,CZC,2026-07-30T09:15:00.000Z,Created,,Company code set-up in SAP,,PMO Admin
+H-MS7ASEG00WXG1,KSC-CORP-001,KSC,2026-07-30T09:15:00.000Z,Created,,Company incorporation and articles of association,,PMO Admin
+H-MS7ATOQO2F80I,IST-NET-001,IST,2026-07-30T09:16:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MS7AUZ1C0ISW7,HUC-FIN-001,HUC,2026-07-30T09:17:00.000Z,Created,,"Tax registrations (VAT, corporate tax)",,PMO Admin
+H-MS7AXJMO01QR9,CZC-CORP-001,CZC,2026-07-30T09:19:00.000Z,Created,,Company incorporation and articles of association,,PMO Admin
+H-MS7B1EIO2O42W,IST-SP-002,IST,2026-07-30T09:22:00.000Z,Created,,Construction works,,PMO Admin
+H-MS7B1EIO2V4Q0,IST-POS-002,IST,2026-07-30T09:22:00.000Z,Created,,Airport systems integration (sales reporting),,PMO Admin
+H-MS7B1EIO39LZ4,BOG-FIN-001,BOG,2026-07-30T09:22:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MS7B2OTC2IOPC,IST-FIN-001,IST,2026-07-30T09:23:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MS7B59EO0G4K9,HUC-CORP-002,HUC,2026-07-30T09:25:00.000Z,Created,,Appointment of local directors and authorized signatories,,PMO Admin
+H-MS7B59EO2Y8KY,BOG-IT-001,BOG,2026-07-30T09:25:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MS7B6JPC26QDE,IST-IT-001,IST,2026-07-30T09:26:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MS7B7U00068C1,CZC-FIN-003,CZC,2026-07-30T09:27:00.000Z,Created,,Bank account opening,,PMO Admin
+H-MS7BAELC1DXH3,ARC-CORP-001,ARC,2026-07-30T09:29:00.000Z,Created,,Company incorporation and articles of association,,PMO Admin
+H-MS7BCZ6O0Q5NK,HUC-HR-001,HUC,2026-07-30T09:31:00.000Z,Created,,Local payroll provider and employment contracts,,PMO Admin
+H-MS7BE9HC162W0,KSC-HR-002,KSC,2026-07-30T09:32:00.000Z,Created,,Country Manager recruiting,,PMO Admin
+H-MS7BI4DC0F1BZ,HUC-CORP-001,HUC,2026-07-30T09:35:00.000Z,Created,,Company incorporation and articles of association,,PMO Admin
+H-MS7BI4DC0XGOX,KSC-CORP-002,KSC,2026-07-30T09:35:00.000Z,Created,,Appointment of local directors and authorized signatories,,PMO Admin
+H-MS7BI4DC43PTK,BUC-SP-001,BUC,2026-07-30T09:35:00.000Z,Created,,Store design approval,,PMO Admin
+H-MS7BI4DC5F0TB,RUH-SP-001,RUH,2026-07-30T09:35:00.000Z,Created,,Store design approval,,PMO Admin
+H-MS7BJEO03N444,BUC-CON-001,BUC,2026-07-30T09:36:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MS7BLZ9C04D8N,CZC-FIN-001,CZC,2026-07-30T09:38:00.000Z,Created,,"Tax registrations (VAT, corporate tax)",,PMO Admin
+H-MS7BLZ9C05KFZ,CZC-FIN-002,CZC,2026-07-30T09:38:00.000Z,Created,,Local auditor and accountant appointment,,PMO Admin
+H-MS7BN9K00CBTH,CZC-LOG-001,CZC,2026-07-30T09:39:00.000Z,Created,,Import license and customs registration,,PMO Admin
+H-MS7BPU5C0TUUO,HUC-CMP-001,HUC,2026-07-30T09:41:00.000Z,Created,,Local compliance and labelling requirements,,PMO Admin
+H-MS7BSEQO03UHN,CZC-CON-001,CZC,2026-07-30T09:43:00.000Z,Created,,Registered office agreement,,PMO Admin
+H-MS7BSEQO0AYSH,CZC-HR-001,CZC,2026-07-30T09:43:00.000Z,Created,,Local payroll provider and employment contracts,,PMO Admin
+H-MS7BSEQO3OMUE,BUC-IT-001,BUC,2026-07-30T09:43:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MS7BTP1C247SI,IST-CORP-001,IST,2026-07-30T09:44:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MS7BTP1C25DBW,IST-CON-001,IST,2026-07-30T09:44:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MS7BUZC03CQSX,BOG-HR-001,BOG,2026-07-30T09:45:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MS7BUZC04AIPZ,LIM-CON-001,LIM,2026-07-30T09:45:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MS7BUZC04RE9C,LIM-SP-001,LIM,2026-07-30T09:45:00.000Z,Created,,Store design approval,,PMO Admin
+H-MS7BW9MO3FMC4,BOG-SP-001,BOG,2026-07-30T09:46:00.000Z,Created,,Store design approval,,PMO Admin
+H-MS7BW9MO3MHWU,BUC-CORP-001,BUC,2026-07-30T09:46:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MS7BYU800D967,CZC-CMP-001,CZC,2026-07-30T09:48:00.000Z,Created,,Local compliance and labelling requirements,,PMO Admin
+H-MS8R5OTC0MZZV,HUC-FIN-003,HUC,2026-07-31T09:41:00.000Z,Created,,Bank account opening,,PMO Admin
+H-MSBLE8TC08PKL,CZC-ERP-001,CZC,2026-08-02T09:23:00.000Z,Created,,Intercompany flows configuration,,PMO Admin
+H-IST-CON-001-STA-MSEHRYLC,IST-CON-001,IST,2026-08-04T10:05:00.000Z,Status,In Progress,Completed,,Giulia Rinaldi
+H-BOG-CON-001-STA-MSEK8P1C,BOG-CON-001,BOG,2026-08-04T11:14:00.000Z,Status,In Progress,Completed,,Giulia Rinaldi
+H-BOG-CORP-001-STA-MSEMHPPC,BOG-CORP-001,BOG,2026-08-04T12:17:00.000Z,Status,In Progress,Completed,,Marco Ferri
+H-IST-SP-001-STA-MSENMV6O,IST-SP-001,IST,2026-08-04T12:49:00.000Z,Status,In Progress,Completed,,Alessandro Riva
+H-HUC-CORP-002-STA-MSEPDVPC,HUC-CORP-002,HUC,2026-08-04T13:38:00.000Z,Status,In Progress,Completed,,Marco Ferri
+H-IST-CORP-001-STA-MSETA200,IST-CORP-001,IST,2026-08-04T15:27:00.000Z,Status,In Progress,Completed,,Marco Ferri
+H-CZC-FIN-001-STA-MSETBCAO,CZC-FIN-001,CZC,2026-08-04T15:28:00.000Z,Status,In Progress,Completed,,Paolo Marchetti
+H-IST-IT-001-STA-MSETPHK0,IST-IT-001,IST,2026-08-04T15:39:00.000Z,Status,In Progress,Completed,,Luca Bernardi
+H-CZC-CORP-001-STA-MSETS25C,CZC-CORP-001,CZC,2026-08-04T15:41:00.000Z,Status,In Progress,Completed,,Marco Ferri
+H-BUC-SP-001-STA-MSETTCG0,BUC-SP-001,BUC,2026-08-04T15:42:00.000Z,Status,In Progress,Completed,,Alessandro Riva
+H-HUC-CORP-001-STA-MSEUMX9C,HUC-CORP-001,HUC,2026-08-04T16:05:00.000Z,Status,In Progress,Completed,,Marco Ferri
+H-BOG-IT-001-STA-MSEWF82O,BOG-IT-001,BOG,2026-08-04T16:55:00.000Z,Status,In Progress,Completed,,Luca Bernardi
+H-MSFVR3402ZF98,BOG-SAP-001,BOG,2026-08-05T09:24:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MSHAFXK03652V,BOG-NET-001,BOG,2026-08-06T09:03:00.000Z,Created,,Internet line activation,,PMO Admin
+H-CZC-HR-002-STA-MSHHZA2O,CZC-HR-002,CZC,2026-08-06T12:34:00.000Z,Status,In Progress,Completed,,Nicoletta Bisaro
+H-BUC-IT-001-STA-MSLTEP9C,BUC-IT-001,BUC,2026-08-09T13:05:00.000Z,Status,In Progress,Completed,,Luca Bernardi
+H-MSN0VRUO4ZQYT,RUH-CON-001,RUH,2026-08-10T09:22:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-CZC-CON-001-STA-MSN43IIO,CZC-CON-001,CZC,2026-08-10T10:52:00.000Z,Status,In Progress,Completed,,Giulia Rinaldi
+H-MSOH025C327N8,BOG-ERP-001,BOG,2026-08-11T09:41:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MSOH7RXC2CER1,IST-ITH-001,IST,2026-08-11T09:47:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MSPWOWW018D8C,KSC-LOG-001,KSC,2026-08-12T09:48:00.000Z,Created,,Import license and customs registration,,PMO Admin
+H-MSSQR1EO2TB43,IST-HR-003,IST,2026-08-14T09:25:00.000Z,Created,,Airport access passes for store staff,,PMO Admin
+H-MSU5ELK07B7OY,BUD-HR-002,BUD,2026-08-15T09:03:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MSU5RGIO8NDFR,SBH-SP-001,SBH,2026-08-15T09:13:00.000Z,Created,,Store design approval,,PMO Admin
+H-MSU5SQTC93QSV,BUE-TEL-001,BUE,2026-08-15T09:14:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MSU5WLPC0Z98W,KSC-FIN-001,KSC,2026-08-15T09:17:00.000Z,Created,,"Tax registrations (VAT, corporate tax)",,PMO Admin
+H-MSU5WLPC3AQFG,BOG-LOG-001,BOG,2026-08-15T09:17:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MSU5Z6AO9CSXT,BUE-AR-001,BUE,2026-08-15T09:19:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MSU61QW04TF4X,LIM-IM-001,LIM,2026-08-15T09:21:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MSU6AQYO289VH,IST-SAP-002,IST,2026-08-15T09:28:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MSU6DBK09PE9Y,DXB-TEL-001,DXB,2026-08-15T09:30:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MSU6FW5C4JJB8,LIM-TEL-001,LIM,2026-08-15T09:32:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MSU6H6G05YX9B,SIN-CMP-001,SIN,2026-08-15T09:33:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MSU6H6G09TEO1,DXB-HR-001,DXB,2026-08-15T09:33:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MSU6L1C069I1C,PRG-CORP-001,PRG,2026-08-15T09:36:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MSU6SR406BPAC,PRG-IT-001,PRG,2026-08-15T09:42:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MSU6XWAO5N61F,SIN-IT-001,SIN,2026-08-15T09:46:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MSVKUG80A2R9R,DXB-POS-002,DXB,2026-08-16T09:03:00.000Z,Created,,Airport systems integration (sales reporting),,PMO Admin
+H-MSVKZLEO1MAOY,ARC-HR-002,ARC,2026-08-16T09:07:00.000Z,Created,,Country Manager recruiting,,PMO Admin
+H-MSVL3GAO1R5G2,SBC-CORP-001,SBC,2026-08-16T09:10:00.000Z,Created,,Company incorporation and articles of association,,PMO Admin
+H-MSVL60W00O0X2,HUC-ERP-001,HUC,2026-08-16T09:12:00.000Z,Created,,Intercompany flows configuration,,PMO Admin
+H-MSVL8LHC8DQ5A,SBH-POS-001,SBH,2026-08-16T09:14:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MSVLO11C663YM,SIN-RET-001,SIN,2026-08-16T09:26:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MSVLPBC061FJ6,SIN-SP-001,SIN,2026-08-16T09:27:00.000Z,Created,,Store design approval,,PMO Admin
+H-MSVLPBC06DWZG,PRG-SAP-002,PRG,2026-08-16T09:27:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MSVLVQTC4SOH2,LIM-SP-002,LIM,2026-08-16T09:32:00.000Z,Created,,Construction works,,PMO Admin
+H-MSVLX14055C73,RUH-POS-001,RUH,2026-08-16T09:33:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MSVLYBEO8MVQ6,SBH-HR-002,SBH,2026-08-16T09:34:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MSVLZLPC6P5EK,PRG-SP-001,PRG,2026-08-16T09:35:00.000Z,Created,,Store design approval,,PMO Admin
+H-MSVMB6DC1KGY3,ARC-ERP-001,ARC,2026-08-16T09:44:00.000Z,Created,,Intercompany flows configuration,,PMO Admin
+H-CZC-FIN-003-STA-MSVSQNPC,CZC-FIN-003,CZC,2026-08-16T12:44:00.000Z,Status,In Progress,Completed,,Paolo Marchetti
+H-KSC-CORP-001-STA-MSVTQO00,KSC-CORP-001,KSC,2026-08-16T13:12:00.000Z,Status,In Progress,Completed,,Marco Ferri
+H-MSX0CVHCAPY1P,AMS-CORP-001,AMS,2026-08-17T09:05:00.000Z,Created,,Change of local company representative / authorized signatory,,PMO Admin
+H-MSX0CVHCAQ7UV,AMS-CORP-002,AMS,2026-08-17T09:05:00.000Z,Created,,Power of attorney for Store Manager (local operations),,PMO Admin
+H-MSX0CVHCAR9LO,AMS-CORP-003,AMS,2026-08-17T09:05:00.000Z,Created,,Local VAT and EORI registration check,,PMO Admin
+H-MSX0CVHCASOCQ,AMS-CON-001,AMS,2026-08-17T09:05:00.000Z,Created,,Concession contract review and signature – Schiphol,,PMO Admin
+H-MSX0CVHCAT8UC,AMS-CON-002,AMS,2026-08-17T09:05:00.000Z,Created,,Assess impact of contract signature on recruiting and construction permit,,PMO Admin
+H-MSX0CVHCAUL1L,AMS-CON-003,AMS,2026-08-17T09:05:00.000Z,Created,,Landlord fit-out guidelines sign-off,,PMO Admin
+H-MSX0CVHCAVRRK,AMS-IT-001,AMS,2026-08-17T09:05:00.000Z,Created,,IT project kick-off with Schiphol IT,,PMO Admin
+H-MSX0CVHCAWQ97,AMS-IT-002,AMS,2026-08-17T09:05:00.000Z,Created,,"Airport IT integration requirements (network security, VLAN, firewall)",,PMO Admin
+H-MSX0CVHCAX0AG,AMS-SAP-001,AMS,2026-08-17T09:05:00.000Z,Created,,"Store master data set-up in SAP (plant, storage locations)",,PMO Admin
+H-MSX0CVHCAY0DG,AMS-SAP-002,AMS,2026-08-17T09:05:00.000Z,Created,,"Set-up and testing of flows (sales, replenishment, returns)",,PMO Admin
+H-MSX0CVHCAZRBF,AMS-SAP-003,AMS,2026-08-17T09:05:00.000Z,Created,,Duty-free pricing conditions and tax codes in SAP,,PMO Admin
+H-MSX0CVHCB00OQ,AMS-ERP-001,AMS,2026-08-17T09:05:00.000Z,Created,,Handling company meeting to clarify customs and transport flows,,PMO Admin
+H-MSX0CVHCB1G4O,AMS-ERP-002,AMS,2026-08-17T09:05:00.000Z,Created,,Bonded-stock flow configuration (airside),,PMO Admin
+H-MSX0CVHCB2J6C,AMS-POS-001,AMS,2026-08-17T09:05:00.000Z,Created,,POS integration with airport systems (sales reporting to Schiphol),,PMO Admin
+H-MSX0CVHCB36RP,AMS-POS-002,AMS,2026-08-17T09:05:00.000Z,Created,,Boarding-pass scanning integration,,PMO Admin
+H-MSX0CVHCB4352,AMS-POS-003,AMS,2026-08-17T09:05:00.000Z,Created,,Payment terminals (PSP) contract for the Netherlands,,PMO Admin
+H-MSX0CVHCB5TRF,AMS-ITH-001,AMS,2026-08-17T09:05:00.000Z,Created,,"Hardware purchase (POS, back-office PCs, printers)",,PMO Admin
+H-MSX0CVHCB6TOK,AMS-ITH-002,AMS,2026-08-17T09:05:00.000Z,Created,,Check additional documentation required for hardware shipment,,PMO Admin
+H-MSX0CVHCB7TN2,AMS-CRM-001,AMS,2026-08-17T09:05:00.000Z,Created,,Salesforce users for store team,,PMO Admin
+H-MSX0CVHCB88Q7,AMS-CRM-002,AMS,2026-08-17T09:05:00.000Z,Created,,Customer journey set-up (travel retail),,PMO Admin
+H-MSX0CVHCB9J9Z,AMS-NET-001,AMS,2026-08-17T09:05:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MSX0CVHCBARIL,AMS-NET-002,AMS,2026-08-17T09:05:00.000Z,Created,,In-store network and Wi-Fi design,,PMO Admin
+H-MSX0CVHCBBCUA,AMS-TEL-001,AMS,2026-08-17T09:05:00.000Z,Created,,Order Apple devices for store team,,PMO Admin
+H-MSX0CVHCBC9ME,AMS-TEL-002,AMS,2026-08-17T09:05:00.000Z,Created,,SIM activation coordinated with Store Manager,,PMO Admin
+H-MSX0CVHCBDU06,AMS-FIN-001,AMS,2026-08-17T09:05:00.000Z,Created,,Identify local auditors for statutory requirements,,PMO Admin
+H-MSX0CVHCBEWEC,AMS-FIN-002,AMS,2026-08-17T09:05:00.000Z,Created,,Local bank account and cash-in-transit service,,PMO Admin
+H-MSX0CVHCBF9KX,AMS-FIN-003,AMS,2026-08-17T09:05:00.000Z,Created,,Store budget and capex approval,,PMO Admin
+H-MSX0CVHCBG1IM,AMS-LOG-001,AMS,2026-08-17T09:05:00.000Z,Created,,Handling company discussion on customs and merchandise flow,,PMO Admin
+H-MSX0CVHCBHG51,AMS-LOG-002,AMS,2026-08-17T09:05:00.000Z,Created,,Customs warehouse (bonded) authorization,,PMO Admin
+H-MSX0CVHCBI9J4,AMS-LOG-003,AMS,2026-08-17T09:05:00.000Z,Created,,First merchandise shipment planning,,PMO Admin
+H-MSX0CVHCBJ59A,AMS-CMP-001,AMS,2026-08-17T09:05:00.000Z,Created,,Meeting with airport representatives on compliance and labelling,,PMO Admin
+H-MSX0CVHCBKHM5,AMS-CMP-002,AMS,2026-08-17T09:05:00.000Z,Created,,Product labelling requirements check (NL/EN),,PMO Admin
+H-MSX0CVHCBLND1,AMS-HR-001,AMS,2026-08-17T09:05:00.000Z,Created,,Define store organization chart,,PMO Admin
+H-MSX0CVHCBM8D4,AMS-HR-002,AMS,2026-08-17T09:05:00.000Z,Created,,Recruiting store team (Store Manager + 8 Sales Associates),,PMO Admin
+H-MSX0CVHCBN9ZA,AMS-HR-003,AMS,2026-08-17T09:05:00.000Z,Created,,Airport access passes for store staff,,PMO Admin
+H-MSX0CVHCBOIKT,AMS-HR-004,AMS,2026-08-17T09:05:00.000Z,Created,,Job offers to selected candidates,,PMO Admin
+H-MSX0CVHCBPSJ8,AMS-HR-005,AMS,2026-08-17T09:05:00.000Z,Created,,Country blacklist verification for candidates,,PMO Admin
+H-MSX0CVHCBQS7E,AMS-HR-006,AMS,2026-08-17T09:05:00.000Z,Created,,Training plan and onboarding at Milan HQ,,PMO Admin
+H-MSX0CVHCBR7K5,AMS-SP-001,AMS,2026-08-17T09:05:00.000Z,Created,,Store design final approval,,PMO Admin
+H-MSX0CVHCBSLRJ,AMS-SP-002,AMS,2026-08-17T09:05:00.000Z,Created,,Construction permit submission to Schiphol,,PMO Admin
+H-MSX0CVHCBTR3P,AMS-SP-003,AMS,2026-08-17T09:05:00.000Z,Created,,Construction start on site,,PMO Admin
+H-MSX0CVHCBUQE2,AMS-SP-004,AMS,2026-08-17T09:05:00.000Z,Created,,Contractor access pass process,,PMO Admin
+H-MSX0CVHCBVIKB,AMS-SP-005,AMS,2026-08-17T09:05:00.000Z,Created,,Furniture production and delivery,,PMO Admin
+H-MSX0CVHCBW9G4,AMS-IM-001,AMS,2026-08-17T09:05:00.000Z,Created,,"Indirect materials orders (packaging, shopping bags, consumables)",,PMO Admin
+H-MSX0CVHCBX532,AMS-IM-002,AMS,2026-08-17T09:05:00.000Z,Created,,Store consumables list,,PMO Admin
+H-MSX0CVHCBY9MK,AMS-AR-001,AMS,2026-08-17T09:05:00.000Z,Created,,Travel products and assortment coordination,,PMO Admin
+H-MSX0CVHCBZNXL,AMS-AR-002,AMS,2026-08-17T09:05:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MSX0CVHCC0YBY,AMS-GS-001,AMS,2026-08-17T09:05:00.000Z,Created,,Cleaning and maintenance supplier discussions,,PMO Admin
+H-MSX0CVHCC1CEO,AMS-GS-002,AMS,2026-08-17T09:05:00.000Z,Created,,Security and alarm service,,PMO Admin
+H-MSX0CVHCC2CCS,AMS-RET-001,AMS,2026-08-17T09:05:00.000Z,Created,,Travel concept definition,,PMO Admin
+H-MSX0CVHCC3VD1,AMS-RET-002,AMS,2026-08-17T09:05:00.000Z,Created,,Store Manager onboarding and opening plan,,PMO Admin
+H-MSX0CVHCC48DF,AMS-RET-003,AMS,2026-08-17T09:05:00.000Z,Created,,Opening event and PR activation,,PMO Admin
+H-MSX0N5UO41ODM,BUC-HR-001,BUC,2026-08-17T09:13:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MSX0N5UO6NNGL,PRG-HR-001,PRG,2026-08-17T09:13:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MSX11B40440Y5,BUC-SP-002,BUC,2026-08-17T09:24:00.000Z,Created,,Construction works,,PMO Admin
+H-MSX13VPC4B9JK,LIM-IT-001,LIM,2026-08-17T09:26:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MSX16GAO2K3XT,IST-CMP-001,IST,2026-08-17T09:28:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MSX17QLC6MKO5,PRG-CMP-001,PRG,2026-08-17T09:29:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MSX1LVUO14D4C,KSC-ERP-001,KSC,2026-08-17T09:40:00.000Z,Created,,Intercompany flows configuration,,PMO Admin
+H-MSX1R11C52NZA,RUH-SAP-001,RUH,2026-08-17T09:44:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MSX1TLMO0NT2F,HUC-SAP-001,HUC,2026-08-17T09:46:00.000Z,Created,,Company code set-up in SAP,,PMO Admin
+H-MSX1TLMO64WPY,SIN-AR-001,SIN,2026-08-17T09:46:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MSX1UVXC3UC9Z,BUC-ITH-001,BUC,2026-08-17T09:47:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MSYFMAO08CJUG,SBH-ERP-001,SBH,2026-08-18T09:00:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MSYFNKYO5DU23,RUH-HR-001,RUH,2026-08-18T09:01:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MSYFU0G06FVJG,PRG-POS-001,PRG,2026-08-18T09:06:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MSYFVAQO4KFXW,LIM-FIN-001,LIM,2026-08-18T09:07:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MSYFXVC084WUF,MAD-RET-001,MAD,2026-08-18T09:09:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MSYG1Q80A7UFP,MVD-SAP-002,MVD,2026-08-18T09:12:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MSYG30IO3YIJK,BUC-FIN-001,BUC,2026-08-18T09:13:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MSYG4ATC1WL9T,SBC-FIN-003,SBC,2026-08-18T09:14:00.000Z,Created,,Bank account opening,,PMO Admin
+H-MSYGAQAOAACN5,MVD-ITH-001,MVD,2026-08-18T09:19:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MSYGFVHC5U83G,SIN-NET-001,SIN,2026-08-18T09:23:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MSYGL0O08TL30,BUE-CORP-001,BUE,2026-08-18T09:27:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MSYGRG5C7WM21,MAD-CMP-001,MAD,2026-08-18T09:32:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MSYGVB1C4GZIB,LIM-ITH-001,LIM,2026-08-18T09:35:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MSYGVB1C6Z04Y,BUD-SAP-001,BUD,2026-08-18T09:35:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MSYHAQLC3896O,BOG-TEL-001,BOG,2026-08-18T09:47:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MSYHC0W02063O,SBC-HR-002,SBC,2026-08-18T09:48:00.000Z,Created,,Country Manager recruiting,,PMO Admin
+H-MSYHC0W06YWH7,BUD-IT-001,BUD,2026-08-18T09:48:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MSZVB5EO5PV1G,SIN-SAP-002,SIN,2026-08-19T09:07:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MSZVB5EOALBZ1,MVD-IM-001,MVD,2026-08-19T09:07:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MSZVCFPC7KY7Z,MAD-CON-001,MAD,2026-08-19T09:08:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MSZVDQ009XIUB,DXB-IM-001,DXB,2026-08-19T09:09:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MSZVDQ00A0KDV,DXB-RET-001,DXB,2026-08-19T09:09:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MSZVMQ2O6GOT4,PRG-ITH-001,PRG,2026-08-19T09:16:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MSZVT5K09YZFU,DXB-AR-001,DXB,2026-08-19T09:21:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MSZVZL1C40V3Z,BUC-CMP-001,BUC,2026-08-19T09:26:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MSZW0VC09OZAS,DXB-NET-001,DXB,2026-08-19T09:27:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MSZW25MO87EFI,SBH-CORP-001,SBH,2026-08-19T09:28:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MSZW4Q808AYBL,SBH-SAP-001,SBH,2026-08-19T09:30:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MSZW60IO7RTF3,MAD-CRM-001,MAD,2026-08-19T09:31:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MSZW8L406HPO9,PRG-CRM-001,PRG,2026-08-19T09:33:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MSZWCG001VEWC,SBC-FIN-002,SBC,2026-08-19T09:36:00.000Z,Created,,Local auditor and accountant appointment,,PMO Admin
+H-MSZWRVK0954PB,BUE-LOG-001,BUE,2026-08-19T09:48:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MSZWT5UO5WH29,SIN-FIN-001,SIN,2026-08-19T09:49:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MSZWT5UO6KWRE,PRG-FIN-001,PRG,2026-08-19T09:49:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MT1AI0001Q8K8,ARC-IT-001,ARC,2026-08-20T09:00:00.000Z,Created,,"IT, email and network set-up for the local entity",,PMO Admin
+H-MT1AI0003SY6U,BUC-ERP-001,BUC,2026-08-20T09:00:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MT1B55C01U2Y2,SBC-FIN-001,SBC,2026-08-20T09:18:00.000Z,Created,,"Tax registrations (VAT, corporate tax)",,PMO Admin
+H-MT1B55C03V7Z1,BUC-CRM-001,BUC,2026-08-20T09:18:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MT1BPQ2O23NEB,SBC-IT-001,SBC,2026-08-20T09:34:00.000Z,Created,,"IT, email and network set-up for the local entity",,PMO Admin
+H-MT1BR0DC3R53I,BUC-SAP-002,BUC,2026-08-20T09:35:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MT1BSAO0711P9,BUD-ERP-001,BUD,2026-08-20T09:36:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MT1BXFUO1L1TB,ARC-HR-001,ARC,2026-08-20T09:40:00.000Z,Created,,Local payroll provider and employment contracts,,PMO Admin
+H-MT1C00G05XWEH,SIN-LOG-001,SIN,2026-08-20T09:42:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MT1C55MO91L5I,BUE-CRM-001,BUE,2026-08-20T09:46:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MT2Q0F9C7M35L,MAD-SAP-001,MAD,2026-08-21T09:02:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MT2Q2ZUO3IOX3,BOG-IM-001,BOG,2026-08-21T09:04:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MT2Q4A5C5CHLD,RUH-CMP-001,RUH,2026-08-21T09:05:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MT2Q9FC00VSVG,HUC-IT-001,HUC,2026-08-21T09:09:00.000Z,Created,,"IT, email and network set-up for the local entity",,PMO Admin
+H-MT2QEKIO90IR0,BUE-ITH-001,BUE,2026-08-21T09:13:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MT2QEKIO94SH7,BUE-FIN-001,BUE,2026-08-21T09:13:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MT2QH5401TJB3,SBC-CON-001,SBC,2026-08-21T09:15:00.000Z,Created,,Registered office agreement,,PMO Admin
+H-MT2QH54058KSY,RUH-NET-001,RUH,2026-08-21T09:15:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MT2QL000A4A90,MVD-CON-001,MVD,2026-08-21T09:18:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MT2QMAAO5BMZX,RUH-LOG-001,RUH,2026-08-21T09:19:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MT2QXUYO1AC5R,KSC-CMP-001,KSC,2026-08-21T09:28:00.000Z,Created,,Local compliance and labelling requirements,,PMO Admin
+H-MT2R305CA3R27,MVD-CORP-001,MVD,2026-08-21T09:32:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MT2RC0802SBC3,IST-RET-001,IST,2026-08-21T09:39:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MT2RC0804W9IA,LIM-RET-001,LIM,2026-08-21T09:39:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MT2RC0806JJCV,PRG-TEL-001,PRG,2026-08-21T09:39:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MT2RJQ003P06Q,BUC-SAP-001,BUC,2026-08-21T09:45:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MT45NZPC42WT6,BUC-HR-002,BUC,2026-08-22T09:08:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MT46DPMO4HEO7,LIM-CRM-001,LIM,2026-08-22T09:28:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MT46EZXC10MUL,KSC-FIN-002,KSC,2026-08-22T09:29:00.000Z,Created,,Local auditor and accountant appointment,,PMO Admin
+H-MT46K5405KD3F,RUH-RET-001,RUH,2026-08-22T09:33:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MT46RUW0532B3,RUH-SAP-002,RUH,2026-08-22T09:39:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MT46RUW06SJ9M,PRG-IM-001,PRG,2026-08-22T09:39:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MT46YADC4CL7U,LIM-SAP-001,LIM,2026-08-22T09:44:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MT5KW4LC75MGI,BUD-NET-001,BUD,2026-08-23T09:02:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MT5L3UDC9I7YR,DXB-SAP-001,DXB,2026-08-23T09:08:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MT5L54O05R77U,SIN-POS-001,SIN,2026-08-23T09:09:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MT5LBK5C7ZC9E,MAD-SP-001,MAD,2026-08-23T09:14:00.000Z,Created,,Store design approval,,PMO Admin
+H-MT5LCUG0AKBIW,MVD-SP-002,MVD,2026-08-23T09:15:00.000Z,Created,,Construction works,,PMO Admin
+H-MT5LN4TC7XGHD,MAD-HR-001,MAD,2026-08-23T09:23:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MT5LPPEO8OOZM,SBH-SP-002,SBH,2026-08-23T09:25:00.000Z,Created,,Construction works,,PMO Admin
+H-MT5LSA00AOXM8,MVD-RET-001,MVD,2026-08-23T09:27:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MT5LYPHC1Y2KZ,SBC-ERP-001,SBC,2026-08-23T09:32:00.000Z,Created,,Intercompany flows configuration,,PMO Admin
+H-MT5LYPHC2AD3Q,IST-POS-001,IST,2026-08-23T09:32:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MT5M3UO01GJOU,ARC-FIN-001,ARC,2026-08-23T09:36:00.000Z,Created,,"Tax registrations (VAT, corporate tax)",,PMO Admin
+H-MT5MFFC0A661U,MVD-SAP-001,MVD,2026-08-23T09:45:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MT70TZEO7698J,BUD-TEL-001,BUD,2026-08-24T09:16:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MT71D9UOAH566,MVD-HR-001,MVD,2026-08-24T09:31:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MT71H4QO1CNX5,KSC-IT-001,KSC,2026-08-24T09:34:00.000Z,Created,,"IT, email and network set-up for the local entity",,PMO Admin
+H-MT71KZMO5HWMM,RUH-IM-001,RUH,2026-08-24T09:37:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MT71RF405I7W4,RUH-AR-001,RUH,2026-08-24T09:42:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MT71VA001EW8R,ARC-CORP-002,ARC,2026-08-24T09:45:00.000Z,Created,,Appointment of local directors and authorized signatories,,PMO Admin
+H-MT71WKAO5ORKB,SIN-SAP-001,SIN,2026-08-24T09:46:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MT71WKAO5QGN8,SIN-ERP-001,SIN,2026-08-24T09:46:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MT71WKAO6UTNJ,PRG-GS-001,PRG,2026-08-24T09:46:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MT71XULC8VGBB,BUE-IT-001,BUE,2026-08-24T09:47:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MT720F6O3WHQ1,BUC-NET-001,BUC,2026-08-24T09:49:00.000Z,Created,,Internet line activation,,PMO Admin
+H-BUC-CORP-001-STA-MT72FUQO,BUC-CORP-001,BUC,2026-08-24T10:01:00.000Z,Status,In Progress,Completed,,Marco Ferri
+H-LIM-SP-001-STA-MT72OUTC,LIM-SP-001,LIM,2026-08-24T10:08:00.000Z,Status,In Progress,Completed,,Alessandro Riva
+H-MT8FVOTC59VQ2,RUH-TEL-001,RUH,2026-08-25T09:05:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MT8G4OW03JDKD,BOG-AR-001,BOG,2026-08-25T09:12:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MT8G79HC1J9D6,ARC-SAP-001,ARC,2026-08-25T09:14:00.000Z,Created,,Company code set-up in SAP,,PMO Admin
+H-MT8GNZC07YFCO,MAD-HR-002,MAD,2026-08-25T09:27:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MT8GT4IO4XIOC,RUH-CORP-001,RUH,2026-08-25T09:31:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MT8GUETC6R8NW,PRG-SP-002,PRG,2026-08-25T09:32:00.000Z,Created,,Construction works,,PMO Admin
+H-MT8H3EW08S7I9,SBH-RET-001,SBH,2026-08-25T09:39:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MT8H4P6O6050V,SIN-HR-002,SIN,2026-08-25T09:40:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MT8H4P6O799IJ,BUD-CMP-001,BUD,2026-08-25T09:40:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MT8HCEYO2QHVB,IST-AR-001,IST,2026-08-25T09:46:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MT8HDP9C5MD4G,SIN-CON-001,SIN,2026-08-25T09:47:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MT8HDP9C5TRNE,SIN-CRM-001,SIN,2026-08-25T09:47:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-HUC-HR-002-STA-MT8NF1C0,HUC-HR-002,HUC,2026-08-25T12:36:00.000Z,Status,In Progress,Completed,,Nicoletta Bisaro
+H-MT9V8YW04MF17,LIM-LOG-001,LIM,2026-08-26T09:03:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MT9VCTS086RW3,MAD-POS-002,MAD,2026-08-26T09:06:00.000Z,Created,,Airport systems integration (sales reporting),,PMO Admin
+H-MT9VN45C1SRK3,SBC-CORP-002,SBC,2026-08-26T09:14:00.000Z,Created,,Appointment of local directors and authorized signatories,,PMO Admin
+H-MT9VOEG065HBY,SIN-GS-001,SIN,2026-08-26T09:15:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MT9VQZ1C62BDC,SIN-SP-002,SIN,2026-08-26T09:17:00.000Z,Created,,Construction works,,PMO Admin
+H-MT9VUTXC5GAD4,RUH-SP-002,RUH,2026-08-26T09:20:00.000Z,Created,,Construction works,,PMO Admin
+H-MT9VUTXC8RM9W,SBH-GS-001,SBH,2026-08-26T09:20:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MT9VUTXC9AQV5,BUE-SP-002,BUE,2026-08-26T09:20:00.000Z,Created,,Construction works,,PMO Admin
+H-MT9VW480705O2,BUD-SAP-002,BUD,2026-08-26T09:21:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MT9VW4807IYFN,BUD-RET-001,BUD,2026-08-26T09:21:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MT9VW48092UYP,BUE-NET-001,BUE,2026-08-26T09:21:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MT9VW480AGILQ,MVD-CMP-001,MVD,2026-08-26T09:21:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MT9W3U003E7U9,BOG-HR-002,BOG,2026-08-26T09:27:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MT9WS9MO9B7BN,BUE-IM-001,BUE,2026-08-26T09:46:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MT9WTJXC0YVM6,KSC-CON-001,KSC,2026-08-26T09:47:00.000Z,Created,,Registered office agreement,,PMO Admin
+H-CZC-FIN-002-STA-MTA6XHS0,CZC-FIN-002,CZC,2026-08-26T14:30:00.000Z,Status,In Progress,Completed,,Paolo Marchetti
+H-MTBASOG06LXAM,PRG-LOG-001,PRG,2026-08-27T09:06:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MTBBBYW02HOO9,IST-TEL-001,IST,2026-08-27T09:21:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MTBBH42O7LD9P,MAD-IT-001,MAD,2026-08-27T09:25:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MTBBOTUO1XORK,SBC-SAP-001,SBC,2026-08-27T09:31:00.000Z,Created,,Company code set-up in SAP,,PMO Admin
+H-MTBBQ45C9JAN0,DXB-SAP-002,DXB,2026-08-27T09:32:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MTBBSOQO1P4AP,ARC-CMP-001,ARC,2026-08-27T09:34:00.000Z,Created,,Local compliance and labelling requirements,,PMO Admin
+H-MTBBTZ1C576NX,RUH-CRM-001,RUH,2026-08-27T09:35:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MTBC0EIO8HHR0,SBH-TEL-001,SBH,2026-08-27T09:40:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MTBC5JPC8I9DF,SBH-FIN-001,SBH,2026-08-27T09:44:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MTBC6U00A5U1T,MVD-IT-001,MVD,2026-08-27T09:45:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MTBCBZ6O7VAHL,MAD-LOG-001,MAD,2026-08-27T09:49:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-BUC-CON-001-STA-MTBI4B6O,BUC-CON-001,BUC,2026-08-27T12:31:00.000Z,Status,In Progress,Completed,,Giulia Rinaldi
+H-MTCQ0TC07UR2H,MAD-FIN-001,MAD,2026-08-28T09:00:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MTCQ23MO4I2SM,LIM-NET-001,LIM,2026-08-28T09:01:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MTCQ8J402MI0D,IST-HR-002,IST,2026-08-28T09:06:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MTCQB3PC6C1CB,PRG-SAP-001,PRG,2026-08-28T09:08:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MTCQDOAO6OZBR,PRG-HR-002,PRG,2026-08-28T09:10:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MTCQLE2O883OU,SBH-CON-001,SBH,2026-08-28T09:16:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MTCQLE2O9U7EX,DXB-HR-002,DXB,2026-08-28T09:16:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MTCQP8YO3T7IE,BUC-POS-001,BUC,2026-08-28T09:19:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MTCQRTK07AVO1,BUD-HR-001,BUD,2026-08-28T09:21:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MTCQRTK0969VE,BUE-CMP-001,BUE,2026-08-28T09:21:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MTCQT3UO8XYGG,BUE-SAP-002,BUE,2026-08-28T09:22:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MTCQT3UO9HEEH,DXB-IT-001,DXB,2026-08-28T09:22:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MTCQVOG09ZPK3,DXB-GS-001,DXB,2026-08-28T09:24:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTCR4OIO8E2N0,SBH-ITH-001,SBH,2026-08-28T09:31:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MTCR8JEO3KGZH,BOG-GS-001,BOG,2026-08-28T09:34:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTCR9TPC48S97,BUC-RET-001,BUC,2026-08-28T09:35:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MTCR9TPC6T17A,PRG-AR-001,PRG,2026-08-28T09:35:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MTCRNYYO5VTKW,SIN-TEL-001,SIN,2026-08-28T09:46:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MTCRP99C812KX,MAD-IM-001,MAD,2026-08-28T09:47:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MTD50XS0C5NPO,AMS-IT-001,AMS,2026-08-28T16:00:00.000Z,Status,In Progress,Completed,,Luca Bernardi
+H-MTD50XS0C673T,AMS-IT-001,AMS,2026-08-28T16:00:00.000Z,Progress_Percentage,80,100,,Luca Bernardi
+H-MTE5N3HC7O93A,MAD-ERP-001,MAD,2026-08-29T09:05:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MTE5QYDCAB7M6,MVD-CRM-001,MVD,2026-08-29T09:08:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MTE5ZYG09716W,BUE-HR-001,BUE,2026-08-29T09:15:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MTE5ZYG09WUEA,DXB-SP-002,DXB,2026-08-29T09:15:00.000Z,Created,,Construction works,,PMO Admin
+H-MTE618QO22ORF,SBC-CMP-001,SBC,2026-08-29T09:16:00.000Z,Created,,Local compliance and labelling requirements,,PMO Admin
+H-MTE618QO4FQYQ,LIM-POS-001,LIM,2026-08-29T09:16:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MTE63TC08LBKC,SBH-HR-001,SBH,2026-08-29T09:18:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MTE68YIO77YN2,BUD-FIN-001,BUD,2026-08-29T09:22:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MTE6BJ405EJWT,RUH-HR-002,RUH,2026-08-29T09:24:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MTE6GOAO5SDGW,SIN-ITH-001,SIN,2026-08-29T09:28:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MTE6UTK08QI7G,SBH-AR-001,SBH,2026-08-29T09:39:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MTE6W3UO2PO5U,IST-IM-001,IST,2026-08-29T09:40:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MTE6W3UO9EYUL,BUE-RET-001,BUE,2026-08-29T09:40:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MTE6XE5C7CQMG,BUD-SP-001,BUD,2026-08-29T09:41:00.000Z,Created,,Store design approval,,PMO Admin
+H-MTE7191C1FC32,ARC-CON-001,ARC,2026-08-29T09:44:00.000Z,Created,,Registered office agreement,,PMO Admin
+H-MTE753XC21FB8,SBC-LOG-001,SBC,2026-08-29T09:47:00.000Z,Created,,Import license and customs registration,,PMO Admin
+H-MTE77OIOADFQM,MVD-TEL-001,MVD,2026-08-29T09:49:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MTE7LTS0C7HVH,AMS-CORP-001,AMS,2026-08-29T10:00:00.000Z,Status,Not Started,In Progress,,PMO Admin
+H-MTE7LTS0C8GCU,AMS-CORP-001,AMS,2026-08-29T10:00:00.000Z,Progress_Percentage,0,20,,PMO Admin
+H-MTFL0DK0AC567,MVD-NET-001,MVD,2026-08-30T09:03:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MTFL48G00EWRI,CZC-IT-001,CZC,2026-08-30T09:06:00.000Z,Created,,"IT, email and network set-up for the local entity",,PMO Admin
+H-MTFLANXC15FND,KSC-HR-001,KSC,2026-08-30T09:11:00.000Z,Created,,Local payroll provider and employment contracts,,PMO Admin
+H-MTFLIDPCANI30,MVD-GS-001,MVD,2026-08-30T09:17:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTFLQ3HC2RYHT,IST-GS-001,IST,2026-08-30T09:23:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTFLWIYO30Q3C,BOG-SAP-002,BOG,2026-08-30T09:28:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MTFLZ3K07SAO4,MAD-NET-001,MAD,2026-08-30T09:30:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MTFMD8TC9NJMI,DXB-CRM-001,DXB,2026-08-30T09:41:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MTFMEJ40A8IN2,MVD-ERP-001,MVD,2026-08-30T09:42:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MTFMJOAO9FLEJ,DXB-CORP-001,DXB,2026-08-30T09:46:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MTFXRHC0C9NU0,AMS-FIN-003,AMS,2026-08-30T15:00:00.000Z,Status,In Progress,Completed,,PMO Admin
+H-MTFXRHC0CAH58,AMS-FIN-003,AMS,2026-08-30T15:00:00.000Z,Progress_Percentage,90,100,,PMO Admin
+H-MTH0EXXC8YC5V,BUE-ERP-001,BUE,2026-08-31T09:02:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MTH0ISTC67U6O,SIN-HR-003,SIN,2026-08-31T09:05:00.000Z,Created,,Airport access passes for store staff,,PMO Admin
+H-MTH0P8AO4VE9X,LIM-GS-001,LIM,2026-08-31T09:10:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTH0QILC9VMO7,DXB-SP-001,DXB,2026-08-31T09:11:00.000Z,Created,,Store design approval,,PMO Admin
+H-MTH0UDHC9GVHU,DXB-CON-001,DXB,2026-08-31T09:14:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MTH1LDPC7TS2L,MAD-TEL-001,MAD,2026-08-31T09:35:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MTH1QIW034G03,BOG-ITH-001,BOG,2026-08-31T09:39:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MTIFYNHC5163R,RUH-IT-001,RUH,2026-09-01T09:05:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MTIGBIG047GF9,BUC-GS-001,BUC,2026-09-01T09:15:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTIGHXXC1ZJ0P,SBC-HR-001,SBC,2026-09-01T09:20:00.000Z,Created,,Local payroll provider and employment contracts,,PMO Admin
+H-MTIGXDHC8PO3H,SBH-IM-001,SBH,2026-09-01T09:32:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MTIHFDMO1O1W9,ARC-LOG-001,ARC,2026-09-01T09:46:00.000Z,Created,,Import license and customs registration,,PMO Admin
+H-MTJV82O012JC9,KSC-FIN-003,KSC,2026-09-02T09:00:00.000Z,Created,,Bank account opening,,PMO Admin
+H-MTJVAN9C6ARCJ,PRG-CON-001,PRG,2026-09-02T09:02:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MTJVBXK03XMNE,BUC-TEL-001,BUC,2026-09-02T09:03:00.000Z,Created,,Mobile devices and SIM activation,,PMO Admin
+H-MTJVFSG054SFB,RUH-ERP-001,RUH,2026-09-02T09:06:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MTJVH2QO5AGMJ,RUH-FIN-001,RUH,2026-09-02T09:07:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MTJVID1C8ZC1J,BUE-POS-001,BUE,2026-09-02T09:08:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MTJVTXPC4UUL9,LIM-AR-001,LIM,2026-09-02T09:17:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MTJWEIG083N3R,MAD-GS-001,MAD,2026-09-02T09:33:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTJWQ3408974N,SBH-IT-001,SBH,2026-09-02T09:42:00.000Z,Created,,IT project kick-off with local partners,,PMO Admin
+H-MTJWWILC5Z3QY,SIN-HR-001,SIN,2026-09-02T09:47:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MTJZIE80CBD1Q,AMS-SP-001,AMS,2026-09-02T11:00:00.000Z,Status,In Progress,Completed,,PMO Admin
+H-MTJZIE80CCS76,AMS-SP-001,AMS,2026-09-02T11:00:00.000Z,Progress_Percentage,90,100,,PMO Admin
+H-MTJZIEZSCD7WX,AMS-SP-001,AMS,2026-09-02T11:00:01.000Z,Note,,[02 Sep 2026]: Store design approved by Schiphol design committee,Store design approved by Schiphol design committee,PMO Admin
+H-MTLAVN4068K4C,SIN-POS-002,SIN,2026-09-03T09:06:00.000Z,Created,,Airport systems integration (sales reporting),,PMO Admin
+H-MTLAY7PC7J9RS,MAD-CORP-001,MAD,2026-09-03T09:08:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MTLB0SAO2JF8F,IST-LOG-001,IST,2026-09-03T09:10:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MTLB22LC6XWYU,BUD-CON-001,BUD,2026-09-03T09:11:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MTLB4N6O9LTLJ,DXB-POS-001,DXB,2026-09-03T09:13:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MTLB9SDCAM3XL,MVD-AR-001,MVD,2026-09-03T09:17:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MTLBB2O0736LI,BUD-ITH-001,BUD,2026-09-03T09:18:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MTLBHI5C354IG,BOG-CRM-001,BOG,2026-09-03T09:23:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MTLBRSIO1H84E,ARC-FIN-002,ARC,2026-09-03T09:31:00.000Z,Created,,Local auditor and accountant appointment,,PMO Admin
+H-CZC-LOG-001-STA-MTLL8L1C,CZC-LOG-001,CZC,2026-09-03T13:56:00.000Z,Status,In Progress,Completed,,Elena Conti
+H-MTMQCS2O7N7BT,MAD-SAP-002,MAD,2026-09-04T09:07:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MTMQJ7K08J12X,SBH-LOG-001,SBH,2026-09-04T09:12:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MTMQOCQO8WDBW,BUE-SAP-001,BUE,2026-09-04T09:16:00.000Z,Created,,Store master data set-up in SAP,,PMO Admin
+H-MTMR52LC3B65J,BOG-CMP-001,BOG,2026-09-04T09:29:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MTMR8XHC98X9X,BUE-HR-002,BUE,2026-09-04T09:32:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MTMRTI804NOUT,LIM-CMP-001,LIM,2026-09-04T09:48:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MTMRUSIO3Z7BD,BUC-LOG-001,BUC,2026-09-04T09:49:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MTN0TKW0CE7DG,AMS-SAP-001,AMS,2026-09-04T14:00:00.000Z,Progress_Percentage,40,80,,PMO Admin
+H-MTO5JMO08G4KM,SBH-NET-001,SBH,2026-09-05T09:00:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MTO5M79C7FTDH,BUD-IM-001,BUD,2026-09-05T09:02:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MTO5NHK07GJB9,BUD-AR-001,BUD,2026-09-05T09:03:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MTO5RCG06WHGL,BUD-CORP-001,BUD,2026-09-05T09:06:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-MTO5SMQO4OVTM,LIM-HR-001,LIM,2026-09-05T09:07:00.000Z,Created,,Recruiting store team,,PMO Admin
+H-MTO5TX1C9S0EF,DXB-CMP-001,DXB,2026-09-05T09:08:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MTO62X40729IS,BUD-POS-001,BUD,2026-09-05T09:15:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MTO66S0080GHQ,MAD-SP-002,MAD,2026-09-05T09:18:00.000Z,Created,,Construction works,,PMO Admin
+H-MTO6EHS06VNF5,PRG-RET-001,PRG,2026-09-05T09:24:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MTO6FS2OAEPVU,MVD-FIN-001,MVD,2026-09-05T09:25:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MTO6ICO04EP12,LIM-ERP-001,LIM,2026-09-05T09:27:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MTO6KX9C5JHYE,RUH-GS-001,RUH,2026-09-05T09:29:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTO6KX9C7424V,BUD-CRM-001,BUD,2026-09-05T09:29:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MTO6M7K06IU0B,PRG-NET-001,PRG,2026-09-05T09:30:00.000Z,Created,,Internet line activation,,PMO Admin
+H-MTO6OS5C63XIY,SIN-IM-001,SIN,2026-09-05T09:32:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MTO6RCQO330G3,BOG-POS-001,BOG,2026-09-05T09:34:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MTO6TXC08U8HR,BUE-CON-001,BUE,2026-09-05T09:36:00.000Z,Created,,Lease / concession contract signature,,PMO Admin
+H-MTO6V7MO4DN3S,LIM-SAP-002,LIM,2026-09-05T09:37:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MTO6WHXC9KBC7,DXB-ERP-001,DXB,2026-09-05T09:38:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MTO72XEO13QJM,KSC-SAP-001,KSC,2026-09-05T09:43:00.000Z,Created,,Company code set-up in SAP,,PMO Admin
+H-MTO782LC7QK4A,MAD-ITH-001,MAD,2026-09-05T09:47:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MTPKZHC07EJZJ,BUD-SP-002,BUD,2026-09-06T09:00:00.000Z,Created,,Construction works,,PMO Admin
+H-MTPL5WTCAJP86,MVD-SP-001,MVD,2026-09-06T09:05:00.000Z,Created,,Store design approval,,PMO Admin
+H-MTPL9RPC9DPDY,BUE-GS-001,BUE,2026-09-06T09:08:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTPLCCAO462T6,BUC-AR-001,BUC,2026-09-06T09:10:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MTPLP79C7H3KR,BUD-GS-001,BUD,2026-09-06T09:20:00.000Z,Created,,"Cleaning, maintenance and security services",,PMO Admin
+H-MTPLQHK0A1P57,DXB-HR-003,DXB,2026-09-06T09:21:00.000Z,Created,,Airport access passes for store staff,,PMO Admin
+H-MTPLRRUO99B1F,BUE-SP-001,BUE,2026-09-06T09:22:00.000Z,Created,,Store design approval,,PMO Admin
+H-MTPM22804QVV2,LIM-HR-002,LIM,2026-09-06T09:30:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MTPM4MTCA9TLY,MVD-POS-001,MVD,2026-09-06T09:32:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MTPMEX6O2DFUJ,IST-CRM-001,IST,2026-09-06T09:40:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MTPMG7HCAIU4G,MVD-HR-002,MVD,2026-09-06T09:41:00.000Z,Created,,Training and onboarding,,PMO Admin
+H-MTPMMMYO1I9EA,ARC-FIN-003,ARC,2026-09-06T09:46:00.000Z,Created,,Bank account opening,,PMO Admin
+H-MTR0FC00CFZEJ,AMS-HR-001,AMS,2026-09-07T09:00:00.000Z,Status,In Progress,Completed,,PMO Admin
+H-MTR0FC00CGVT9,AMS-HR-001,AMS,2026-09-07T09:00:00.000Z,Progress_Percentage,70,100,,PMO Admin
+H-MTR0J6W0826K5,MAD-AR-001,MAD,2026-09-07T09:03:00.000Z,Created,,Opening allocation plan,,PMO Admin
+H-MTR0S6YO3L25R,BOG-RET-001,BOG,2026-09-07T09:10:00.000Z,Created,,Store Manager opening plan,,PMO Admin
+H-MTR0XC5CAF055,MVD-LOG-001,MVD,2026-09-07T09:14:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MTR12HC07P65W,MAD-POS-001,MAD,2026-09-07T09:18:00.000Z,Created,,POS installation and configuration,,PMO Admin
+H-MTR12HC08K51C,SBH-CMP-001,SBH,2026-09-07T09:18:00.000Z,Created,,Labelling and local compliance check,,PMO Admin
+H-MTR13RMO9R6GK,DXB-LOG-001,DXB,2026-09-07T09:19:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MTR1BHEO6ED23,PRG-ERP-001,PRG,2026-09-07T09:25:00.000Z,Created,,Customs and transport flows alignment,,PMO Admin
+H-MTR1XCG05LLKJ,SIN-CORP-001,SIN,2026-09-07T09:42:00.000Z,Created,,Local entity / branch registration check,,PMO Admin
+H-LIM-IT-001-STA-MTR5QY5C,LIM-IT-001,LIM,2026-09-07T11:29:00.000Z,Status,In Progress,Completed,,Luca Bernardi
+H-MTSFXR9C78ILS,BUD-LOG-001,BUD,2026-09-08T09:02:00.000Z,Created,,First merchandise shipment,,PMO Admin
+H-MTSG46QO9MI9Q,DXB-ITH-001,DXB,2026-09-08T09:07:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MTSG9BXC9QRTT,DXB-FIN-001,DXB,2026-09-08T09:11:00.000Z,Created,,"Bank account, cash handling and payment terminals",,PMO Admin
+H-MTSGAM808BU1X,SBH-SAP-002,SBH,2026-09-08T09:12:00.000Z,Created,,Set-up and testing of flows,,PMO Admin
+H-MTSGD6TC8FHRH,SBH-CRM-001,SBH,2026-09-08T09:14:00.000Z,Created,,Salesforce users and clienteling set-up,,PMO Admin
+H-MTSGWH9C45PA7,BUC-IM-001,BUC,2026-09-08T09:29:00.000Z,Created,,Indirect materials orders,,PMO Admin
+H-MTSHD74056BXZ,RUH-ITH-001,RUH,2026-09-08T09:42:00.000Z,Created,,Hardware purchase and shipment,,PMO Admin
+H-MTSHKWW0853TX,MAD-HR-003,MAD,2026-09-08T09:48:00.000Z,Created,,Airport access passes for store staff,,PMO Admin
+H-MTSI0CG0CHJJ1,AMS-CON-001,AMS,2026-09-08T10:00:00.000Z,Progress_Percentage,50,65,,PMO Admin
+H-MTSI0D7SCILWF,AMS-CON-001,AMS,2026-09-08T10:00:01.000Z,Note,,[08 Sep 2026]: Second round of legal comments sent to Schiphol,Second round of legal comments sent to Schiphol,PMO Admin
+H-BOG-SAP-001-STA-MTSSEKO0,BOG-SAP-001,BOG,2026-09-08T14:51:00.000Z,Status,In Progress,Completed,,Andrea Colombo
+H-MTSUVB40CJKFD,AMS-RET-003,AMS,2026-09-08T16:00:00.000Z,Status,Not Started,N/A,,PMO Admin
+H-MTSUVBVSCKBA4,AMS-RET-003,AMS,2026-09-08T16:00:01.000Z,Note,,[08 Sep 2026]: Not planned for airport store (landlord restrictions on events),Not planned for airport store (landlord restrictions on events),PMO Admin
+H-MTTVB1C0CLNV8,AMS-ERP-001,AMS,2026-09-09T09:00:00.000Z,Status,Not Started,In Progress,,PMO Admin
+H-MTTVB1C0CM8I6,AMS-ERP-001,AMS,2026-09-09T09:00:00.000Z,Progress_Percentage,0,30,,PMO Admin
+H-MTVH6DC0CNYQ8,AMS-IT-002,AMS,2026-09-10T12:00:00.000Z,Progress_Percentage,20,40,,PMO Admin
+H-MTWSBWG0COEOG,AMS-CORP-003,AMS,2026-09-11T10:00:00.000Z,Status,In Progress,Completed,,PMO Admin
+H-MTWSBWG0CP8HO,AMS-CORP-003,AMS,2026-09-11T10:00:00.000Z,Progress_Percentage,50,100,,PMO Admin
+H-MTX31PC0CQDFV,AMS-RET-001,AMS,2026-09-11T15:00:00.000Z,Progress_Percentage,30,50,,PMO Admin
+H-MTY5MLC0CR5HU,AMS-CORP-001,AMS,2026-09-12T09:00:00.000Z,Progress_Percentage,20,40,,PMO Admin
+H-MTY5MM3SCS117,AMS-CORP-001,AMS,2026-09-12T09:00:01.000Z,Note,,[12 Sep 2026]: Draft notarial deed shared with local notary,Draft notarial deed shared with local notary,PMO Admin
+H-MTY9WWW0CTJIR,AMS-HR-002,AMS,2026-09-12T11:00:00.000Z,Progress_Percentage,20,40,,PMO Admin
+H-MTYMRVK0CU5P6,AMS-POS-001,AMS,2026-09-12T17:00:00.000Z,Progress_Percentage,10,25,,PMO Admin
+H-MTZN7LS0CV8EJ,AMS-CRM-001,AMS,2026-09-13T10:00:00.000Z,Status,Not Started,On Hold,,PMO Admin
+H-MTZN7LS0CWQJE,AMS-CRM-001,AMS,2026-09-13T10:00:00.000Z,Blocker,,Waiting for Retail ticket to be raised,,PMO Admin
+H-CZC-CMP-001-STA-MTZOTH40,CZC-CMP-001,CZC,2026-09-13T10:45:00.000Z,Status,In Progress,Completed,,Davide Fontana
+H-MTZPCRK0CXDDY,AMS-SAP-002,AMS,2026-09-13T11:00:00.000Z,Status,Not Started,In Progress,,PMO Admin
+H-MTZPCRK0CYNDY,AMS-SAP-002,AMS,2026-09-13T11:00:00.000Z,Progress_Percentage,0,20,,PMO Admin
+H-MTZVS8W0CZEDG,AMS-POS-003,AMS,2026-09-13T14:00:00.000Z,Progress_Percentage,20,50,,PMO Admin
+H-MU002KG0D0TR4,AMS-LOG-001,AMS,2026-09-13T16:00:00.000Z,Progress_Percentage,20,40,,PMO Admin
+H-MU1DD9C0D1QS9,AMS-IM-001,AMS,2026-09-14T15:00:00.000Z,Status,In Progress,Blocked,,PMO Admin
+H-MU1DD9C0D2RAL,AMS-IM-001,AMS,2026-09-14T15:00:00.000Z,Blocker,,Orders waiting for customer code from Finance,,PMO Admin
+H-MU1FIF40D39A2,AMS-NET-001,AMS,2026-09-14T16:00:00.000Z,Progress_Percentage,10,30,,PMO Admin
+H-MU1FIFVSD43VU,AMS-NET-001,AMS,2026-09-14T16:00:01.000Z,Note,,[14 Sep 2026]: Airport representatives contacted for internet activation,Airport representatives contacted for internet activation,PMO Admin
+H-MU2I3B40D51E5,AMS-CON-002,AMS,2026-09-15T10:00:00.000Z,Status,Not Started,In Progress,,PMO Admin
+H-MU2I3B40D6ETR,AMS-CON-002,AMS,2026-09-15T10:00:00.000Z,Progress_Percentage,0,30,,PMO Admin
+H-MU2MDMO0D7APU,AMS-AR-001,AMS,2026-09-15T12:00:00.000Z,Decision_Required,,Confirm travel-exclusive capsule quantities with Merchandising,,PMO Admin
+H-MU3VE000D8G13,AMS-CON-001,AMS,2026-09-16T09:00:00.000Z,Progress_Percentage,65,80,,PMO Admin
+H-MU3ZOBK0D90JK,AMS-SAP-001,AMS,2026-09-16T11:00:00.000Z,Status,In Progress,Completed,,Andrea Colombo
+H-MU3ZOBK0DAPF0,AMS-SAP-001,AMS,2026-09-16T11:00:00.000Z,Progress_Percentage,80,100,,Andrea Colombo
+H-KSC-CORP-002-STA-MU40URC0,KSC-CORP-002,KSC,2026-09-16T11:33:00.000Z,Status,In Progress,Completed,,Marco Ferri
+H-MU488YO0DB06Q,AMS-FIN-001,AMS,2026-09-16T15:00:00.000Z,Progress_Percentage,20,50,,PMO Admin
+H-RUH-CORP-001-PRO-MU5BTUYO,RUH-CORP-001,RUH,2026-09-17T09:28:00.000Z,Progress_Percentage,10,25,,PMO Admin
+H-MU5BWFK04YZQX,RUH-CORP-001,RUH,2026-09-17T09:30:00.000Z,Note,,[17 Sep 2026]: Waiting for feedback from local partner,Waiting for feedback from local partner,Marco Ferri
+H-MU5CZ0G0DCBEW,AMS-SP-002,AMS,2026-09-17T10:00:00.000Z,Progress_Percentage,40,70,,PMO Admin
+H-MU5CZ17SDD2MX,AMS-SP-002,AMS,2026-09-17T10:00:01.000Z,Note,,[17 Sep 2026]: Permit file ready; submission subject to contract signature,Permit file ready; submission subject to contract signature,PMO Admin
+H-KSC-FIN-002-PRO-MU5FJLS0,KSC-FIN-002,KSC,2026-09-17T11:12:00.000Z,Progress_Percentage,0,15,,PMO Admin
+H-MU5FM6DC110YM,KSC-FIN-002,KSC,2026-09-17T11:14:00.000Z,Note,,[17 Sep 2026]: KYC documents sent to bank,KYC documents sent to bank,Paolo Marchetti
+H-LIM-CORP-001-STA-MU5GSM5C,LIM-CORP-001,LIM,2026-09-17T11:47:00.000Z,Status,In Progress,Completed,,Marco Ferri
+H-BOG-FIN-001-PRO-MU5HEH6O,BOG-FIN-001,BOG,2026-09-17T12:04:00.000Z,Progress_Percentage,55,80,,PMO Admin
+H-KSC-LOG-001-PRO-MU5HM6YO,KSC-LOG-001,KSC,2026-09-17T12:10:00.000Z,Progress_Percentage,15,40,,PMO Admin
+H-MU5HORK0195HD,KSC-LOG-001,KSC,2026-09-17T12:12:00.000Z,Note,,[17 Sep 2026]: Customs broker appointed,Customs broker appointed,Elena Conti
+H-LIM-CON-001-STA-MU5HSMG0,LIM-CON-001,LIM,2026-09-17T12:15:00.000Z,Status,In Progress,Completed,,Giulia Rinaldi
+H-IST-FIN-001-STA-MU5IWHMO,IST-FIN-001,IST,2026-09-17T12:46:00.000Z,Status,In Progress,Completed,,Paolo Marchetti
+H-SIN-SP-001-PRO-MU5LM85C,SIN-SP-001,SIN,2026-09-17T14:02:00.000Z,Progress_Percentage,35,55,,PMO Admin
+H-ARC-CORP-002-PRO-MU5OM91C,ARC-CORP-002,ARC,2026-09-17T15:26:00.000Z,Progress_Percentage,10,35,,PMO Admin
+H-CZC-HR-001-STA-MU5R2ZHC,CZC-HR-001,CZC,2026-09-17T16:35:00.000Z,Status,In Progress,Completed,,Nicoletta Bisaro
+H-IST-AR-001-PRO-MU5TSQ00,IST-AR-001,IST,2026-09-17T17:51:00.000Z,Progress_Percentage,5,25,,PMO Admin
+H-MU6Q9PC0DE78H,AMS-CON-003,AMS,2026-09-18T09:00:00.000Z,Status,In Progress,Completed,,PMO Admin
+H-MU6Q9PC0DFAD3,AMS-CON-003,AMS,2026-09-18T09:00:00.000Z,Progress_Percentage,60,100,,PMO Admin
+H-HUC-HR-001-PRO-MU6SRQ2O,HUC-HR-001,HUC,2026-09-18T10:10:00.000Z,Progress_Percentage,75,95,,PMO Admin
+H-MU6UK0W0DGXPH,AMS-HR-004,AMS,2026-09-18T11:00:00.000Z,Decision_Required,,Authorize job offers before concession contract signature?,,PMO Admin
+H-IST-POS-001-PRO-MU6V3BC0,IST-POS-001,IST,2026-09-18T11:15:00.000Z,Progress_Percentage,0,25,,PMO Admin
+H-MU6V5VXC2BLL4,IST-POS-001,IST,2026-09-18T11:17:00.000Z,Note,,[18 Sep 2026]: Waiting for feedback from local partner,Waiting for feedback from local partner,Francesca Moretti
+H-IST-CRM-001-PRO-MU72Y8IO,IST-CRM-001,IST,2026-09-18T14:55:00.000Z,Progress_Percentage,0,20,,PMO Admin
+H-MU730T402EQXN,IST-CRM-001,IST,2026-09-18T14:57:00.000Z,Note,,[18 Sep 2026]: Waiting for feedback from local partner,Waiting for feedback from local partner,Chiara De Luca
+H-CZC-IT-001-PRO-MU73EYDC,CZC-IT-001,CZC,2026-09-18T15:08:00.000Z,Progress_Percentage,30,55,,PMO Admin
+H-IST-POS-002-PRO-MU7478W0,IST-POS-002,IST,2026-09-18T15:30:00.000Z,Progress_Percentage,70,90,,PMO Admin
+H-MU759TS0DHQGI,AMS-POS-001,AMS,2026-09-18T16:00:00.000Z,Progress_Percentage,25,40,,PMO Admin
+H-PRG-CON-001-PRO-MU779UDC,PRG-CON-001,PRG,2026-09-18T16:56:00.000Z,Progress_Percentage,0,5,,PMO Admin
+H-BOG-SAP-002-PRO-MU86XA2O,BOG-SAP-002,BOG,2026-09-19T09:34:00.000Z,Progress_Percentage,0,20,,PMO Admin
+H-MU86ZUO031XYB,BOG-SAP-002,BOG,2026-09-19T09:36:00.000Z,Note,,[19 Sep 2026]: Configuration transported to QA,Configuration transported to QA,Andrea Colombo
+H-MU87UPS0DIUF0,AMS-IM-002,AMS,2026-09-19T10:00:00.000Z,Status,In Progress,Completed,,PMO Admin
+H-MU87UPS0DJ66N,AMS-IM-002,AMS,2026-09-19T10:00:00.000Z,Progress_Percentage,50,100,,PMO Admin
+H-IST-HR-003-PRO-MU8AXB9C,IST-HR-003,IST,2026-09-19T11:26:00.000Z,Progress_Percentage,40,65,,PMO Admin
+H-MU8AZVUO2US2J,IST-HR-003,IST,2026-09-19T11:28:00.000Z,Note,,[19 Sep 2026]: Second-round interviews scheduled,Second-round interviews scheduled,Nicoletta Bisaro
+H-IST-HR-001-PRO-MU8BFBEO,IST-HR-001,IST,2026-09-19T11:40:00.000Z,Progress_Percentage,75,95,,PMO Admin
+H-MU8C51C0DKGU3,AMS-CORP-001,AMS,2026-09-19T12:00:00.000Z,Progress_Percentage,40,60,,PMO Admin
+H-KSC-CON-001-PRO-MU8E7MIO,KSC-CON-001,KSC,2026-09-19T12:58:00.000Z,Progress_Percentage,5,20,,PMO Admin
+H-IST-LOG-001-PRO-MU8EPMO0,IST-LOG-001,IST,2026-09-19T13:12:00.000Z,Progress_Percentage,0,10,,PMO Admin
+H-MU8GFCW0DLTEV,AMS-RET-001,AMS,2026-09-19T14:00:00.000Z,Progress_Percentage,50,60,,PMO Admin
+H-IST-SAP-001-PRO-MU8J2ITC,IST-SAP-001,IST,2026-09-19T15:14:00.000Z,Progress_Percentage,50,75,,PMO Admin
+H-MU8KPOG0DMA9U,AMS-LOG-002,AMS,2026-09-19T16:00:00.000Z,Progress_Percentage,10,25,,PMO Admin
+H-BUC-HR-001-PRO-MU8MPP1C,BUC-HR-001,BUC,2026-09-19T16:56:00.000Z,Progress_Percentage,5,30,,PMO Admin
+H-IST-NET-001-PRO-MU9OD5C0,IST-NET-001,IST,2026-09-20T10:30:00.000Z,Progress_Percentage,45,60,,PMO Admin
+H-MU9OFPXC2GMMR,IST-NET-001,IST,2026-09-20T10:32:00.000Z,Note,,[20 Sep 2026]: Provider survey scheduled,Provider survey scheduled,Stefano Galli
+H-IST-SAP-002-PRO-MU9P45K0,IST-SAP-002,IST,2026-09-20T10:51:00.000Z,Progress_Percentage,60,80,,PMO Admin
+H-MU9PFQ80DNR6A,AMS-SAP-002,AMS,2026-09-20T11:00:00.000Z,Progress_Percentage,20,35,,PMO Admin
+H-LIM-HR-001-PRO-MU9R6QQO,LIM-HR-001,LIM,2026-09-20T11:49:00.000Z,Progress_Percentage,0,10,,PMO Admin
+H-MU9R9BC04PCNP,LIM-HR-001,LIM,2026-09-20T11:51:00.000Z,Note,,[20 Sep 2026]: Shortlist of candidates shared with Retail,Shortlist of candidates shared with Retail,Nicoletta Bisaro
+H-RUH-SP-001-PRO-MU9TH1PC,RUH-SP-001,RUH,2026-09-20T12:53:00.000Z,Progress_Percentage,45,70,,PMO Admin
+H-BOG-NET-001-PRO-MU9W82IO,BOG-NET-001,BOG,2026-09-20T14:10:00.000Z,Progress_Percentage,35,60,,PMO Admin
+H-MU9WAN4037CHG,BOG-NET-001,BOG,2026-09-20T14:12:00.000Z,Note,,[20 Sep 2026]: Provider survey scheduled,Provider survey scheduled,Stefano Galli
+H-HUC-CMP-001-PRO-MU9Y4880,HUC-CMP-001,HUC,2026-09-20T15:03:00.000Z,Progress_Percentage,45,60,,PMO Admin
+H-MU9Y6STC0UTMT,HUC-CMP-001,HUC,2026-09-20T15:05:00.000Z,Note,,[20 Sep 2026]: Waiting for feedback from local partner,Waiting for feedback from local partner,Davide Fontana
+H-IST-GS-001-PRO-MUA1SOQO,IST-GS-001,IST,2026-09-20T16:46:00.000Z,Progress_Percentage,5,30,,PMO Admin
+H-ARC-HR-002-PRO-MUB7P6AO,ARC-HR-002,ARC,2026-09-21T12:19:00.000Z,Progress_Percentage,10,30,,PMO Admin
+H-MUB7RQW01NAO5,ARC-HR-002,ARC,2026-09-21T12:21:00.000Z,Note,,[21 Sep 2026]: Shortlist of candidates shared with Retail,Shortlist of candidates shared with Retail,Nicoletta Bisaro
+H-RUH-IT-001-PRO-MUB7UBHC,RUH-IT-001,RUH,2026-09-21T12:23:00.000Z,Progress_Percentage,0,10,,PMO Admin
+H-SIN-CON-001-PRO-MUB8EW80,SIN-CON-001,SIN,2026-09-21T12:39:00.000Z,Progress_Percentage,5,25,,PMO Admin
+H-SIN-CON-001-STA-MUB8G6IO,SIN-CON-001,SIN,2026-09-21T12:40:00.000Z,Status,In Progress,Blocked,,PMO Admin
+H-SIN-CON-001-BLO-MUB8GTO0,SIN-CON-001,SIN,2026-09-21T12:40:30.000Z,Blocker,,Landlord has not returned the signed contract,,PMO Admin
+H-KSC-FIN-001-PRO-MUB9HH40,KSC-FIN-001,KSC,2026-09-21T13:09:00.000Z,Progress_Percentage,20,40,,PMO Admin
+H-KSC-FIN-001-STA-MUB9IREO,KSC-FIN-001,KSC,2026-09-21T13:10:00.000Z,Status,In Progress,Blocked,,PMO Admin
+H-KSC-FIN-001-BLO-MUB9JEK0,KSC-FIN-001,KSC,2026-09-21T13:10:30.000Z,Blocker,,Bank requires additional KYC documents from HQ,,PMO Admin
+H-HUC-FIN-003-STA-MUBBG7EO,HUC-FIN-003,HUC,2026-09-21T14:04:00.000Z,Status,In Progress,Completed,,Paolo Marchetti
+H-MUCI69S0DO5N9,AMS-ERP-001,AMS,2026-09-22T10:00:00.000Z,Status,In Progress,Completed,,PMO Admin
+H-MUCI69S0DPFJG,AMS-ERP-001,AMS,2026-09-22T10:00:00.000Z,Progress_Percentage,30,100,,PMO Admin
+H-MUCI6AJSDQIEU,AMS-ERP-001,AMS,2026-09-22T10:00:01.000Z,Note,,"[22 Sep 2026]: Meeting held with handling company: customs and transport flows clarified, minutes shared","Meeting held with handling company: customs and transport flows clarified, minutes shared",PMO Admin
+H-CZC-SAP-001-STA-MUCKBFK0,CZC-SAP-001,CZC,2026-09-22T11:00:00.000Z,Status,In Progress,Completed,,Andrea Colombo
+H-BUC-SAP-001-PRO-MUCKN080,BUC-SAP-001,BUC,2026-09-22T11:09:00.000Z,Progress_Percentage,0,5,,PMO Admin
+H-BOG-HR-001-PRO-MUCKOAIO,BOG-HR-001,BOG,2026-09-22T11:10:00.000Z,Progress_Percentage,55,75,,PMO Admin
+H-MUCKPKTC3Q2VE,BUC-SAP-001,BUC,2026-09-22T11:11:00.000Z,Note,,[22 Sep 2026]: Configuration transported to QA,Configuration transported to QA,Andrea Colombo
+H-MUCKQV403DEPK,BOG-HR-001,BOG,2026-09-22T11:12:00.000Z,Note,,[22 Sep 2026]: Second-round interviews scheduled,Second-round interviews scheduled,Nicoletta Bisaro
+H-PRG-SP-001-PRO-MUCL50DC,PRG-SP-001,PRG,2026-09-22T11:23:00.000Z,Progress_Percentage,45,65,,PMO Admin
+H-MUCL7KYO6Q2J1,PRG-SP-001,PRG,2026-09-22T11:25:00.000Z,Note,,[22 Sep 2026]: Contractor tender closed; 3 offers received,Contractor tender closed; 3 offers received,Alessandro Riva
+H-CZC-ERP-001-PRO-MUCOZWDC,CZC-ERP-001,CZC,2026-09-22T13:11:00.000Z,Progress_Percentage,55,75,,PMO Admin
+H-MUCP2GYO09YTC,CZC-ERP-001,CZC,2026-09-22T13:13:00.000Z,Note,,[22 Sep 2026]: Follow-up call held with local team,Follow-up call held with local team,Andrea Colombo
+H-KSC-HR-001-PRO-MUCPBH1C,KSC-HR-001,KSC,2026-09-22T13:20:00.000Z,Progress_Percentage,0,15,,PMO Admin
+H-HUC-ERP-001-PRO-MUCPXC2O,HUC-ERP-001,HUC,2026-09-22T13:37:00.000Z,Progress_Percentage,35,55,,PMO Admin
+H-MUCPZWO00PSIF,HUC-ERP-001,HUC,2026-09-22T13:39:00.000Z,Note,,[22 Sep 2026]: Follow-up call held with local team,Follow-up call held with local team,Andrea Colombo
+H-MUCSW2O0DRSJD,AMS-LOG-001,AMS,2026-09-22T15:00:00.000Z,Progress_Percentage,40,60,,PMO Admin
+H-MUCSW3FSDS51K,AMS-LOG-001,AMS,2026-09-22T15:00:01.000Z,Note,,[22 Sep 2026]: Handling company confirmed airside delivery windows,Handling company confirmed airside delivery windows,PMO Admin
+H-BOG-ERP-001-STA-MUCWN3S0,BOG-ERP-001,BOG,2026-09-22T16:45:00.000Z,Status,In Progress,Completed,,Andrea Colombo
+H-MUDVGYO0DTJ26,AMS-CON-001,AMS,2026-09-23T09:00:00.000Z,Decision_Required,,Approve final rent-escalation clause before signature,,PMO Admin
+H-MUDVGZFSDUMYY,AMS-CON-001,AMS,2026-09-23T09:00:01.000Z,Note,,[23 Sep 2026]: Legal comments returned to Schiphol; final version expected 29 Sep,Legal comments returned to Schiphol; final version expected 29 Sep,PMO Admin
+H-MUDZRA80DVQPY,AMS-FIN-002,AMS,2026-09-23T11:00:00.000Z,Status,In Progress,Completed,,PMO Admin
+H-MUDZRA80DWOWD,AMS-FIN-002,AMS,2026-09-23T11:00:00.000Z,Progress_Percentage,70,100,,PMO Admin
+H-IST-ERP-001-PRO-MUE2EG5C,IST-ERP-001,IST,2026-09-23T12:14:00.000Z,Progress_Percentage,40,65,,PMO Admin
+H-MUE66RK0DX1LH,AMS-GS-001,AMS,2026-09-23T14:00:00.000Z,Progress_Percentage,20,40,,PMO Admin
+H-MUE66RK0DYO70,AMS-GS-001,AMS,2026-09-23T14:00:00.000Z,Owner,Valentina Costa,Sara Lombardi,,PMO Admin
+H-MUE66SBSDZX1V,AMS-GS-001,AMS,2026-09-23T14:00:01.000Z,Note,,[23 Sep 2026]: Procurement takes over the supplier tender,Procurement takes over the supplier tender,PMO Admin
+H-KSC-CMP-001-PRO-MUE72WYO,KSC-CMP-001,KSC,2026-09-23T14:25:00.000Z,Progress_Percentage,0,20,,PMO Admin
+H-MUE75HK01BC81,KSC-CMP-001,KSC,2026-09-23T14:27:00.000Z,Note,,[23 Sep 2026]: Follow-up call held with local team,Follow-up call held with local team,Davide Fontana
+H-MUFD1Z40E04PH,AMS-SAP-002,AMS,2026-09-24T10:00:00.000Z,Progress_Percentage,35,50,,PMO Admin
+H-MUFD1ZVSE117E,AMS-SAP-002,AMS,2026-09-24T10:00:01.000Z,Note,,[24 Sep 2026]: Test cycle 1 passed for sales flow; replenishment flow testing next week,Test cycle 1 passed for sales flow; replenishment flow testing next week,PMO Admin
+H-IST-ITH-001-PRO-MUFFHF9C,IST-ITH-001,IST,2026-09-24T11:08:00.000Z,Progress_Percentage,30,45,,PMO Admin
+H-LIM-SP-002-PRO-MUFGNV1C,LIM-SP-002,LIM,2026-09-24T11:41:00.000Z,Progress_Percentage,0,5,,PMO Admin
+H-BUD-SP-001-PRO-MUFHCAO0,BUD-SP-001,BUD,2026-09-24T12:00:00.000Z,Progress_Percentage,0,15,,PMO Admin
+H-MUFHEV9C7D36Z,BUD-SP-001,BUD,2026-09-24T12:02:00.000Z,Note,,[24 Sep 2026]: Contractor tender closed; 3 offers received,Contractor tender closed; 3 offers received,Alessandro Riva
+H-BOG-IM-001-PRO-MUFKHGQO,BOG-IM-001,BOG,2026-09-24T13:28:00.000Z,Progress_Percentage,0,5,,PMO Admin
+H-MUFNRS00E2X0Z,AMS-ITH-001,AMS,2026-09-24T15:00:00.000Z,Status,On Hold,In Progress,,PMO Admin
+H-MUFNRS00E3LEP,AMS-ITH-001,AMS,2026-09-24T15:00:00.000Z,Progress_Percentage,10,30,,PMO Admin
+H-MUFNRS00E4M7X,AMS-ITH-001,AMS,2026-09-24T15:00:00.000Z,Blocker,Awaiting budget release for hardware PO,,,PMO Admin
+H-MUFNRSRSE54L4,AMS-ITH-001,AMS,2026-09-24T15:00:01.000Z,Note,,"[24 Sep 2026]: Budget released: hardware purchase can proceed, PO issued to supplier","Budget released: hardware purchase can proceed, PO issued to supplier",PMO Admin
+H-MUGQCO00E6OWQ,AMS-CORP-001,AMS,2026-09-25T09:00:00.000Z,Progress_Percentage,60,75,,PMO Admin
+H-MUGQCORSE7IA7,AMS-CORP-001,AMS,2026-09-25T09:00:01.000Z,Note,,[25 Sep 2026]: Notary appointment fixed for 2 Oct; KvK filing to follow,Notary appointment fixed for 2 Oct; KvK filing to follow,PMO Admin
+H-IST-SP-002-PRO-MUGSA400,IST-SP-002,IST,2026-09-25T09:54:00.000Z,Progress_Percentage,65,85,,PMO Admin
+H-MUGT1480E8I9M,AMS-CMP-003,AMS,2026-09-25T10:15:00.000Z,Created,,Cosmetics and allergen labelling for travel products,,PMO Admin
+H-MUGUMZK0E9UYG,AMS-FIN-001,AMS,2026-09-25T11:00:00.000Z,Decision_Required,,Select statutory auditor between the two shortlisted firms,,PMO Admin
+H-MUGUN0BSEAYRA,AMS-FIN-001,AMS,2026-09-25T11:00:01.000Z,Note,,[25 Sep 2026]: Two proposals received; fee comparison in shared folder,Two proposals received; fee comparison in shared folder,PMO Admin
+H-BUC-FIN-001-PRO-MUGY6AW0,BUC-FIN-001,BUC,2026-09-25T12:39:00.000Z,Progress_Percentage,10,25,,PMO Admin
+H-CZC-CORP-002-PRO-MUGZN11C,CZC-CORP-002,CZC,2026-09-25T13:20:00.000Z,Progress_Percentage,45,65,,PMO Admin
+H-CZC-CORP-002-STA-MUGZOBC0,CZC-CORP-002,CZC,2026-09-25T13:21:00.000Z,Status,In Progress,Blocked,,PMO Admin
+H-CZC-CORP-002-BLO-MUGZOYHC,CZC-CORP-002,CZC,2026-09-25T13:21:30.000Z,Blocker,,Notarial documents require apostille,,PMO Admin
+H-IST-CMP-001-PRO-MUH02GLC,IST-CMP-001,IST,2026-09-25T13:32:00.000Z,Progress_Percentage,70,95,,PMO Admin
+H-MUH5CSG0EBWH9,AMS-AR-001,AMS,2026-09-25T16:00:00.000Z,Progress_Percentage,20,40,,PMO Admin
+H-MUH5CSG0EC3XW,AMS-AR-001,AMS,2026-09-25T16:00:00.000Z,Decision_Required,Confirm travel-exclusive capsule quantities with Merchandising,,,PMO Admin
+H-MUH5CT7SEDGOM,AMS-AR-001,AMS,2026-09-25T16:00:01.000Z,Note,,[25 Sep 2026]: Capsule quantities confirmed by Merchandising,Capsule quantities confirmed by Merchandising,PMO Admin
+H-BUC-SP-002-PRO-MUH7UT6O,BUC-SP-002,BUC,2026-09-25T17:10:00.000Z,Progress_Percentage,0,15,,PMO Admin
+H-SBC-CORP-001-PRO-MUH818O0,SBC-CORP-001,SBC,2026-09-25T17:15:00.000Z,Progress_Percentage,0,5,,PMO Admin
+H-MUI5SIO0EE0OK,AMS-HR-002,AMS,2026-09-26T09:00:00.000Z,Progress_Percentage,40,70,,Nicoletta Bisaro
+H-MUI5SIO0EFL1H,AMS-HR-002,AMS,2026-09-26T09:00:00.000Z,Due_Date,2026-09-20,2026-09-30,,Nicoletta Bisaro
+H-MUI5SJFSEGU8S,AMS-HR-002,AMS,2026-09-26T09:00:01.000Z,Note,,[26 Sep 2026]: Waiting for final candidate confirmation,Waiting for final candidate confirmation,Nicoletta Bisaro
+H-BOG-SP-001-PRO-MUI7FOAO,BOG-SP-001,BOG,2026-09-26T09:46:00.000Z,Progress_Percentage,17,42,,PMO Admin
+H-MUI7I8W03G20J,BOG-SP-001,BOG,2026-09-26T09:48:00.000Z,Note,,[26 Sep 2026]: Contractor tender closed; 3 offers received,Contractor tender closed; 3 offers received,Alessandro Riva
+H-MUI8GYW0EH1ZG,AMS-IT-003,AMS,2026-09-26T10:15:00.000Z,Created,,Cybersecurity assessment for airport network connection,,PMO Admin
+H-MUIA2U80EISPG,AMS-IT-002,AMS,2026-09-26T11:00:00.000Z,Status,In Progress,Blocked,,PMO Admin
+H-MUIA2U80EJCOF,AMS-IT-002,AMS,2026-09-26T11:00:00.000Z,Risk_Level,Medium,High,,PMO Admin
+H-MUIA2U80EKHF0,AMS-IT-002,AMS,2026-09-26T11:00:00.000Z,Blocker,,Waiting for confirmation from Airport IT regarding integration requirements,,PMO Admin
+H-MUIA2UZSELRF1,AMS-IT-002,AMS,2026-09-26T11:00:01.000Z,Note,,[26 Sep 2026]: Escalated to Schiphol IT service manager,Escalated to Schiphol IT service manager,PMO Admin
+H-KSC-HR-002-PRO-MUIE45PC,KSC-HR-002,KSC,2026-09-26T12:53:00.000Z,Progress_Percentage,70,95,,PMO Admin
+H-MUIE6QAO173IO,KSC-HR-002,KSC,2026-09-26T12:55:00.000Z,Note,,[26 Sep 2026]: Shortlist of candidates shared with Retail,Shortlist of candidates shared with Retail,Nicoletta Bisaro
+H-BOG-CMP-001-PRO-MUIF5GAO,BOG-CMP-001,BOG,2026-09-26T13:22:00.000Z,Progress_Percentage,20,40,,PMO Admin
+H-MUIINHC0EM308,AMS-NET-001,AMS,2026-09-26T15:00:00.000Z,Progress_Percentage,30,40,,PMO Admin
+H-MUIINI3SEN1SR,AMS-NET-001,AMS,2026-09-26T15:00:01.000Z,Note,,[26 Sep 2026]: Schiphol Telecom confirmed site survey on 6 Oct,Schiphol Telecom confirmed site survey on 6 Oct,PMO Admin
+H-MUIO0DS0EOUUS,,AMS,2026-09-26T17:30:00.000Z,Store.Risk_Level,Medium,High,,PMO Admin
+H-ARC-CORP-001-PRO-MUJLU8DC,ARC-CORP-001,ARC,2026-09-27T09:17:00.000Z,Progress_Percentage,75,95,,PMO Admin
+H-MUJNDJ40EP77O,AMS-POS-001,AMS,2026-09-27T10:00:00.000Z,Due_Date,2026-10-28,2026-11-11,,PMO Admin
+H-MUJNDJVSEQJPG,AMS-POS-001,AMS,2026-09-27T10:00:01.000Z,Note,,[27 Sep 2026]: Schiphol interface spec v2 received; development re-planned with vendor,Schiphol interface spec v2 received; development re-planned with vendor,PMO Admin
+H-LIM-FIN-001-PRO-MUJPG4AO,LIM-FIN-001,LIM,2026-09-27T10:58:00.000Z,Progress_Percentage,0,5,,PMO Admin
+H-MUJPIOW04LGGE,LIM-FIN-001,LIM,2026-09-27T11:00:00.000Z,Note,,[27 Sep 2026]: Draft budget shared with Controlling,Draft budget shared with Controlling,Paolo Marchetti
+H-MUJRNUO0ER8O7,AMS-ERP-002,AMS,2026-09-27T12:00:00.000Z,Status,Not Started,In Progress,,PMO Admin
+H-MUJRNUO0ESFAZ,AMS-ERP-002,AMS,2026-09-27T12:00:00.000Z,Progress_Percentage,0,15,,PMO Admin
+H-IST-IM-001-PRO-MUJS8FEO,IST-IM-001,IST,2026-09-27T12:16:00.000Z,Progress_Percentage,10,25,,PMO Admin
+H-HUC-FIN-002-PRO-MUJUVLC0,HUC-FIN-002,HUC,2026-09-27T13:30:00.000Z,Progress_Percentage,50,75,,PMO Admin
+H-MUJUY5XC0LO15,HUC-FIN-002,HUC,2026-09-27T13:32:00.000Z,Note,,[27 Sep 2026]: Draft budget shared with Controlling,Draft budget shared with Controlling,Paolo Marchetti
+H-MUJVY6ZSET1RJ,AMS-CMP-001,AMS,2026-09-27T14:00:01.000Z,Note,,[27 Sep 2026]: Meeting request sent twice; awaiting Schiphol availability,Meeting request sent twice; awaiting Schiphol availability,PMO Admin
+H-BOG-SP-002-PRO-MUJX4M00,BOG-SP-002,BOG,2026-09-27T14:33:00.000Z,Progress_Percentage,40,60,,PMO Admin
+H-HUC-LOG-001-PRO-MUJXP6QO,HUC-LOG-001,HUC,2026-09-27T14:49:00.000Z,Progress_Percentage,45,60,,PMO Admin
+H-RUH-CON-001-PRO-MUJY0REO,RUH-CON-001,RUH,2026-09-27T14:58:00.000Z,Progress_Percentage,55,80,,PMO Admin
+H-MUJY3C0050WTE,RUH-CON-001,RUH,2026-09-27T15:00:00.000Z,Note,,[27 Sep 2026]: Landlord feedback received on draft,Landlord feedback received on draft,Giulia Rinaldi
+H-MUK08HS0EU42Q,AMS-SP-004,AMS,2026-09-27T16:00:00.000Z,Risk_Level,Medium,High,,PMO Admin
+H-MUK08HS0EV1OV,AMS-SP-004,AMS,2026-09-27T16:00:00.000Z,Blocker,,Contractor badge applications rejected: missing certificates of conduct (VOG),,PMO Admin
+H-KSC-FIN-003-PRO-MUK38IO0,KSC-FIN-003,KSC,2026-09-27T17:24:00.000Z,Progress_Percentage,5,30,,PMO Admin
+H-HUC-CON-001-PRO-MUK3HIQO,HUC-CON-001,HUC,2026-09-27T17:31:00.000Z,Progress_Percentage,40,65,,PMO Admin
+H-MUKZYIUGEWBCP,AMS-HR-005,AMS,2026-09-28T08:40:01.000Z,Note,,[28 Sep 2026]: First 5 candidates cleared; 4 pending,First 5 candidates cleared; 4 pending,PMO Admin
+H-HUC-SAP-001-PRO-MUL6MZHC,HUC-SAP-001,HUC,2026-09-28T11:47:00.000Z,Progress_Percentage,30,50,,PMO Admin
+H-HUC-FIN-001-PRO-MULAFAW0,HUC-FIN-001,HUC,2026-09-28T13:33:00.000Z,Progress_Percentage,64,79,,PMO Admin
+H-MULAHVHC0J3FM,HUC-FIN-001,HUC,2026-09-28T13:35:00.000Z,Note,,[28 Sep 2026]: KYC documents sent to bank,KYC documents sent to bank,Paolo Marchetti
+H-BOG-ITH-001-PRO-MULDA6LC,BOG-ITH-001,BOG,2026-09-28T14:53:00.000Z,Progress_Percentage,5,30,,PMO Admin

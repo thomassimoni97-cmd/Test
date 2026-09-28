@@ -1,0 +1,23 @@
+Owner_ID,Name,Email,Function,Active
+OWN-001,Marco Ferri,marco.ferri@goldengoose.example,Legal & Corporate Affairs,TRUE
+OWN-002,Giulia Rinaldi,giulia.rinaldi@goldengoose.example,Real Estate & Contracts,TRUE
+OWN-003,Luca Bernardi,luca.bernardi@goldengoose.example,IT Retail Systems,TRUE
+OWN-004,Andrea Colombo,andrea.colombo@goldengoose.example,SAP / ERP,TRUE
+OWN-005,Francesca Moretti,francesca.moretti@goldengoose.example,POS & Store Systems,TRUE
+OWN-006,Stefano Galli,stefano.galli@goldengoose.example,IT Infrastructure,TRUE
+OWN-007,Chiara De Luca,chiara.de.luca@goldengoose.example,CRM & Clienteling,TRUE
+OWN-008,Paolo Marchetti,paolo.marchetti@goldengoose.example,Finance & Administration,TRUE
+OWN-009,Roberto Villa,roberto.villa@goldengoose.example,Tax & Treasury,TRUE
+OWN-010,Elena Conti,elena.conti@goldengoose.example,Logistics & Customs,TRUE
+OWN-011,Davide Fontana,davide.fontana@goldengoose.example,Compliance & Labelling,TRUE
+OWN-012,Nicoletta Bisaro,nicoletta.bisaro@goldengoose.example,HR,TRUE
+OWN-013,Alessandro Riva,alessandro.riva@goldengoose.example,Store Planning,TRUE
+OWN-014,Sara Lombardi,sara.lombardi@goldengoose.example,Procurement / Indirect Materials,TRUE
+OWN-015,Matteo Greco,matteo.greco@goldengoose.example,Allocation & Replenishment,TRUE
+OWN-016,Valentina Costa,valentina.costa@goldengoose.example,General Services,TRUE
+OWN-017,Martina Ricci,martina.ricci@goldengoose.example,Retail Concept & VM,TRUE
+OWN-018,Federico Mancini,federico.mancini@goldengoose.example,Retail Operations,TRUE
+OWN-019,Laura Bianchi,laura.bianchi@goldengoose.example,Retail Opening PMO,TRUE
+OWN-020,Giorgio Sala,giorgio.sala@goldengoose.example,Retail Opening PMO,TRUE
+OWN-021,Sophie van Dijk,sophie.van.dijk@goldengoose.example,Store Manager – Amsterdam,TRUE
+OWN-022,Omar Al-Harbi,omar.alharbi@goldengoose.example,Country Manager – KSA,TRUE
