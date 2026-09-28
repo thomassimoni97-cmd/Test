@@ -34,6 +34,14 @@ the current SAL compared with the one of 7 days ago.
 
 Reset the demo at any time: *Settings › Google Sheets connection › Reset demo data* or `npm run demo:reset`.
 
+## Claude artifact edition
+
+`npm run artifact:build` bundles the same pages and components into one HTML file
+(`artifact/dist/retail-control-center.html`) that runs inside Claude as a private artifact: routing in
+memory, data in the artifact's private document store (`src/artifact/adapters.ts`, same `TableAdapter`
+contract), exports through Claude's download prompt. No Google Sheets and no print dialog in that
+edition (the artifact frame blocks both); *Copy minutes* works.
+
 ## Scripts
 
 | Command | What it does |

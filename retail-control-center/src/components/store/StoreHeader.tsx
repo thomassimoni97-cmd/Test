@@ -7,6 +7,7 @@ import { fmtDate, fmtTimestamp } from '@/lib/domain/dates';
 import { isAirport, type StoreStat } from '@/lib/domain/metrics';
 import type { StructuredMinutes } from '@/lib/domain/minutes';
 import type { Store } from '@/lib/domain/types';
+import { isArtifact } from '@/lib/client/env';
 import { useApp, type TaskFilters } from '@/lib/client/store';
 import { AirportMark, OpeningDate, ProgressBar, RiskBadge } from '@/components/ui/badges';
 import { Button, Select, cn } from '@/components/ui/primitives';
@@ -65,9 +66,11 @@ export function StoreHeader({ stat, stores, since, lastSal }: { stat: StoreStat;
               <Button size="md" icon={<Pencil className="h-3.5 w-3.5" />} onClick={() => openStore(store.Store_ID)}>
                 Edit
               </Button>
-              <Button size="md" icon={<Printer className="h-3.5 w-3.5" />} onClick={() => window.print()} title="Print-friendly store status">
-                Print
-              </Button>
+              {!isArtifact() && (
+                <Button size="md" icon={<Printer className="h-3.5 w-3.5" />} onClick={() => window.print()} title="Print-friendly store status">
+                  Print
+                </Button>
+              )}
             </>
           )}
           <Link href={`/stores/${store.Store_ID}/minutes`}>

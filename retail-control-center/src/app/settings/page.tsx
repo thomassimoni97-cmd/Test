@@ -308,7 +308,7 @@ function SheetsSettings() {
       <div className="flex items-start gap-3 rounded-md border border-line p-3">
         <Database className="mt-0.5 h-5 w-5 text-sand-600" />
         <div className="text-[13px]">
-          <p className="font-semibold">{source === 'sheets' ? 'Connected to Google Sheets' : 'Local demo mode (JSON file)'}</p>
+          <p className="font-semibold">{source === 'sheets' ? 'Connected to Google Sheets' : source === 'browser' ? 'Saved privately in this Claude artifact' : 'Local demo mode (JSON file)'}</p>
           {err ? <p className="mt-1 text-st-red">{err}</p> : h ? (
             <dl className="mt-1 grid grid-cols-[140px_minmax(0,1fr)] gap-x-3 gap-y-0.5 text-xs">
               {Object.entries(h.details).map(([k, v]) => (<Fragment key={k}><dt className="text-ink-3">{k}</dt><dd className="break-all font-mono">{v || '—'}</dd></Fragment>))}
@@ -319,13 +319,14 @@ function SheetsSettings() {
           ) : <p className="text-xs text-ink-3">Checking…</p>}
         </div>
       </div>
-      <ol className="mt-4 list-decimal space-y-1 pl-5 text-xs text-ink-2">
+      {source === 'browser' && <p className="mt-4 text-xs text-ink-2">This edition runs entirely inside Claude: data is stored in the artifact's private document store. To connect Google Sheets, run the full Next.js app (see README).</p>}
+      {source !== 'browser' && <ol className="mt-4 list-decimal space-y-1 pl-5 text-xs text-ink-2">
         <li>Create a Google Cloud service account and enable the Google Sheets API.</li>
         <li>Share the spreadsheet with the service account email (Editor).</li>
         <li>Set <code>GOOGLE_SHEETS_ID</code> and the credentials in the server environment (see <code>.env.example</code>).</li>
         <li>Run <code>npm run sheets:init</code> once to create the tabs, headers, dropdown validation and demo data.</li>
-      </ol>
-      {source === 'local' && (
+      </ol>}
+      {source !== 'sheets' && (
         <div className="mt-5 border-t border-line pt-4">
           <p className="text-[13px] font-semibold">Demo data</p>
           <p className="text-xs text-ink-3">Restore the original demo dataset (all local changes are lost).</p>

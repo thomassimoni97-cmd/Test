@@ -2,7 +2,7 @@
   "name": "gg-retail-opening-control-center",
   "version": "0.1.0",
   "private": true,
-  "description": "Golden Goose — Retail Opening Control Center (internal PMO application)",
+  "description": "Golden Goose \u2014 Retail Opening Control Center (internal PMO application)",
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
@@ -13,7 +13,8 @@
     "sheets:init": "tsx scripts/init-sheets.ts",
     "template:export": "tsx scripts/export-template.ts",
     "demo:reset": "tsx scripts/reset-local.ts",
-    "e2e": "node e2e/smoke.mjs"
+    "e2e": "node e2e/smoke.mjs",
+    "artifact:build": "node scripts/build-artifact.mjs"
   },
   "engines": {
     "node": ">=20"
@@ -40,6 +41,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.6.1",
+    "esbuild": "^0.25.12",
     "eslint": "^9.39.5",
     "eslint-config-next": "^15.5.26",
     "playwright": "1.56",

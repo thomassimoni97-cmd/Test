@@ -5,7 +5,7 @@ import type { RawRow, RawTables, TableName } from '@/lib/domain/schema';
  * The repository above it owns all business rules, so swapping the adapter never touches the UI.
  */
 export interface TableAdapter {
-  readonly kind: 'sheets' | 'local';
+  readonly kind: 'sheets' | 'local' | 'browser';
   /** Reads every table (one round-trip on Sheets). */
   readAll(): Promise<RawTables>;
   /** Reads one table fresh from the source. */

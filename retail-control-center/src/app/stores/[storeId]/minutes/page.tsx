@@ -8,6 +8,7 @@ import { addDaysISO, fmtDate, fmtTimestamp, isISODate } from '@/lib/domain/dates
 import { confirmedSals, firstSalBaseline, generateMinutes, MINUTES_TEMPLATES, renderHtml, renderText, resolveBaseline, SIGNAL_RANK, summaryFor, type Baseline, type MinutesDoc, type StructuredMinutes } from '@/lib/domain/minutes';
 import type { SalRecord } from '@/lib/domain/types';
 import { copyRich } from '@/lib/client/clipboard';
+import { isArtifact } from '@/lib/client/env';
 import { useModel } from '@/lib/client/model';
 import { useApp } from '@/lib/client/store';
 import { toast } from '@/lib/client/toasts';
@@ -229,11 +230,15 @@ export default function MinutesGeneratorPage() {
                   <p className="text-2xs text-ink-3">
                     Generated {fmtTimestamp(draft.generatedAt)}{edited && ' · edited by you'} · {draft.baselineMode === 'recap' ? 'current-state recap' : `changes since ${fmtDate(draft.previousSalDate) }`}
                   </p>
-                  <div className="grid grid-cols-3 gap-2">
-                    <Button icon={<Copy className="h-3.5 w-3.5" />} onClick={doCopy}>Copy</Button>
-                    <Button icon={<Printer className="h-3.5 w-3.5" />} onClick={() => window.print()}>Print</Button>
-                    <Button icon={<FileDown className="h-3.5 w-3.5" />} onClick={() => { toast.info('Export PDF', 'Choose “Save as PDF” as the destination in the print dialog.'); setTimeout(() => window.print(), 300); }}>PDF</Button>
-                  </div>
+                  {isArtifact() ? (
+                    <Button className="w-full" icon={<Copy className="h-3.5 w-3.5" />} onClick={doCopy}>Copy minutes</Button>
+                  ) : (
+                    <div className="grid grid-cols-3 gap-2">
+                      <Button icon={<Copy className="h-3.5 w-3.5" />} onClick={doCopy}>Copy</Button>
+                      <Button icon={<Printer className="h-3.5 w-3.5" />} onClick={() => window.print()}>Print</Button>
+                      <Button icon={<FileDown className="h-3.5 w-3.5" />} onClick={() => { toast.info('Export PDF', 'Choose “Save as PDF” as the destination in the print dialog.'); setTimeout(() => window.print(), 300); }}>PDF</Button>
+                    </div>
+                  )}
                   <Button variant="gold" size="lg" className="w-full" disabled={busy || staleDraft} onClick={doConfirm}>
                     {busy ? 'Confirming…' : 'Confirm meeting minutes'}
                   </Button>

@@ -9,6 +9,7 @@ import { isAirport } from '@/lib/domain/metrics';
 import { parseSnapshot, renderHtml, renderText, type MinutesDoc } from '@/lib/domain/minutes';
 import type { SalRecord } from '@/lib/domain/types';
 import { copyRich } from '@/lib/client/clipboard';
+import { isArtifact } from '@/lib/client/env';
 import { useModel } from '@/lib/client/model';
 import { toast } from '@/lib/client/toasts';
 import { MinutesView } from '@/components/minutes/MinutesEditor';
@@ -105,7 +106,7 @@ function Inner() {
                 <div className="no-print flex items-center gap-2">
                   <Segmented size="sm" value={tab} onChange={setTab} options={[{ value: 'final', label: 'Final minutes' }, { value: 'generated', label: 'Generated draft' }, { value: 'snapshot', label: 'Snapshot & changes' }]} />
                   <Button size="sm" icon={<Copy className="h-3.5 w-3.5" />} onClick={async () => ((await copyRich(sal.Final_Minutes, parsed.doc ? renderHtml(parsed.doc) : `<pre>${sal.Final_Minutes}</pre>`)) ? toast.success('Minutes copied') : toast.error('Copy failed'))}>Copy</Button>
-                  <Button size="sm" icon={<Printer className="h-3.5 w-3.5" />} onClick={() => window.print()}>Print</Button>
+                  {!isArtifact() && <Button size="sm" icon={<Printer className="h-3.5 w-3.5" />} onClick={() => window.print()}>Print</Button>}
                 </div>
               }
             >

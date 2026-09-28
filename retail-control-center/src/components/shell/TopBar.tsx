@@ -35,9 +35,9 @@ export function SyncBadge() {
 
   return (
     <div className="flex items-center gap-1">
-      <div className={cn('flex h-8 items-center gap-1.5 rounded-md px-2 text-xs font-medium', cls)} title={syncError || `Source: ${source === 'sheets' ? 'Google Sheets' : 'Local demo file'} · last synchronization ${lastSync ? fmtTimestamp(lastSync) : '—'}`}>
+      <div className={cn('flex h-8 items-center gap-1.5 rounded-md px-2 text-xs font-medium', cls)} title={syncError || `Source: ${source === 'sheets' ? 'Google Sheets' : source === 'browser' ? 'this Claude artifact' : 'Local demo file'} · last synchronization ${lastSync ? fmtTimestamp(lastSync) : '—'}`}>
         {label}
-        <span className="hidden text-2xs font-normal text-ink-4 xl:inline">· {source === 'sheets' ? 'Google Sheets' : 'Demo data'}</span>
+        <span className="hidden text-2xs font-normal text-ink-4 xl:inline">· {source === 'sheets' ? 'Google Sheets' : source === 'browser' ? 'Saved in Claude' : 'Demo data'}</span>
       </div>
       {pending > 0 ? (
         <Button size="sm" variant="secondary" onClick={() => retry()}>

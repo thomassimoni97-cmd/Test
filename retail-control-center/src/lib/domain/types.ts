@@ -157,7 +157,7 @@ export interface Snapshot {
   settings: Settings;
   issues: DataIssue[];
   meta: {
-    source: 'sheets' | 'local';
+    source: 'sheets' | 'local' | 'browser';
     fetchedAt: ISOTimestamp;
     etag: string;
   };
