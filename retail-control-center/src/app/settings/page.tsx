@@ -319,7 +319,7 @@ function SheetsSettings() {
           ) : <p className="text-xs text-ink-3">Checking…</p>}
         </div>
       </div>
-      {source === 'browser' && <p className="mt-4 text-xs text-ink-2">This edition runs entirely inside Claude: data is stored in the artifact's private document store. To connect Google Sheets, run the full Next.js app (see README).</p>}
+      {source === 'browser' && <p className="mt-4 text-xs text-ink-2">This edition runs entirely inside Claude: data is stored in the artifact’s private document store. To connect Google Sheets, run the full Next.js app (see README).</p>}
       {source !== 'browser' && <ol className="mt-4 list-decimal space-y-1 pl-5 text-xs text-ink-2">
         <li>Create a Google Cloud service account and enable the Google Sheets API.</li>
         <li>Share the spreadsheet with the service account email (Editor).</li>

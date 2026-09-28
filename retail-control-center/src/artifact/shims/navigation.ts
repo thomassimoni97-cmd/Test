@@ -5,7 +5,7 @@ import { navigate, useLocation } from './router';
 export const ParamsContext = createContext<Record<string, string>>({});
 
 export function useRouter() {
-  return { push: (h: string) => navigate(h), replace: (h: string, _o?: unknown) => navigate(h), back: () => undefined, refresh: () => undefined, prefetch: () => undefined };
+  return { push: (h: string) => navigate(h), replace: (h: string) => navigate(h), back: () => undefined, refresh: () => undefined, prefetch: () => undefined };
 }
 export function usePathname() {
   return useLocation().path;
