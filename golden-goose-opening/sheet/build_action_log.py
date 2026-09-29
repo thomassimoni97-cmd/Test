@@ -511,6 +511,17 @@ for ws in wb.worksheets:
                 m = re.match(r'^=\{"([^"]+)";', cell.value)
                 cell.value = m.group(1) if m else None
 
+
+def js_formulas(formulas):
+    """Array JS solo ASCII e righe corte: sopravvive a qualsiasi copia-incolla."""
+    out = ["["]
+    for sheet_name, cell, f in formulas:
+        parts = [json.dumps(f[i:i + 70]) for i in range(0, len(f), 70)]
+        out.append("    [%s, %s," % (json.dumps(sheet_name), json.dumps(cell)))
+        out.append("      " + " +\n      ".join(parts) + "],")
+    out.append("  ]")
+    return "\n".join(out)
+
 GS = """/**
  * GG Opening Action Log - setup una tantum (Fase 3).
  * Generato da build_action_log.py: non modificare a mano.
@@ -566,7 +577,7 @@ function setupActionLog() {
   Logger.log(msg);
   ss.toast(msg, 'GG Action Log', 15);
 }
-""" % json.dumps([list(f) for f in FORMULAS], ensure_ascii=False, indent=2).replace("\n", "\n    ")
+""" % js_formulas(FORMULAS)
 
 gs_path = OUT.rsplit("/", 1)[0] + "/setup_formulas.gs" if "/" in OUT else "setup_formulas.gs"
 with open(gs_path, "w") as fh:
