@@ -342,14 +342,14 @@ op["I1"] = (f'={{"Baseline Opening Date";ARRAYFORMULA(IF(A2:A="","",IFERROR(VLOO
 op["J1"] = (f'={{"Current Opening Date";ARRAYFORMULA(IF(A2:A="","",IFERROR(VLOOKUP(A2:A,'
             f'SORT(FILTER({ODH}!B2:E,{ODH}!B2:B<>""),FILTER({ODH}!D2:D,{ODH}!B2:B<>""),FALSE,'
             f'FILTER(ROW({ODH}!B2:B),{ODH}!B2:B<>""),FALSE),4,FALSE),"")))}}')
-op["K1"] = ('={"Delay (wd)";ARRAYFORMULA(IF((I2:I="")+(J2:J="")>0,"",'
-            'IF(J2:J>=I2:I,NETWORKDAYS(I2:I,J2:J)-1,-(NETWORKDAYS(J2:J,I2:I)-1))))}')
+op["K1"] = ('={"Delay (wd)";MAP(I2:I,J2:J,LAMBDA(base,cur,IF(OR(base="",cur=""),"",'
+            'IF(cur>=base,NETWORKDAYS(base,cur)-1,-(NETWORKDAYS(cur,base)-1)))))}')
 op["L1"] = f'={{"Postponements";ARRAYFORMULA(IF(A2:A="","",COUNTIFS({ODH}!B2:B,A2:A,{ODH}!C2:C,"Change")))}}'
-op["M1"] = ('={"Days Elapsed (wd)";ARRAYFORMULA(IF((F2:F="")+(J2:J="")>0,"",'
-            'IF(G2:G="Opened",NETWORKDAYS(F2:F,J2:J),NETWORKDAYS(F2:F,TODAY()))))}')
-op["N1"] = '={"Planned Duration (wd)";ARRAYFORMULA(IF((F2:F="")+(J2:J="")>0,"",NETWORKDAYS(F2:F,J2:J)))}'
-op["O1"] = ('={"Days Remaining (wd)";ARRAYFORMULA(IF(J2:J="","",IF(G2:G="Opened",0,'
-            'IF(J2:J>=TODAY(),NETWORKDAYS(TODAY(),J2:J)-1,-(NETWORKDAYS(J2:J,TODAY())-1)))))}')
+op["M1"] = ('={"Days Elapsed (wd)";MAP(F2:F,G2:G,J2:J,LAMBDA(start,stat,cur,IF(OR(start="",cur=""),"",'
+            'IF(stat="Opened",NETWORKDAYS(start,cur),NETWORKDAYS(start,TODAY())))))}')
+op["N1"] = '={"Planned Duration (wd)";MAP(F2:F,J2:J,LAMBDA(start,cur,IF(OR(start="",cur=""),"",NETWORKDAYS(start,cur))))}'
+op["O1"] = ('={"Days Remaining (wd)";MAP(G2:G,J2:J,LAMBDA(stat,cur,IF(cur="","",IF(stat="Opened",0,'
+            'IF(cur>=TODAY(),NETWORKDAYS(TODAY(),cur)-1,-(NETWORKDAYS(cur,TODAY())-1))))))}')
 op["P1"] = ('={"Next Task ID";ARRAYFORMULA(IF(A2:A="","",'
             'A2:A&"-"&TEXT(COUNTIF(ACTION_LOG!A2:A,A2:A&"-???")+1,"000")))}')
 op["Q1"] = ('={"Check";ARRAYFORMULA(IF(A2:A="","",IF(COUNTIF(A2:A,A2:A)>1,"⛔ Codice duplicato",'
@@ -396,10 +396,11 @@ for i, (code, et, dec, new, reason, by, sess) in enumerate(ROWS, 1):
 fmt(od, "D", DATE_FMT)
 fmt(od, "E", DATE_FMT)
 fmt(od, "F", DATE_FMT)
-od["F1"] = ('={"Previous Date";BYROW(B2:E,LAMBDA(r,IF(INDEX(r,1,2)<>"Change","",IFERROR('
-            'SUMIFS(E2:E,B2:B,INDEX(r,1,1),D2:D,MAXIFS(D2:D,B2:B,INDEX(r,1,1),D2:D,"<"&INDEX(r,1,3))),""))))}')
-od["G1"] = ('={"Shift (wd)";ARRAYFORMULA(IF((C2:C<>"Change")+(F2:F="")>0,"",'
-            'IF(E2:E>=F2:F,NETWORKDAYS(F2:F,E2:E)-1,-(NETWORKDAYS(E2:E,F2:F)-1))))}')
+od["F1"] = ('={"Previous Date";BYROW(B2:E,LAMBDA(r,IF(INDEX(r,1,2)<>"Change","",'
+            'LET(prevdec,MAXIFS(D2:D,B2:B,INDEX(r,1,1),D2:D,"<"&INDEX(r,1,3)),'
+            'IF(prevdec=0,"",SUMIFS(E2:E,B2:B,INDEX(r,1,1),D2:D,prevdec))))))}')
+od["G1"] = ('={"Shift (wd)";MAP(C2:C,E2:E,F2:F,LAMBDA(typ,newd,prevd,IF(OR(typ<>"Change",prevd=""),"",'
+            'IF(newd>=prevd,NETWORKDAYS(prevd,newd)-1,-(NETWORKDAYS(newd,prevd)-1)))))}')
 dv_list(od, "=OPENINGS!$A$2:$A$200", f"B2:B{MAXR}")
 dv_list(od, "=LISTS!$K$2:$K$3", f"C2:C{MAXR}")
 dv_date(od, f"D2:E{MAXR}")
@@ -491,6 +492,86 @@ for col, vals in LISTS.items():
 ls["L2"] = '=SORT(UNIQUE(FILTER(OPENINGS!C2:C,OPENINGS!C2:C<>"")))'
 ls["M2"] = '=UNIQUE(FILTER(AREAS!A2:A,AREAS!A2:A<>""))'
 ls["N2"] = '=FILTER(AREAS!B2:B,AREAS!B2:B<>"")'
+
+
+# =====================================================================
+# Le formule non sopravvivono alla conversione xlsx -> Google Sheets:
+# nel .xlsx resta solo l'intestazione, le formule vanno in setup_formulas.gs
+# (unica fonte delle formule, eseguita una volta dentro il Google Sheet).
+# =====================================================================
+import json
+import re
+
+FORMULAS = []
+for ws in wb.worksheets:
+    for row in ws.iter_rows():
+        for cell in row:
+            if isinstance(cell.value, str) and cell.value.startswith("="):
+                FORMULAS.append((ws.title, cell.coordinate, cell.value))
+                m = re.match(r'^=\{"([^"]+)";', cell.value)
+                cell.value = m.group(1) if m else None
+
+GS = """/**
+ * GG Opening Action Log - setup una tantum (Fase 3).
+ * Generato da build_action_log.py: non modificare a mano.
+ * Estensioni > Apps Script > incolla > Salva > Esegui setupActionLog.
+ */
+function setupActionLog() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+  const sh = (n) => ss.getSheetByName(n);
+
+  // 1. Formule (sintassi Google, indipendente dalla lingua del foglio)
+  const F = %s;
+  F.forEach(([s, c, f]) => sh(s).getRange(c).setFormula(f));
+
+  // 2. Formati
+  const DATE = 'dd mmm yyyy';
+  sh('OPENINGS').getRange('I2:J1000').setNumberFormat(DATE);
+  sh('OPENINGS').getRange('K2:O1000').setNumberFormat('0');
+  sh('OPENING_DATE_HISTORY').getRange('F2:F1000').setNumberFormat(DATE);
+  sh('OPENING_DATE_HISTORY').getRange('G2:G1000').setNumberFormat('+0;-0;0');
+  ['G2:G1000', 'O2:O1000', 'Q2:Q1000', 'R2:R1000'].forEach((a) =>
+    sh('ACTION_LOG').getRange(a).setWrapStrategy(SpreadsheetApp.WrapStrategy.CLIP));
+
+  // 3. Checkbox
+  sh('ACTION_LOG').getRange('S2:T1000').insertCheckboxes();
+  sh('AREAS').getRange('D2:D200').insertCheckboxes();
+  sh('OWNERS').getRange('E2:E200').insertCheckboxes();
+
+  // 4. Protezioni "solo avviso" (rieseguibile: rimuove quelle create in precedenza)
+  ss.getProtections(SpreadsheetApp.ProtectionType.RANGE)
+    .concat(ss.getProtections(SpreadsheetApp.ProtectionType.SHEET))
+    .filter((p) => (p.getDescription() || '').indexOf('GG:') === 0)
+    .forEach((p) => p.remove());
+  const warnRange = (s, a, d) => sh(s).getRange(a).protect().setDescription('GG: ' + d).setWarningOnly(true);
+  const warnSheet = (s, d) => sh(s).protect().setDescription('GG: ' + d).setWarningOnly(true);
+  warnRange('ACTION_LOG', 'A2:A1000', 'Task ID immutabile');
+  warnRange('ACTION_LOG', 'Q1:Q1000', 'Update History calcolata');
+  warnRange('ACTION_LOG', 'U1:X1000', 'Check e colonne tecniche');
+  warnRange('OPENINGS', 'I1:Q1000', 'Colonne calcolate');
+  warnRange('OPENING_DATE_HISTORY', 'F1:G1000', 'Colonne calcolate');
+  warnRange('SESSIONS', 'G1:I1000', 'Conteggi calcolati');
+  warnSheet('TASK_HISTORY', 'Storico append-only');
+  warnSheet('LISTS', 'Liste chiuse');
+
+  // 5. Verifica: nessuna formula deve restituire un errore
+  SpreadsheetApp.flush();
+  const bad = [];
+  F.forEach(([s, c]) => {
+    const r = sh(s).getRange(c);
+    const vals = [r.getDisplayValue(), r.offset(1, 0).getDisplayValue()];
+    if (vals.some((v) => /^#/.test(v))) bad.push(s + '!' + c + ' -> ' + vals.join(' | '));
+  });
+  const msg = bad.length ? 'ERRORI: ' + bad.join(' ; ') : 'Setup completato: ' + F.length + ' formule OK';
+  Logger.log(msg);
+  ss.toast(msg, 'GG Action Log', 15);
+}
+""" % json.dumps([list(f) for f in FORMULAS], ensure_ascii=False, indent=2).replace("\n", "\n    ")
+
+gs_path = OUT.rsplit("/", 1)[0] + "/setup_formulas.gs" if "/" in OUT else "setup_formulas.gs"
+with open(gs_path, "w") as fh:
+    fh.write(GS)
+print("formulas", len(FORMULAS), "->", gs_path)
 
 wb.save(OUT)
 print("saved", OUT)
