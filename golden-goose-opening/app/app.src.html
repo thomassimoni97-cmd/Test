@@ -1,0 +1,839 @@
+<title>Golden Goose Openings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+<style>
+/* Layout: sticky top bar, one working column; the data table is the page, the task panel slides in from the right. */
+:root {
+  --bg: #F8F6F2;
+  --surface: #FFFFFF;
+  --ink: #2A2521;
+  --muted: #7A7169;
+  --faint: #A69D93;
+  --line: #E7E1D8;
+  --line-strong: #D6CEC2;
+  --gold: #9C7F45;
+  --sand: #EFE8DC;
+  --hover: #F3EFE8;
+  --red: #B3261E;   --red-bg: #FBE7E5;
+  --amber: #9A6200; --amber-bg: #FBF0DA;
+  --blue: #2D5B88;  --blue-bg: #E4EDF6;
+  --green: #2E6F48; --green-bg: #E2F0E6;
+  --grey: #6B645D;  --grey-bg: #EEEBE6;
+  --shadow: 0 12px 40px rgba(42, 37, 33, .14);
+  --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --f-ui: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161412; --surface: #1E1B18; --ink: #EDE7DF; --muted: #A89E93; --faint: #7D746B;
+    --line: #2F2B27; --line-strong: #3E3934; --gold: #C8A96B; --sand: #2A2520; --hover: #25211D;
+    --red: #F08A80; --red-bg: #3A1D1A; --amber: #E3B25C; --amber-bg: #352813;
+    --blue: #8DB6E0; --blue-bg: #1B2A3A; --green: #85C79D; --green-bg: #17291E;
+    --grey: #B1A89F; --grey-bg: #2A2622; --shadow: 0 12px 40px rgba(0, 0, 0, .5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #161412; --surface: #1E1B18; --ink: #EDE7DF; --muted: #A89E93; --faint: #7D746B;
+  --line: #2F2B27; --line-strong: #3E3934; --gold: #C8A96B; --sand: #2A2520; --hover: #25211D;
+  --red: #F08A80; --red-bg: #3A1D1A; --amber: #E3B25C; --amber-bg: #352813;
+  --blue: #8DB6E0; --blue-bg: #1B2A3A; --green: #85C79D; --green-bg: #17291E;
+  --grey: #B1A89F; --grey-bg: #2A2622; --shadow: 0 12px 40px rgba(0, 0, 0, .5);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-ui); font-size: 16px; line-height: 1.45; }
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.num { font-variant-numeric: tabular-nums; }
+.mono { font-family: var(--f-mono); font-size: .86em; letter-spacing: -.01em; }
+.muted { color: var(--muted); }
+
+/* ---------- top bar ---------- */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--bg); border-bottom: 1px solid var(--line); }
+.bar-in { max-width: 1520px; margin: 0 auto; padding: 12px 24px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+.brand { display: flex; align-items: baseline; gap: 10px; white-space: nowrap; }
+.brand b { font-family: var(--f-display); font-weight: 500; font-size: 21px; letter-spacing: .01em; }
+.brand span { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
+.nav { display: flex; gap: 4px; }
+.nav button { border: 0; background: none; padding: 7px 12px; border-radius: 6px; cursor: pointer; color: var(--muted); font-weight: 500; }
+.nav button[aria-current="page"] { color: var(--ink); background: var(--sand); }
+.nav button:hover { color: var(--ink); }
+.bar-right { margin-left: auto; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.file { font-size: 13px; color: var(--muted); text-align: right; line-height: 1.3; }
+.file b { color: var(--ink); font-weight: 600; }
+.btn { border: 1px solid var(--line-strong); background: var(--surface); padding: 7px 14px; border-radius: 7px; cursor: pointer; font-weight: 600; font-size: 14px; }
+.btn:hover { border-color: var(--gold); }
+.chip-q { border: 0; border-radius: 999px; padding: 5px 11px; font-size: 13px; font-weight: 600; cursor: pointer; }
+.chip-q.ok { background: var(--green-bg); color: var(--green); }
+.chip-q.warn { background: var(--amber-bg); color: var(--amber); }
+.chip-q.err { background: var(--red-bg); color: var(--red); }
+
+.demo { background: var(--sand); color: var(--ink); font-size: 14px; }
+.demo div { max-width: 1520px; margin: 0 auto; padding: 8px 24px; }
+.alert { max-width: 1520px; margin: 16px auto 0; padding: 0 24px; }
+.alert div { background: var(--red-bg); color: var(--red); border-radius: 8px; padding: 12px 16px; font-size: 15px; }
+
+main { max-width: 1520px; margin: 0 auto; padding: 28px 24px 64px; display: grid; gap: 28px; }
+.drop { outline: 2px dashed var(--gold); outline-offset: -8px; }
+
+/* ---------- headings & summary ---------- */
+.eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+h1 { font-family: var(--f-display); font-weight: 400; font-size: 44px; line-height: 1.05; margin: 4px 0 0; text-wrap: balance; letter-spacing: -.01em; }
+h2 { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin: 0 0 10px; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 14px; font-size: 16px; }
+.facts div { display: grid; gap: 1px; }
+.facts dt { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.facts dd { margin: 0; font-weight: 600; }
+.sig-red { color: var(--red); }
+.sig-amber { color: var(--amber); }
+.derived { cursor: help; text-decoration: underline dotted var(--faint); text-underline-offset: 4px; }
+
+/* ---------- tables ---------- */
+.tbl-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; padding: 12px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; background: var(--surface); }
+th button { all: unset; cursor: pointer; }
+th button:hover { color: var(--ink); }
+th .arrow { color: var(--gold); }
+td { padding: 13px 14px; border-bottom: 1px solid var(--line); vertical-align: top; font-size: 15px; }
+tr:last-child td { border-bottom: 0; }
+tbody tr.row { cursor: pointer; }
+tbody tr.row:hover td { background: var(--hover); }
+tbody tr.row.sel td { background: var(--sand); }
+tr.done td { color: var(--faint); }
+tr.done td .task-title { color: var(--muted); }
+.task-title { font-weight: 600; font-size: 16px; }
+.sub { font-size: 13px; color: var(--muted); margin-top: 2px; }
+.upd { max-width: 380px; }
+.upd-date { font-size: 13px; color: var(--muted); }
+.ellips { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.right { text-align: right; }
+.nowrap { white-space: nowrap; }
+.empty { padding: 28px; text-align: center; color: var(--muted); }
+
+.pill { display: inline-flex; align-items: center; gap: 7px; padding: 3px 10px 3px 8px; border-radius: 999px; font-size: 14px; font-weight: 600; white-space: nowrap; }
+.pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.st-blocked { background: var(--red-bg); color: var(--red); }
+.st-progress { background: var(--blue-bg); color: var(--blue); }
+.st-done { background: var(--green-bg); color: var(--green); }
+.st-todo { background: var(--grey-bg); color: var(--grey); }
+.st-na { background: transparent; color: var(--faint); }
+.st-bad { background: var(--red-bg); color: var(--red); }
+.tag { display: inline-block; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; font-weight: 700; padding: 2px 6px; border-radius: 4px; margin-left: 6px; vertical-align: 2px; }
+.tag.dec { background: var(--amber-bg); color: var(--amber); }
+.tag.crit { color: var(--gold); border: 1px solid var(--gold); }
+.tag.tent { color: var(--muted); border: 1px solid var(--line-strong); }
+.flag { display: inline-grid; place-items: center; min-width: 18px; height: 18px; border-radius: 9px; font-size: 11px; font-weight: 700; margin-left: 6px; vertical-align: 1px; padding: 0 5px; }
+.flag.err { background: var(--red); color: var(--surface); }
+.flag.warn { background: var(--amber-bg); color: var(--amber); }
+
+.prog { display: flex; align-items: center; gap: 10px; min-width: 150px; }
+.track { flex: 1; height: 6px; background: var(--grey-bg); border-radius: 3px; overflow: hidden; min-width: 60px; }
+.fill { height: 100%; background: var(--gold); border-radius: 3px; }
+.prog .v { font-size: 14px; color: var(--muted); min-width: 44px; text-align: right; }
+.prog-sm { min-width: 90px; }
+.prog-sm .track { height: 4px; }
+
+.due-over { color: var(--red); font-weight: 700; }
+.due-soon { color: var(--amber); font-weight: 600; }
+
+/* ---------- areas ---------- */
+.areas { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 4px 28px; }
+.area { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 8px 10px; border-radius: 7px; border: 0; background: none; text-align: left; cursor: pointer; }
+.area:hover { background: var(--hover); }
+.area[aria-pressed="true"] { background: var(--sand); }
+.area .n { font-weight: 600; font-size: 15px; }
+.area .c { font-size: 14px; color: var(--muted); }
+.area .track { grid-column: 1 / -1; height: 4px; }
+
+/* ---------- filters ---------- */
+.filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.filters input[type="search"] { padding: 8px 12px; border: 1px solid var(--line-strong); border-radius: 7px; background: var(--surface); min-width: 220px; flex: 1 1 220px; max-width: 360px; }
+.filters select { padding: 8px 10px; border: 1px solid var(--line-strong); border-radius: 7px; background: var(--surface); max-width: 220px; }
+.toggle { border: 1px solid var(--line-strong); background: var(--surface); border-radius: 999px; padding: 6px 13px; cursor: pointer; font-size: 14px; font-weight: 500; }
+.toggle[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.count { font-size: 14px; color: var(--muted); margin-left: auto; }
+.linkbtn { border: 0; background: none; color: var(--gold); cursor: pointer; font-weight: 600; padding: 0; }
+
+.head-row { display: flex; align-items: flex-end; gap: 24px; flex-wrap: wrap; }
+.head-row select { font-size: 15px; padding: 8px 10px; border: 1px solid var(--line-strong); border-radius: 7px; background: var(--surface); }
+
+/* ---------- program ---------- */
+.p-loc { font-weight: 600; font-size: 16px; }
+.p-empty { color: var(--faint); font-size: 14px; }
+
+/* ---------- panel ---------- */
+.scrim { position: fixed; inset: 0; background: rgba(20, 17, 14, .18); z-index: 30; }
+.panel { position: fixed; top: 0; right: 0; height: 100%; width: min(500px, 100%); background: var(--surface); box-shadow: var(--shadow); z-index: 31; display: flex; flex-direction: column; border-left: 1px solid var(--line); }
+.panel-head { padding: calc(18px + env(safe-area-inset-top, 0px)) 24px 16px; border-bottom: 1px solid var(--line); display: grid; gap: 6px; }
+.panel-top { display: flex; align-items: center; gap: 10px; }
+.panel-top .x { margin-left: auto; border: 0; background: none; font-size: 26px; line-height: 1; cursor: pointer; color: var(--muted); padding: 4px 8px; }
+.panel h3 { font-family: var(--f-display); font-weight: 400; font-size: 28px; line-height: 1.15; margin: 0; text-wrap: balance; }
+.panel-body { overflow-y: auto; padding: 20px 24px calc(28px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 22px; align-content: start; }
+.kv { display: grid; grid-template-columns: 130px 1fr; gap: 10px 16px; margin: 0; font-size: 15px; }
+.kv dt { color: var(--muted); font-size: 13px; letter-spacing: .06em; text-transform: uppercase; padding-top: 2px; }
+.kv dd { margin: 0; min-width: 0; }
+.box { border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+.box.warnbox { background: var(--amber-bg); border-color: transparent; color: var(--amber); }
+.box.errbox { background: var(--red-bg); border-color: transparent; color: var(--red); }
+.box ul { margin: 6px 0 0; padding-left: 18px; }
+.tl { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 14px; }
+.tl li { display: grid; gap: 2px; padding-left: 14px; border-left: 2px solid var(--line); color: var(--faint); }
+.tl li:first-child { border-left-color: var(--gold); color: var(--ink); }
+.tl .d { font-size: 13px; font-weight: 600; letter-spacing: .02em; }
+.tl .t { font-size: 15.5px; }
+.tl .s { font-size: 12px; }
+.hint { font-size: 13px; color: var(--muted); }
+
+
+/* ---------- opening: overview ---------- */
+.ov { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.ov-main { display: grid; gap: 18px; min-width: 0; }
+.ov-side { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; min-width: 0; }
+.big-prog { display: grid; gap: 10px; }
+.big-num { font-family: var(--f-display); font-size: 40px; line-height: 1; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.big-num span { font-family: var(--f-ui); font-size: 15px; color: var(--muted); }
+.sbar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; gap: 2px; background: var(--grey-bg); }
+.sbar.big { height: 14px; border-radius: 7px; }
+.seg { display: block; height: 100%; }
+.seg-done { background: var(--green); } .seg-progress { background: var(--blue); } .seg-blocked { background: var(--red); } .seg-todo { background: var(--line-strong); } .seg-empty { background: var(--grey-bg); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; color: var(--muted); }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.legend b { color: var(--ink); }
+.att { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.att button { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: 88px 1fr; gap: 10px; align-items: start; padding: 8px 6px; border-radius: 7px; cursor: pointer; }
+.att button:hover, .att button:focus-visible { background: var(--hover); }
+.att .pill { justify-self: start; font-size: 12px; padding: 2px 8px 2px 7px; }
+.att-t { font-weight: 600; font-size: 15px; display: grid; min-width: 0; }
+.st-dec { background: var(--amber-bg); color: var(--amber); }
+.st-soon { background: var(--grey-bg); color: var(--grey); }
+
+/* ---------- board ---------- */
+.seg-ctl { display: inline-flex; border: 1px solid var(--line-strong); border-radius: 8px; overflow: hidden; margin-left: auto; }
+.seg-ctl button { border: 0; background: var(--surface); padding: 6px 14px; cursor: pointer; font-weight: 600; font-size: 14px; color: var(--muted); }
+.seg-ctl button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.board-wrap { overflow-x: auto; }
+.board { display: grid; grid-template-columns: 150px repeat(4, minmax(230px, 1fr)); gap: 10px; min-width: 1100px; }
+.bcol-head { padding: 4px 2px 6px; font-size: 14px; position: sticky; top: 0; }
+.lane-head { padding: 10px 4px; display: grid; align-content: start; gap: 2px; font-size: 15px; border-top: 1px solid var(--line); }
+.lane-head span { font-size: 13px; }
+.lane-none { border-top: 0; }
+.bcell { display: grid; gap: 8px; align-content: start; padding: 8px; background: var(--sand); border-radius: 10px; min-height: 56px; min-width: 0; }
+.card { all: unset; box-sizing: border-box; display: grid; gap: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; cursor: pointer; min-width: 0; }
+.card:hover { border-color: var(--gold); }
+.card:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.card.sel { border-color: var(--ink); }
+.card-top { display: flex; align-items: center; gap: 2px; flex-wrap: wrap; font-size: 13px; }
+.card-top .tag { margin-left: 6px; }
+.card-title { font-weight: 600; font-size: 15px; line-height: 1.3; }
+.card-blk { font-size: 13px; color: var(--red); line-height: 1.3; }
+.card-meta { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--muted); }
+.card.done { font-size: 13px; color: var(--muted); padding: 7px 10px; background: transparent; border-style: dashed; }
+@media (max-width: 980px) { .ov { grid-template-columns: 1fr; } }
+@media (max-width: 720px) {
+  .bar-in, main, .demo div, .alert { padding-left: 16px; padding-right: 16px; }
+  h1 { font-size: 34px; }
+  .file { text-align: left; }
+  .kv { grid-template-columns: 1fr; gap: 2px; }
+  .kv dd { margin-bottom: 8px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .panel { animation: slide .18s ease-out; }
+  @keyframes slide { from { transform: translateX(24px); opacity: .6; } to { transform: none; opacity: 1; } }
+}
+</style>
+
+<header class="bar">
+  <div class="bar-in">
+    <div class="brand"><b>Golden Goose</b><span>Openings</span></div>
+    <nav class="nav" aria-label="Views">
+      <button id="nav-program" type="button">Program</button>
+      <button id="nav-opening" type="button">Opening</button>
+    </nav>
+    <div class="bar-right">
+      <span id="quality"></span>
+      <div class="file" id="file-info"></div>
+      <label class="btn" for="file-input">Load Action Log</label>
+      <input id="file-input" type="file" accept=".xlsx,.xls" hidden>
+    </div>
+  </div>
+</header>
+<div class="demo" id="demo-banner" hidden><div>You are viewing <b>demo data</b>. Load your Action Log (.xlsx) with the button above, or drop the file anywhere on this page.</div></div>
+<div class="alert" id="alert" hidden><div id="alert-text"></div></div>
+<main id="main"></main>
+<div class="scrim" id="scrim" hidden></div>
+<aside class="panel" id="panel" hidden aria-label="Task detail"></aside>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+"use strict";
+const DEMO_B64 = "__DEMO_B64__";
+
+// ---------------------------------------------------------------- utils
+const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+const dayOnly = (d) => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+const TODAY = dayOnly(new Date());
+
+function toDate(v) {
+  if (v == null || v === "") return null;
+  if (v instanceof Date) return isNaN(v) ? undefined : dayOnly(v);
+  if (typeof v === "number") {
+    const u = new Date(Date.UTC(1899, 11, 30) + Math.round(v * 86400000));
+    return new Date(u.getUTCFullYear(), u.getUTCMonth(), u.getUTCDate());
+  }
+  const s = String(v).trim();
+  let m = s.match(/^(\d{1,2})[\/.-](\d{1,2})[\/.-](\d{2,4})$/);
+  if (m) { const y = +m[3] < 100 ? 2000 + +m[3] : +m[3]; return new Date(y, +m[2] - 1, +m[1]); }
+  m = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (m) return new Date(+m[1], +m[2] - 1, +m[3]);
+  return undefined; // present but not a date
+}
+function toDateTime(v) {
+  if (typeof v === "number") return new Date(Date.UTC(1899, 11, 30) + Math.round(v * 86400000)).getTime();
+  const d = toDate(v); return d ? d.getTime() : 0;
+}
+const fmtDate = (d, withYear = true) => d ? `${String(d.getDate()).padStart(2, "0")} ${MONTHS[d.getMonth()]}${withYear || d.getFullYear() !== TODAY.getFullYear() ? " " + d.getFullYear() : ""}` : "—";
+const toBool = (v) => v === true || /^(true|vero|yes|1|x)$/i.test(String(v ?? "").trim());
+const str = (v) => (v == null ? "" : String(v).trim());
+
+// working days, Monday to Friday, both ends included (same as NETWORKDAYS)
+function networkdays(a, b) {
+  if (!a || !b) return null;
+  if (a > b) return -networkdays(b, a);
+  let n = 0;
+  for (let d = new Date(a); d <= b; d.setDate(d.getDate() + 1)) { const w = d.getDay(); if (w !== 0 && w !== 6) n++; }
+  return n;
+}
+// signed working days from a to b, start day excluded
+const wdBetween = (a, b) => (!a || !b ? null : a <= b ? networkdays(a, b) - 1 : -(networkdays(b, a) - 1));
+const signed = (n) => (n == null ? "—" : n > 0 ? `+${n}` : String(n));
+
+// ---------------------------------------------------------------- model
+const STATUSES = ["Not Started", "In Progress", "Blocked", "Completed", "N/A"];
+const STATUS_ORDER = { "Blocked": 0, "In Progress": 1, "Not Started": 2, "Completed": 3, "N/A": 4 };
+const STATUS_CLASS = { "Blocked": "st-blocked", "In Progress": "st-progress", "Completed": "st-done", "Not Started": "st-todo", "N/A": "st-na" };
+const PROGRESS = [0, 25, 50, 75, 100];
+const REQUIRED = {
+  ACTION_LOG: ["Task ID", "Opening Type", "Location", "Macro Area", "Task", "Status", "Progress %", "Owner 1 (Lead)", "Due Date"],
+  OPENINGS: ["Opening Code", "Opening Type", "Location"],
+};
+
+function readSheet(wb, name) {
+  const ws = wb.Sheets[name];
+  if (!ws) return null;
+  const rows = XLSX.utils.sheet_to_json(ws, { header: 1, raw: true, defval: null, blankrows: false });
+  if (!rows.length) return { headers: [], rows: [] };
+  const headers = rows[0].map((h) => str(h));
+  const out = rows.slice(1).map((r) => { const o = {}; headers.forEach((h, i) => { if (h) o[h] = r[i]; }); return o; })
+    .filter((o) => Object.values(o).some((v) => v != null && v !== ""));
+  return { headers, rows: out };
+}
+
+function buildModel(wb) {
+  const missing = [];
+  const sheets = {};
+  for (const [name, cols] of Object.entries(REQUIRED)) {
+    const s = readSheet(wb, name);
+    if (!s) { missing.push(`sheet ${name}`); continue; }
+    cols.filter((c) => !s.headers.includes(c)).forEach((c) => missing.push(`${name} › ${c}`));
+    sheets[name] = s;
+  }
+  if (missing.length) throw new Error("This file does not match the Action Log template. Missing: " + missing.join(", ") + ".");
+  const hist = readSheet(wb, "TASK_HISTORY")?.rows || [];
+  const odh = readSheet(wb, "OPENING_DATE_HISTORY")?.rows || [];
+  const areasRows = readSheet(wb, "AREAS")?.rows || null;
+  const ownersRows = readSheet(wb, "OWNERS")?.rows || null;
+
+  const areaOrder = new Map();
+  const areaPairs = areasRows ? new Set(areasRows.map((r) => `${str(r["Macro Area"])}|${str(r["Sub Area"])}`)) : null;
+  const macros = areasRows ? new Set(areasRows.map((r) => str(r["Macro Area"]))) : null;
+  (areasRows || []).forEach((r, i) => { const m = str(r["Macro Area"]); if (!areaOrder.has(m)) areaOrder.set(m, i); });
+  const owners = ownersRows ? new Set(ownersRows.map((r) => str(r["Owner Name"])).filter(Boolean)) : null;
+
+  // openings + opening date history
+  const openings = sheets.OPENINGS.rows.filter((r) => str(r["Opening Code"])).map((r) => {
+    const code = str(r["Opening Code"]);
+    const hist = odh.filter((h) => str(h["Opening Code"]) === code)
+      .map((h, i) => ({ type: str(h["Entry Type"]), decided: toDate(h["Decided On"]) || null, date: toDate(h["New Opening Date"]) || null, reason: str(h["Reason"]), i }))
+      .filter((h) => h.date)
+      .sort((a, b) => (a.decided - b.decided) || (a.i - b.i));
+    const base = hist.find((h) => h.type === "Baseline") || hist[0] || null;
+    const cur = hist[hist.length - 1] || null;
+    const o = {
+      code, type: str(r["Opening Type"]), location: str(r["Location"]), country: str(r["Country"]),
+      complexity: str(r["Complexity"]), start: toDate(r["Project Start Date"]) || null, status: str(r["Opening Status"]),
+      baseline: base ? base.date : toDate(r["Baseline Opening Date"]) || null,
+      current: cur ? cur.date : toDate(r["Current Opening Date"]) || null,
+      postponements: hist.filter((h) => h.type === "Change").length, dateHistory: hist, tasks: [],
+    };
+    o.delay = wdBetween(o.baseline, o.current);
+    o.elapsed = o.start ? (o.status === "Opened" ? networkdays(o.start, o.current) : networkdays(o.start, TODAY)) : null;
+    o.remaining = o.current ? (o.status === "Opened" ? 0 : wdBetween(TODAY, o.current)) : null;
+    return o;
+  });
+  const byPair = new Map(openings.map((o) => [`${o.type}|${o.location}`, o]));
+  const byCode = new Map(openings.map((o) => [o.code, o]));
+
+  // notes per task
+  const notesBy = new Map();
+  hist.forEach((h) => {
+    const id = str(h["Task ID"]); const text = str(h["Note"]);
+    if (!id || !text || /^rilevato nel foglio$/i.test(text)) return;
+    if (!notesBy.has(id)) notesBy.set(id, []);
+    notesBy.get(id).push({ date: toDate(h["Event Date"]) || null, rec: toDateTime(h["Recorded At"]), text, type: str(h["Note Type"]) || "Update", source: str(h["Source"]) });
+  });
+
+  const idCount = new Map();
+  sheets.ACTION_LOG.rows.forEach((r) => { const id = str(r["Task ID"]); if (id) idCount.set(id, (idCount.get(id) || 0) + 1); });
+
+  const tasks = sheets.ACTION_LOG.rows.map((r) => {
+    const raw = { open: r["Task Open Date"], due: r["Due Date"], lud: r["Latest Update Date"] };
+    let progress = r["Progress %"];
+    if (typeof progress === "number" && progress > 0 && progress <= 1) progress = Math.round(progress * 100);
+    const t = {
+      id: str(r["Task ID"]), type: str(r["Opening Type"]), location: str(r["Location"]),
+      macro: str(r["Macro Area"]), sub: str(r["Sub Area"]), task: str(r["Task"]), desc: str(r["Description"]),
+      status: str(r["Status"]), progress: progress === "" || progress == null ? null : Number(progress),
+      owners: [str(r["Owner 1 (Lead)"]), str(r["Owner 2"]), str(r["Owner 3"])],
+      openDate: toDate(raw.open), due: toDate(raw.due), lu: str(r["Latest Update"]), luDate: toDate(raw.lud),
+      blocker: str(r["Blocker / Decision"]), decision: toBool(r["Decision Required"]), critical: toBool(r["Critical for Opening"]),
+      baselineDue: toDate(r["Baseline Due Date"]) || null,
+    };
+    t.opening = byPair.get(`${t.type}|${t.location}`) || null;
+    const prefix = t.id.replace(/-\d{3}$/, "");
+    const prefOpening = byCode.get(prefix) || null;
+    if (!t.opening && prefOpening) t.opening = prefOpening;
+    if (t.opening) t.opening.tasks.push(t);
+    t.isOpen = t.status !== "Completed" && t.status !== "N/A";
+    t.applicable = t.status !== "N/A";
+
+    // timeline: TASK_HISTORY notes + Latest Update if not yet recorded there
+    const notes = (notesBy.get(t.id) || []).slice();
+    if (t.lu && !notes.some((n) => n.text === t.lu)) notes.push({ date: t.luDate || null, rec: Infinity, text: t.lu, type: "Update", source: "latest" });
+    notes.sort((a, b) => ((b.date ? b.date.getTime() : 0) - (a.date ? a.date.getTime() : 0)) || (b.rec - a.rec));
+    t.notes = notes;
+    t.lastUpdate = notes.find((n) => n.date)?.date || null;
+
+    // derived signals (project, not data errors)
+    t.overdue = t.isOpen && t.due && t.due < TODAY;
+    t.dueSoon = t.isOpen && t.due && !t.overdue && wdBetween(TODAY, t.due) <= 5;
+    t.stale = t.isOpen && (!t.lastUpdate || wdBetween(t.lastUpdate, TODAY) > 10);
+    t.slip = t.baselineDue && t.due ? wdBetween(t.baselineDue, t.due) : null;
+
+    // data quality checks
+    const E = [], W = [];
+    if (!t.id) E.push("Task ID missing");
+    else {
+      if (idCount.get(t.id) > 1) E.push("Duplicate Task ID");
+      if (!/^[A-Z]+(-[A-Z]+)*-\d{3}$/.test(t.id)) E.push("Task ID format (expected CODE-001)");
+    }
+    const mand = [["Opening Type", t.type], ["Location", t.location], ["Macro Area", t.macro], ["Task", t.task], ["Status", t.status], ["Progress %", t.progress]];
+    const mMiss = mand.filter(([, v]) => v === "" || v == null).map(([k]) => k);
+    if (mMiss.length) E.push("Missing: " + mMiss.join(", "));
+    if (t.type && t.location && !byPair.has(`${t.type}|${t.location}`)) E.push("Opening Type + Location not in OPENINGS");
+    else if (t.id && t.opening && prefix !== t.opening.code) E.push(`ID prefix ≠ opening code (${t.opening.code})`);
+    if (t.macro && macros && (t.sub ? !areaPairs.has(`${t.macro}|${t.sub}`) : !macros.has(t.macro))) E.push("Macro / Sub Area not in AREAS");
+    if (t.status && !STATUSES.includes(t.status)) E.push(`Invalid status "${t.status}"`);
+    if (t.progress != null && !PROGRESS.includes(t.progress)) E.push("Progress must be 0, 25, 50, 75 or 100");
+    if (owners) t.owners.filter((o) => o && !owners.has(o)).forEach((o) => E.push(`Owner "${o}" not in OWNERS`));
+    if ([raw.open, raw.due, raw.lud].some((v) => toDate(v) === undefined)) E.push("Invalid date");
+    if (!t.owners[0] && (t.owners[1] || t.owners[2])) E.push("Owner 2/3 without Owner 1");
+    if (t.isOpen && !t.owners[0]) W.push("Owner 1 missing");
+    if (t.isOpen && !t.due) W.push("Due Date missing");
+    if (t.status === "Completed" && t.progress !== 100) W.push("Completed with progress below 100%");
+    if (t.progress === 100 && t.status !== "Completed") W.push("100% but not Completed");
+    if ((t.status === "Blocked" || t.decision) && !t.blocker) W.push("Blocker / Decision is empty");
+    if (t.status === "N/A" && !t.lu) W.push("N/A without a reason");
+    if (t.lu && !t.luDate) W.push("Latest Update without date");
+    if ((t.openDate && t.openDate > TODAY) || (t.luDate && t.luDate > TODAY)) W.push("Date in the future");
+    if (t.openDate && t.due && t.openDate > t.due) W.push("Open Date after Due Date");
+    if (t.critical && t.isOpen && t.due && t.opening?.current && t.due > t.opening.current) W.push("Critical task due after opening date");
+    const os = t.owners.filter(Boolean); if (new Set(os).size !== os.length) W.push("Same owner repeated");
+    t.errors = E; t.warnings = W;
+    return t;
+  });
+
+  openings.forEach((o) => { o.m = metrics(o.tasks); });
+  return { openings, tasks, areaOrder };
+}
+
+function metrics(ts) {
+  const app = ts.filter((t) => t.applicable);
+  return {
+    total: ts.length, applicable: app.length, done: ts.filter((t) => t.status === "Completed").length,
+    open: ts.filter((t) => t.isOpen).length, overdue: ts.filter((t) => t.overdue).length,
+    blocked: ts.filter((t) => t.status === "Blocked").length, decisions: ts.filter((t) => t.decision && t.isOpen).length,
+    critical: ts.filter((t) => t.critical && t.isOpen).length,
+    errors: ts.filter((t) => t.errors.length).length, warnings: ts.filter((t) => !t.errors.length && t.warnings.length).length,
+  };
+}
+
+// ---------------------------------------------------------------- state
+const S = {
+  model: null, file: null, loadedAt: null, demo: false,
+  view: "program", opening: null,
+  f: { q: "", area: "", owner: "", status: "", overdue: false, blocked: false, decision: false, critical: false, issues: false },
+  sort: { key: "due", dir: 1 }, task: null, mode: "board", swim: true,
+};
+try { const v = localStorage.getItem("gg-view"); if (v) Object.assign(S, JSON.parse(v)); } catch (e) { /* storage unavailable */ }
+const remember = () => { try { localStorage.setItem("gg-view", JSON.stringify({ view: S.view, opening: S.opening, mode: S.mode, swim: S.swim })); } catch (e) { /* ignore */ } };
+
+const $ = (id) => document.getElementById(id);
+
+function load(buf, name, demo) {
+  try {
+    const wb = XLSX.read(buf, { type: "array", cellDates: false });
+    const model = buildModel(wb);
+    Object.assign(S, { model, file: name, loadedAt: new Date(), demo, task: null });
+    if (!S.opening || (S.opening !== "*" && !model.openings.some((o) => o.code === S.opening))) {
+      S.opening = (model.openings.filter((o) => o.tasks.length).sort((a, b) => (a.current || 0) - (b.current || 0))[0] || model.openings[0] || {}).code || "*";
+    }
+    $("alert").hidden = true;
+    render();
+  } catch (err) {
+    $("alert-text").textContent = err.message || "The file could not be read. Check that it is an .xlsx export of the Action Log.";
+    $("alert").hidden = false;
+  }
+}
+
+// ---------------------------------------------------------------- render: shell
+function render() {
+  const m = S.model;
+  $("demo-banner").hidden = !S.demo;
+  $("nav-program").setAttribute("aria-current", S.view === "program" ? "page" : "false");
+  $("nav-opening").setAttribute("aria-current", S.view === "opening" ? "page" : "false");
+  const t = S.loadedAt;
+  $("file-info").innerHTML = m ? `<b>${esc(S.file)}</b><br>loaded ${fmtDate(dayOnly(t))} at ${String(t.getHours()).padStart(2, "0")}:${String(t.getMinutes()).padStart(2, "0")}` : "";
+  if (m) {
+    const e = m.tasks.filter((x) => x.errors.length).length, w = m.tasks.filter((x) => !x.errors.length && x.warnings.length).length;
+    const cls = e ? "err" : w ? "warn" : "ok";
+    const label = e || w ? [e && `${e} error${e > 1 ? "s" : ""}`, w && `${w} warning${w > 1 ? "s" : ""}`].filter(Boolean).join(" · ") : "Data checks OK";
+    $("quality").innerHTML = `<button type="button" class="chip-q ${cls}" id="q-btn" title="Data quality checks on the loaded file">${label}</button>`;
+    $("q-btn").onclick = () => { if (!e && !w) return; S.view = "opening"; S.opening = "*"; resetFilters(); S.f.issues = true; remember(); render(); };
+  }
+  $("main").innerHTML = !m ? "" : S.view === "program" ? programView(m) : openingView(m);
+  bindMain();
+  renderPanel();
+}
+
+function progressBar(done, applicable, small) {
+  const pct = applicable ? Math.round((done / applicable) * 100) : 0;
+  return `<div class="prog ${small ? "prog-sm" : ""} derived" title="Calculated: Completed tasks ÷ applicable tasks (N/A excluded), from ACTION_LOG"><div class="track"><div class="fill" style="width:${pct}%"></div></div><span class="v num">${applicable ? pct + "%" : "—"}</span></div>`;
+}
+
+// ---------------------------------------------------------------- render: program
+function programView(m) {
+  const all = metrics(m.tasks);
+  const groups = [["New Store", "New stores"], ["New Company", "New companies"]];
+  const other = m.openings.filter((o) => !groups.some(([g]) => g === o.type));
+  const rows = (list) => list.slice().sort((a, b) => (a.current || Infinity) - (b.current || Infinity)).map((o) => {
+    const x = o.m;
+    return `<tr class="row" data-open="${esc(o.code)}" tabindex="0">
+      <td><div class="p-loc">${esc(o.location)}${o.status === "Tentative" ? '<span class="tag tent">Tentative</span>' : ""}</div><div class="sub"><span class="mono">${esc(o.code)}</span>${o.complexity ? " · " + esc(o.complexity) + " complexity" : ""}</div></td>
+      <td class="nowrap num">${fmtDate(o.current)}</td>
+      <td class="right num derived" title="Calculated: working days (Mon–Fri) from today to the current opening date">${o.remaining == null ? "—" : o.remaining < 0 ? `<span class="sig-red">${o.remaining}</span>` : o.remaining}</td>
+      <td class="right num derived" title="Calculated: working days between baseline and current opening date (OPENING_DATE_HISTORY)">${o.delay ? `<span class="sig-red">${signed(o.delay)}</span>` : o.delay === 0 ? "0" : "—"}${o.postponements ? `<div class="sub">${o.postponements}× moved</div>` : ""}</td>
+      <td style="min-width:220px">${x.total ? statusBar(o.tasks) + `<div class="sub num">${x.applicable ? Math.round((x.done / x.applicable) * 100) : 0}% · ${x.done} of ${x.applicable} completed</div>` : '<span class="p-empty">No tasks yet</span>'}</td>
+      <td class="right num">${x.total ? x.open : "—"}</td>
+      <td class="right num">${x.overdue ? `<span class="sig-red"><b>${x.overdue}</b></span>` : x.total ? 0 : "—"}</td>
+      <td class="right num">${x.blocked ? `<span class="sig-red"><b>${x.blocked}</b></span>` : x.total ? 0 : "—"}</td>
+      <td class="right num">${x.decisions ? `<span class="sig-amber"><b>${x.decisions}</b></span>` : x.total ? 0 : "—"}</td>
+    </tr>`;
+  }).join("");
+  const table = (title, list) => !list.length ? "" : `<section><h2>${title} · ${list.length}</h2><div class="tbl-wrap"><table>
+    <thead><tr><th>Opening</th><th>Opening date</th><th class="right">Working days left</th><th class="right">Delay (wd)</th><th>Progress</th><th class="right">Open</th><th class="right">Overdue</th><th class="right">Blocked</th><th class="right">Decisions</th></tr></thead>
+    <tbody>${rows(list)}</tbody></table></div></section>`;
+  return `<section>
+      <div class="eyebrow">Program overview · as of ${fmtDate(TODAY)}</div>
+      <h1>${m.openings.length} openings, ${all.open} open tasks</h1>
+      <dl class="facts">
+        <div><dt>Completed</dt><dd class="num">${all.done} of ${all.applicable}</dd></div>
+        <div><dt>Overdue</dt><dd class="num ${all.overdue ? "sig-red" : ""}">${all.overdue}</dd></div>
+        <div><dt>Blocked</dt><dd class="num ${all.blocked ? "sig-red" : ""}">${all.blocked}</dd></div>
+        <div><dt>Decisions open</dt><dd class="num ${all.decisions ? "sig-amber" : ""}">${all.decisions}</dd></div>
+        <div><dt>Critical open</dt><dd class="num">${all.critical}</dd></div>
+      </dl>
+      <p class="hint">All figures are calculated from the loaded Action Log. Hover a number to see how.</p>
+    </section>
+    ${groups.map(([g, t]) => table(t, m.openings.filter((o) => o.type === g))).join("")}
+    ${table("Other", other)}`;
+}
+
+// ---------------------------------------------------------------- render: opening
+function resetFilters() { S.f = { q: "", area: "", owner: "", status: "", overdue: false, blocked: false, decision: false, critical: false, issues: false }; }
+
+function filtered(ts) {
+  const f = S.f, q = f.q.toLowerCase();
+  return ts.filter((t) =>
+    (!q || [t.id, t.task, t.desc, t.lu, t.blocker, t.macro, t.sub, ...t.owners].join(" ").toLowerCase().includes(q)) &&
+    (!f.area || t.macro === f.area) && (!f.owner || t.owners.includes(f.owner)) && (!f.status || t.status === f.status) &&
+    (!f.overdue || t.overdue) && (!f.blocked || t.status === "Blocked") && (!f.decision || (t.decision && t.isOpen)) &&
+    (!f.critical || (t.critical && t.isOpen)) && (!f.issues || t.errors.length || t.warnings.length));
+}
+
+const SORTS = {
+  id: (t) => t.id, area: (t) => `${t.macro} ${t.sub}`, task: (t) => t.task.toLowerCase(), owner: (t) => t.owners[0],
+  due: (t) => (t.due ? t.due.getTime() : Infinity), status: (t) => STATUS_ORDER[t.status] ?? 9, progress: (t) => t.progress ?? -1,
+  update: (t) => (t.lastUpdate ? -t.lastUpdate.getTime() : Infinity), opening: (t) => t.opening?.location || "",
+};
+
+// Stacked status bar: Completed / In Progress / Blocked / Not Started (N/A excluded)
+const BAR_ORDER = [["Completed", "seg-done"], ["In Progress", "seg-progress"], ["Blocked", "seg-blocked"], ["Not Started", "seg-todo"]];
+function statusBar(ts, big) {
+  const app = ts.filter((t) => t.applicable);
+  if (!app.length) return `<div class="sbar${big ? " big" : ""}"><span class="seg seg-empty" style="flex:1"></span></div>`;
+  const counts = BAR_ORDER.map(([s, c]) => [s, c, app.filter((t) => t.status === s).length]);
+  const tip = counts.filter(([, , n]) => n).map(([s, , n]) => `${s} ${n}`).join(" · ");
+  return `<div class="sbar${big ? " big" : ""} derived" title="Calculated from ACTION_LOG status, N/A excluded: ${tip}">${counts.filter(([, , n]) => n).map(([s, c, n]) => `<span class="seg ${c}" style="flex:${n}"></span>`).join("")}</div>`;
+}
+function statusLegend(ts) {
+  const app = ts.filter((t) => t.applicable); const na = ts.length - app.length;
+  return `<div class="legend num">${BAR_ORDER.map(([s, c]) => `<span><i class="${c}"></i>${s} <b>${app.filter((t) => t.status === s).length}</b></span>`).join("")}${na ? `<span class="muted">N/A ${na}</span>` : ""}</div>`;
+}
+const pctDone = (ts) => { const a = ts.filter((t) => t.applicable).length; return a ? Math.round((ts.filter((t) => t.status === "Completed").length / a) * 100) : null; };
+
+function attentionReason(t) {
+  if (t.status === "Blocked") return ["Blocked", "st-blocked"];
+  if (t.overdue) return ["Overdue", "st-blocked"];
+  if (t.decision) return ["Decision", "st-dec"];
+  return ["Due soon", "st-soon"];
+}
+
+function card(t) {
+  const owners = t.owners.filter(Boolean);
+  const dueCls = t.overdue ? "due-over" : t.dueSoon ? "due-soon" : "";
+  const flag = t.errors.length ? `<span class="flag err" title="${esc(t.errors.join(" · "))}">${t.errors.length}</span>` : t.warnings.length ? `<span class="flag warn" title="${esc(t.warnings.join(" · "))}">!</span>` : "";
+  if (t.status === "Completed") return `<button type="button" class="card done" data-task="${esc(t.id)}"><span class="mono muted">${esc(t.id)}</span> ${esc(t.task)}</button>`;
+  return `<button type="button" class="card${S.task === t.id ? " sel" : ""}" data-task="${esc(t.id)}">
+    <span class="card-top"><span class="mono muted">${esc(t.id)}</span>${flag}${t.decision ? '<span class="tag dec">Decision</span>' : ""}${t.critical ? '<span class="tag crit">Critical</span>' : ""}</span>
+    <span class="card-title">${esc(t.task)}</span>
+    ${t.blocker && (t.status === "Blocked" || t.decision) ? `<span class="card-blk">${esc(t.blocker)}</span>` : ""}
+    <span class="card-meta"><span>${esc(owners[0] || "No owner")}${owners.length > 1 ? ` +${owners.length - 1}` : ""}</span><span class="num ${dueCls}">${fmtDate(t.due, false)}</span></span>
+    <span class="prog prog-sm"><span class="track"><span class="fill" style="display:block;width:${t.progress || 0}%"></span></span><span class="v num">${t.progress == null ? "—" : t.progress + "%"}</span></span>
+  </button>`;
+}
+
+function board(list, byArea, m) {
+  const cols = ["Not Started", "In Progress", "Blocked", "Completed"];
+  const na = list.filter((t) => t.status === "N/A").length;
+  const head = `<div class="bcol-head"></div>` + cols.map((c) => `<div class="bcol-head"><span class="pill ${STATUS_CLASS[c]}">${c}</span> <span class="num muted">${list.filter((t) => t.status === c).length}</span></div>`).join("");
+  const lane = (ts) => cols.map((c) => `<div class="bcell">${ts.filter((t) => t.status === c).map(card).join("")}</div>`).join("");
+  let body;
+  if (byArea) {
+    const groups = new Map();
+    list.forEach((t) => { if (!groups.has(t.macro)) groups.set(t.macro, []); groups.get(t.macro).push(t); });
+    body = [...groups.entries()].sort((a, b) => (m.areaOrder.get(a[0]) ?? 99) - (m.areaOrder.get(b[0]) ?? 99) || a[0].localeCompare(b[0]))
+      .map(([area, ts]) => `<div class="lane-head"><b>${esc(area || "—")}</b><span class="num muted">${ts.filter((t) => t.status === "Completed").length}/${ts.filter((t) => t.applicable).length} done</span></div>${lane(ts)}`).join("");
+  } else {
+    body = `<div class="lane-head lane-none"></div>${lane(list)}`;
+  }
+  return `<div class="board-wrap"><div class="board">${head}${body}</div></div>${na ? `<p class="hint">${na} N/A task${na > 1 ? "s" : ""} not shown on the board.</p>` : ""}`;
+}
+
+function openingView(m) {
+  const all = S.opening === "*";
+  const o = all ? null : m.openings.find((x) => x.code === S.opening);
+  const scope = all ? m.tasks : o ? o.tasks : [];
+  const x = metrics(scope);
+  const pct = pctDone(scope);
+  const opts = [...m.openings].sort((a, b) => a.type.localeCompare(b.type) || a.location.localeCompare(b.location));
+  const select = `<select id="op-select" aria-label="Opening"><option value="*"${all ? " selected" : ""}>All openings</option>
+    ${["New Store", "New Company"].map((g) => `<optgroup label="${g}">${opts.filter((p) => p.type === g).map((p) => `<option value="${esc(p.code)}"${p.code === S.opening ? " selected" : ""}>${esc(p.location)} (${p.tasks.length})</option>`).join("")}</optgroup>`).join("")}</select>`;
+
+  // ---- 1. overview
+  const head = all
+    ? `<div class="eyebrow">Action Log · all openings</div><h1>All openings</h1>`
+    : `<div class="eyebrow">${esc(o.type)} · ${esc(o.country || o.location)} · <span class="mono">${esc(o.code)}</span>${o.complexity ? ` · ${esc(o.complexity)} complexity` : ""}</div><h1>${esc(o.location)}</h1>`;
+  const moves = o && o.dateHistory.length > 1 ? o.dateHistory.slice(1).map((h, i) => `${fmtDate(o.dateHistory[i].date)} → ${fmtDate(h.date)} <span class="muted">(decided ${fmtDate(h.decided)}${h.reason ? ", " + esc(h.reason) : ""})</span>`).join("<br>") : "";
+  const facts = `<dl class="facts">
+      ${o ? `<div><dt>Opening date</dt><dd class="num">${fmtDate(o.current)}${o.status ? ` <span class="muted" style="font-weight:500">· ${esc(o.status)}</span>` : ""}</dd></div>
+      <div><dt>Working days left</dt><dd class="num derived" title="Calculated: Mon–Fri from today to the opening date">${o.remaining ?? "—"}</dd></div>
+      <div><dt>Delay vs baseline</dt><dd class="num derived ${o.delay > 0 ? "sig-red" : ""}" title="Calculated: working days, baseline ${fmtDate(o.baseline)} → current ${fmtDate(o.current)}">${o.delay == null ? "—" : signed(o.delay) + " wd"}</dd></div>
+      <div><dt>Days elapsed</dt><dd class="num derived" title="Calculated: working days from project start ${fmtDate(o.start)}">${o.elapsed ?? "—"} wd</dd></div>` : ""}
+      <div><dt>Overdue</dt><dd class="num ${x.overdue ? "sig-red" : ""}">${x.overdue}</dd></div>
+      <div><dt>Blocked</dt><dd class="num ${x.blocked ? "sig-red" : ""}">${x.blocked}</dd></div>
+      <div><dt>Decisions</dt><dd class="num ${x.decisions ? "sig-amber" : ""}">${x.decisions}</dd></div>
+    </dl>`;
+  const attention = scope.filter((t) => t.isOpen && (t.status === "Blocked" || t.overdue || t.decision || (t.critical && t.dueSoon)))
+    .sort((a, b) => (a.status === "Blocked" ? 0 : a.overdue ? 1 : a.decision ? 2 : 3) - (b.status === "Blocked" ? 0 : b.overdue ? 1 : b.decision ? 2 : 3) || ((a.due || 0) - (b.due || 0)));
+  const attHtml = attention.length ? `<ul class="att">${attention.slice(0, 7).map((t) => { const [r, c] = attentionReason(t); return `<li><button type="button" data-task="${esc(t.id)}"><span class="pill ${c}">${r}</span><span class="att-t">${esc(t.task)}<span class="sub">${all ? esc(t.opening?.location || "") + " · " : ""}${esc(t.macro)} · ${esc(t.owners[0] || "no owner")} · due ${fmtDate(t.due, false)}</span></span></button></li>`; }).join("")}</ul>${attention.length > 7 ? `<p class="hint">and ${attention.length - 7} more: use the filters below.</p>` : ""}` : `<p class="muted">Nothing blocked, overdue or waiting for a decision.</p>`;
+
+  const overview = `<section class="ov">
+    <div class="ov-main">
+      <div class="head-row"><div style="flex:1 1 320px;min-width:0">${head}</div><div>${select}</div></div>
+      <div class="big-prog">
+        <div class="big-num num derived" title="Calculated: Completed ÷ applicable tasks (N/A excluded)">${pct == null ? "—" : pct + "%"}<span>completed · ${x.done} of ${x.applicable} tasks</span></div>
+        ${statusBar(scope, true)}
+        ${statusLegend(scope)}
+      </div>
+      ${facts}
+      ${moves ? `<p class="hint">Opening date moved: ${moves}</p>` : ""}
+    </div>
+    <div class="ov-side"><h2>Needs attention · ${attention.length}</h2>${attHtml}</div>
+  </section>`;
+
+  // ---- 2. by area / team
+  const areaMap = new Map();
+  scope.forEach((t) => { if (!areaMap.has(t.macro)) areaMap.set(t.macro, []); areaMap.get(t.macro).push(t); });
+  const areas = [...areaMap.entries()].sort((a, b) => (m.areaOrder.get(a[0]) ?? 99) - (m.areaOrder.get(b[0]) ?? 99) || a[0].localeCompare(b[0]));
+  const areaRows = areas.map(([name, ts]) => {
+    const mm = metrics(ts); const p = pctDone(ts);
+    const next = ts.filter((t) => t.isOpen && t.due).sort((a, b) => a.due - b.due)[0];
+    const leads = [...new Set(ts.map((t) => t.owners[0]).filter(Boolean))];
+    return `<tr class="row${S.f.area === name ? " sel" : ""}" data-area="${esc(name)}" tabindex="0" title="Show only ${esc(name)} tasks">
+      <td><div class="task-title">${esc(name || "—")}</div><div class="sub">${esc(leads.slice(0, 2).join(", "))}${leads.length > 2 ? ` +${leads.length - 2}` : ""}</div></td>
+      <td style="min-width:200px">${statusBar(ts)}</td>
+      <td class="right num"><b>${p == null ? "—" : p + "%"}</b><div class="sub">${mm.done}/${mm.applicable}</div></td>
+      <td class="right num">${mm.overdue ? `<b class="sig-red">${mm.overdue}</b>` : "0"}</td>
+      <td class="right num">${mm.blocked ? `<b class="sig-red">${mm.blocked}</b>` : "0"}</td>
+      <td class="right num">${mm.decisions ? `<b class="sig-amber">${mm.decisions}</b>` : "0"}</td>
+      <td>${next ? `<span class="num ${next.overdue ? "due-over" : next.dueSoon ? "due-soon" : ""}">${fmtDate(next.due, false)}</span><div class="sub ellips">${esc(next.task)}</div>` : '<span class="muted">—</span>'}</td>
+    </tr>`;
+  }).join("");
+  const byArea = scope.length ? `<section><h2>By team / area${S.f.area ? ` · <button type="button" class="linkbtn" id="area-clear">show all areas</button>` : ""}</h2><div class="tbl-wrap"><table>
+    <thead><tr><th>Area</th><th>Status mix</th><th class="right">Done</th><th class="right">Overdue</th><th class="right">Blocked</th><th class="right">Decisions</th><th>Next deadline</th></tr></thead>
+    <tbody>${areaRows}</tbody></table></div></section>` : "";
+
+  // ---- 3. tasks: board or list
+  const ownersList = [...new Set(scope.flatMap((t) => t.owners).filter(Boolean))].sort();
+  const list = filtered(scope);
+  const sk = S.sort.key, dir = S.sort.dir;
+  list.sort((a, b) => { const va = SORTS[sk](a), vb = SORTS[sk](b); return (va < vb ? -1 : va > vb ? 1 : 0) * dir || (a.id < b.id ? -1 : 1); });
+  const th = (key, label, cls = "") => `<th class="${cls}"><button type="button" data-sort="${key}">${label}${sk === key ? ` <span class="arrow">${dir > 0 ? "↑" : "↓"}</span>` : ""}</button></th>`;
+  const tog = (key, label) => `<button type="button" class="toggle" data-tog="${key}" aria-pressed="${S.f[key]}">${label}</button>`;
+  const anyFilter = S.f.q || S.f.area || S.f.owner || S.f.status || ["overdue", "blocked", "decision", "critical", "issues"].some((k) => S.f[k]);
+
+  const rows = list.map((t) => {
+    const flag = t.errors.length ? `<span class="flag err" title="${esc(t.errors.join(" · "))}">${t.errors.length}</span>` : t.warnings.length ? `<span class="flag warn" title="${esc(t.warnings.join(" · "))}">!</span>` : "";
+    const dueCls = t.overdue ? "due-over" : t.dueSoon ? "due-soon" : "";
+    const owners = t.owners.filter(Boolean);
+    const top = t.notes[0];
+    return `<tr class="row${!t.isOpen ? " done" : ""}${S.task === t.id ? " sel" : ""}" data-task="${esc(t.id)}" tabindex="0">
+      <td class="nowrap"><span class="mono">${esc(t.id || "—")}</span>${flag}</td>
+      ${all ? `<td class="nowrap">${esc(t.opening?.location || t.location)}</td>` : ""}
+      <td>${esc(t.macro)}${t.sub ? `<div class="sub">${esc(t.sub)}</div>` : ""}</td>
+      <td><div class="task-title">${esc(t.task)}${t.decision && t.isOpen ? '<span class="tag dec">Decision</span>' : ""}${t.critical && t.isOpen ? '<span class="tag crit">Critical</span>' : ""}</div>${t.blocker && t.isOpen ? `<div class="sub ellips">${esc(t.blocker)}</div>` : ""}</td>
+      <td class="nowrap">${esc(owners[0] || "—")}${owners.length > 1 ? `<div class="sub">+ ${esc(owners.slice(1).join(", "))}</div>` : ""}</td>
+      <td class="nowrap num ${dueCls}">${fmtDate(t.due, false)}${t.slip > 0 ? `<div class="sub derived" title="Calculated: working days vs baseline due date ${fmtDate(t.baselineDue)}">moved ${signed(t.slip)} wd</div>` : ""}</td>
+      <td><span class="pill ${STATUS_CLASS[t.status] || "st-bad"}">${esc(t.status || "—")}</span></td>
+      <td><div class="prog prog-sm"><div class="track"><div class="fill" style="width:${Math.max(0, Math.min(100, t.progress || 0))}%"></div></div><span class="v num">${t.progress == null ? "—" : t.progress + "%"}</span></div></td>
+      <td class="upd">${top ? `<div class="ellips">${esc(top.text)}</div><div class="upd-date">${fmtDate(top.date, false)}${t.stale ? ' · <span class="sig-amber">no update for 10+ wd</span>' : ""}</div>` : `<span class="muted">—</span>`}</td>
+    </tr>`;
+  }).join("");
+  const table = `<div class="tbl-wrap"><table>
+      <thead><tr>${th("id", "ID")}${all ? th("opening", "Opening") : ""}${th("area", "Area")}${th("task", "Task")}${th("owner", "Owner")}${th("due", "Due")}${th("status", "Status")}${th("progress", "Progress")}${th("update", "Latest update")}</tr></thead>
+      <tbody>${rows || `<tr><td colspan="${all ? 9 : 8}" class="empty">${scope.length ? "No tasks match these filters." : "No tasks for this opening in the Action Log yet."}</td></tr>`}</tbody>
+    </table></div>`;
+
+  const mode = `<div class="seg-ctl" role="group" aria-label="Task view">
+      <button type="button" data-mode="board" aria-pressed="${S.mode === "board"}">Board</button>
+      <button type="button" data-mode="list" aria-pressed="${S.mode === "list"}">List</button></div>
+    ${S.mode === "board" ? `<button type="button" class="toggle" id="swim" aria-pressed="${S.swim}">Rows by area</button>` : ""}`;
+
+  const tasks = `<section style="display:grid;gap:14px">
+      <div class="head-row" style="align-items:center"><h2 style="margin:0">Tasks${S.f.area ? " · " + esc(S.f.area) : ""}</h2>${mode}</div>
+      <div class="filters">
+        <input type="search" id="f-q" placeholder="Search tasks, updates, owners" value="${esc(S.f.q)}" aria-label="Search">
+        <select id="f-owner" aria-label="Owner"><option value="">All owners</option>${ownersList.map((n) => `<option${S.f.owner === n ? " selected" : ""}>${esc(n)}</option>`).join("")}</select>
+        ${S.mode === "list" ? `<select id="f-status" aria-label="Status"><option value="">All statuses</option>${STATUSES.map((s) => `<option${S.f.status === s ? " selected" : ""}>${s}</option>`).join("")}</select>` : ""}
+        ${tog("overdue", "Overdue")}${tog("blocked", "Blocked")}${tog("decision", "Decisions")}${tog("critical", "Critical")}${tog("issues", "Data issues")}
+        <span class="count num">${list.length} of ${scope.length} tasks${anyFilter ? ' · <button type="button" class="linkbtn" id="f-clear">Clear filters</button>' : ""}</span>
+      </div>
+      ${!scope.length ? '<p class="empty">No tasks for this opening in the Action Log yet.</p>' : S.mode === "board" ? (list.length ? board(list, S.swim && !S.f.area, m) : '<p class="empty">No tasks match these filters.</p>') : table}
+    </section>`;
+
+  return overview + byArea + tasks;
+}
+
+// ---------------------------------------------------------------- render: panel
+function renderPanel() {
+  const t = S.task && S.model ? S.model.tasks.find((x) => x.id === S.task) : null;
+  $("panel").hidden = $("scrim").hidden = !t;
+  if (!t) return;
+  const owners = t.owners.filter(Boolean);
+  const checks = (t.errors.length ? `<div class="box errbox"><b>Data errors</b><ul>${t.errors.map((e) => `<li>${esc(e)}</li>`).join("")}</ul></div>` : "") +
+    (t.warnings.length ? `<div class="box warnbox"><b>Data warnings</b><ul>${t.warnings.map((e) => `<li>${esc(e)}</li>`).join("")}</ul></div>` : "");
+  $("panel").innerHTML = `
+    <div class="panel-head">
+      <div class="panel-top"><span class="mono muted">${esc(t.id)} · ${esc(t.opening?.location || t.location)}</span>
+        <button type="button" class="x" id="p-close" aria-label="Close">×</button></div>
+      <h3>${esc(t.task)}</h3>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><span class="pill ${STATUS_CLASS[t.status] || "st-bad"}">${esc(t.status || "—")}</span>
+        ${t.decision && t.isOpen ? '<span class="tag dec" style="margin:0">Decision required</span>' : ""}${t.critical ? '<span class="tag crit" style="margin:0">Critical for opening</span>' : ""}</div>
+    </div>
+    <div class="panel-body">
+      ${checks}
+      ${t.blocker ? `<div class="box"><div class="eyebrow">${t.status === "Blocked" ? "Blocker" : "Decision needed"}</div><div style="margin-top:4px">${esc(t.blocker)}</div></div>` : ""}
+      <dl class="kv">
+        <dt>Area</dt><dd>${esc(t.macro)}${t.sub ? " · " + esc(t.sub) : ""}</dd>
+        <dt>Owner</dt><dd>${esc(owners[0] || "—")}${owners.length > 1 ? `<div class="sub">with ${esc(owners.slice(1).join(", "))}</div>` : ""}</dd>
+        <dt>Due</dt><dd class="num ${t.overdue ? "due-over" : ""}">${fmtDate(t.due)}${t.slip ? `<div class="sub">baseline ${fmtDate(t.baselineDue)} · moved ${signed(t.slip)} wd</div>` : ""}</dd>
+        <dt>Progress</dt><dd>${t.progress == null ? "—" : `<div class="prog prog-sm" style="max-width:220px"><div class="track"><div class="fill" style="width:${t.progress}%"></div></div><span class="v num">${t.progress}%</span></div>`}</dd>
+        <dt>Opened</dt><dd class="num">${fmtDate(t.openDate)}${t.openDate ? ` <span class="muted">· ${wdBetween(t.openDate, t.isOpen ? TODAY : (t.due || TODAY))} wd</span>` : ""}</dd>
+        ${t.desc ? `<dt>Description</dt><dd>${esc(t.desc)}</dd>` : ""}
+      </dl>
+      <section>
+        <h2 style="margin:0">Updates</h2>
+        ${t.notes.length ? `<ol class="tl">${t.notes.map((n) => `<li><span class="d num">${fmtDate(n.date)}${n.type === "Decision" ? '<span class="tag dec">Decision</span>' : ""}</span><span class="t">${esc(n.text)}</span>${n.source === "latest" ? '<span class="s">From Latest Update, not yet in TASK_HISTORY</span>' : ""}</li>`).join("")}</ol>` : '<p class="muted" style="margin:8px 0 0">No updates recorded yet.</p>'}
+      </section>
+      <p class="hint">Read-only view. To change this task, edit the Action Log file and load it again.</p>
+    </div>`;
+  $("p-close").onclick = closePanel;
+}
+function closePanel() { const id = S.task; S.task = null; renderPanel(); document.querySelectorAll(".sel[data-task]").forEach((r) => r.classList.remove("sel")); const r = document.querySelector(`[data-task="${CSS.escape(id || "")}"]`); if (r) r.focus(); }
+
+// ---------------------------------------------------------------- events
+function bindMain() {
+  document.querySelectorAll("tr[data-open]").forEach((r) => {
+    const go = () => { S.view = "opening"; S.opening = r.dataset.open; resetFilters(); remember(); render(); window.scrollTo(0, 0); };
+    r.onclick = go; r.onkeydown = (e) => { if (e.key === "Enter") go(); };
+  });
+  document.querySelectorAll("[data-task]").forEach((r) => {
+    const open = () => { S.task = r.dataset.task; document.querySelectorAll(".sel[data-task]").forEach((x) => x.classList.remove("sel")); r.classList.add("sel"); renderPanel(); $("p-close")?.focus(); };
+    r.onclick = open; if (r.tagName === "TR") r.onkeydown = (e) => { if (e.key === "Enter") open(); };
+  });
+  const sel = $("op-select"); if (sel) sel.onchange = () => { S.opening = sel.value; resetFilters(); remember(); render(); };
+  document.querySelectorAll("[data-area]").forEach((b) => {
+    const go = () => { S.f.area = S.f.area === b.dataset.area ? "" : b.dataset.area; render(); };
+    b.onclick = go; b.onkeydown = (e) => { if (e.key === "Enter") go(); };
+  });
+  const ac = $("area-clear"); if (ac) ac.onclick = () => { S.f.area = ""; render(); };
+  document.querySelectorAll("[data-mode]").forEach((b) => b.onclick = () => { S.mode = b.dataset.mode; remember(); render(); });
+  const sw = $("swim"); if (sw) sw.onclick = () => { S.swim = !S.swim; remember(); render(); };
+  document.querySelectorAll("[data-tog]").forEach((b) => b.onclick = () => { S.f[b.dataset.tog] = !S.f[b.dataset.tog]; render(); });
+  document.querySelectorAll("[data-sort]").forEach((b) => b.onclick = () => { const k = b.dataset.sort; S.sort = { key: k, dir: S.sort.key === k ? -S.sort.dir : 1 }; render(); });
+  const q = $("f-q");
+  if (q) q.oninput = () => { S.f.q = q.value; const pos = q.selectionStart; render(); const n = $("f-q"); n.focus(); n.setSelectionRange(pos, pos); };
+  const fo = $("f-owner"); if (fo) fo.onchange = () => { S.f.owner = fo.value; render(); };
+  const fs = $("f-status"); if (fs) fs.onchange = () => { S.f.status = fs.value; render(); };
+  const fc = $("f-clear"); if (fc) fc.onclick = () => { resetFilters(); render(); };
+}
+$("nav-program").onclick = () => { S.view = "program"; remember(); render(); };
+$("nav-opening").onclick = () => { S.view = "opening"; remember(); render(); };
+$("scrim").onclick = closePanel;
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && S.task) closePanel(); });
+
+function readFile(file) {
+  if (!file) return;
+  const r = new FileReader();
+  r.onload = () => load(new Uint8Array(r.result), file.name, false);
+  r.onerror = () => { $("alert-text").textContent = "The file could not be opened. Try again or export it again as .xlsx."; $("alert").hidden = false; };
+  r.readAsArrayBuffer(file);
+}
+$("file-input").onchange = (e) => { readFile(e.target.files[0]); e.target.value = ""; };
+document.addEventListener("dragover", (e) => { e.preventDefault(); document.body.classList.add("drop"); });
+document.addEventListener("dragleave", (e) => { if (!e.relatedTarget) document.body.classList.remove("drop"); });
+document.addEventListener("drop", (e) => { e.preventDefault(); document.body.classList.remove("drop"); readFile(e.dataTransfer.files[0]); });
+
+// start with the demo workbook so the page opens in a working state
+(function start() {
+  const bin = atob(DEMO_B64); const buf = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) buf[i] = bin.charCodeAt(i);
+  load(buf, "Demo · GG_Opening_Action_Log.xlsx", true);
+})();
+</script>
