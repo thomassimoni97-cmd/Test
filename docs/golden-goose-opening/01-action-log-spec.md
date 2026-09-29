@@ -237,3 +237,18 @@ Overdue · in scadenza a breve · Blocked · Decision Required · Critico non co
 | AMS-008 | New Store | Amsterdam Airport | Compliance & Labelling | — | Validate NL labelling requirements | Not Started | 0 | F. Riva | | 01/09/26 | 25/09/26 | | | | | OK *(signal: overdue)* |
 | AMS-009 | New Store | Amsterdam Airport | Finance & Administration | — | Cash handling agreement with airport | Completed | 75 | E. Galli | | 01/07/26 | 15/09/26 | Agreement signed (12/09/26) | | | | ⚠ Completed < 100% |
 | AMS-010 | New Store | Amsterdam Airport | Store Planning | — | Shopfitting completion | Not Started | 0 | L. Bianchi | | 01/09/26 | 20/12/26 | | | | ☑ | ⚠ Critical due after opening |
+
+---
+
+## 15. Fase 2 · Decisioni di validazione (APPROVATE 29/09/2026)
+
+| # | Regola | Dove |
+|---|---|---|
+| V-1 | Impostando `Completed` l'app **propone** Progress 100% (un clic di conferma); impostando `Not Started` propone 0%. Nessuna correzione automatica. Nel foglio resta manuale + Check. | App |
+| V-2 | Passaggio a `N/A` richiede una nota di motivazione. Nell'app: nota obbligatoria. Nel foglio: Warning "N/A senza motivazione" se nessuna nota successiva al cambio di stato. | App + Check |
+| V-3 | Riapertura di un task `Completed` richiede una nota di motivazione (stessa logica di V-2). | App + Check |
+| V-4 | Soglia segnale "in scadenza": **≤ 5 giorni lavorativi**. | App |
+| V-5 | Soglia segnale "nessun update": **> 10 giorni lavorativi** (task aperti). | App |
+| V-6 | Latest Update senza data: l'app non registra la nota nello storico finché la data manca (Warning). | App + Check |
+
+Scenari validati: cambio stato in SAL · modifica manuale owner fuori sessione · doppia modifica stesso campo in sessione (Superseded) · slittamento data apertura · N/A · Completed con Progress < 100 · Latest Update senza data.
